@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>extensions</key>
+	<array>
+		<string>3fr</string>
+		<string>ari</string>
+		<string>arw</string>
+		<string>bay</string>
+		<string>bmq</string>
+		<string>braw</string>
+		<string>cap</string>
+		<string>cr2</string>
+		<string>cr3</string>
+		<string>cri</string>
+		<string>crw</string>
+		<string>cs1</string>
+		<string>data</string>
+		<string>dc2</string>
+		<string>dcr</string>
+		<string>dcs</string>
+		<string>dng</string>
+		<string>drf</string>
+		<string>eip</string>
+		<string>erf</string>
+		<string>fff</string>
+		<string>gpr</string>
+		<string>k25</string>
+		<string>kdc</string>
+		<string>iiq</string>
+		<string>mdc</string>
+		<string>mef</string>
+		<string>mos</string>
+		<string>mrw</string>
+		<string>nef</string>
+		<string>nrw</string>
+		<string>obm</string>
+		<string>orf</string>
+		<string>pef</string>
+		<string>ptx</string>
+		<string>pxn</string>
+		<string>raf</string>
+		<string>raw</string>
+		<string>r3d</string>
+		<string>rdc</string>
+		<string>rwl</string>
+		<string>rw2</string>
+		<string>rwz</string>
+		<string>sr2</string>
+		<string>srf</string>
+		<string>srw</string>
+		<string>x3f</string>
+	</array>
+</dict>
+</plist>

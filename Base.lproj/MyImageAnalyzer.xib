@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1060" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4510"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="MyImageAnalyzerView">
+            <connections>
+                <outlet property="_analyzeButton" destination="19" id="45"/>
+                <outlet property="_analyzeFieldX" destination="11" id="40"/>
+                <outlet property="_analyzeFieldY" destination="9" id="42"/>
+                <outlet property="_analyzeMethodMenu" destination="27" id="44"/>
+                <outlet property="_analyzeSideMenu" destination="AvI-Pq-adi" id="Ltn-c3-V9Y"/>
+                <outlet property="_cutoffFreqSlider" destination="115" id="129"/>
+                <outlet property="_highFreqCutoffText" destination="116" id="131"/>
+                <outlet property="_lowFreqCutoffText" destination="117" id="130"/>
+                <outlet property="_maxQualityText" destination="25" id="47"/>
+                <outlet property="_minQualityText" destination="22" id="46"/>
+                <outlet property="_numSelectedTail" destination="63" id="65"/>
+                <outlet property="_numSelectedText" destination="61" id="64"/>
+                <outlet property="_panel" destination="5" id="41"/>
+                <outlet property="_previewButton" destination="127" id="136"/>
+                <outlet property="_selectThresholdSlide" destination="24" id="48"/>
+                <outlet property="_selectThresholdText" destination="66" id="67"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <customView id="5" userLabel="View">
+            <rect key="frame" x="0.0" y="0.0" width="366" height="180"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <box title="Autoselect" id="20">
+                    <rect key="frame" x="203" y="98" width="146" height="82"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <view key="contentView">
+                        <rect key="frame" x="2" y="2" width="142" height="66"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider toolTip="Autocheck images based on their quality" verticalHuggingPriority="750" id="24">
+                                <rect key="frame" x="14" y="24" width="114" height="18"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <sliderCell key="cell" controlSize="small" enabled="NO" alignment="left" maxValue="10" tickMarkPosition="above" numberOfTickMarks="11" sliderType="linear" id="107">
+                                    <font key="font" size="12" name="Helvetica-Oblique"/>
+                                </sliderCell>
+                                <connections>
+                                    <action selector="autoSelectAction:" target="-2" id="54"/>
+                                    <outlet property="nextKeyView" destination="19" id="h0r-FJ-lEY"/>
+                                </connections>
+                            </slider>
+                            <textField toolTip="Minimum quality" verticalHuggingPriority="750" id="22">
+                                <rect key="frame" x="14" y="50" width="33" height="13"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" id="106">
+                                    <numberFormatter key="formatter" formatterBehavior="10_0" positiveFormat="0.00" negativeFormat="-0.00" hasThousandSeparators="NO" thousandSeparator=" " id="23">
+                                        <attributedString key="attributedStringForZero">
+                                            <fragment content="0,00"/>
+                                        </attributedString>
+                                        <decimal key="minimum" value="NaN"/>
+                                        <decimal key="maximum" value="NaN"/>
+                                    </numberFormatter>
+                                    <font key="font" size="10" name="LucidaGrande"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField toolTip="Maximum quality" verticalHuggingPriority="750" id="25">
+                                <rect key="frame" x="95" y="50" width="33" height="13"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" id="108">
+                                    <numberFormatter key="formatter" formatterBehavior="10_0" positiveFormat="0.00" negativeFormat="-0.00" hasThousandSeparators="NO" thousandSeparator=" " id="26">
+                                        <attributedString key="attributedStringForZero">
+                                            <fragment content="0,00"/>
+                                        </attributedString>
+                                        <decimal key="minimum" value="NaN"/>
+                                        <decimal key="maximum" value="NaN"/>
+                                    </numberFormatter>
+                                    <font key="font" size="10" name="LucidaGrande"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField toolTip="Number of images selected for further processing" verticalHuggingPriority="750" id="61">
+                                <rect key="frame" x="14" y="11" width="33" height="13"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="right" id="109">
+                                    <numberFormatter key="formatter" formatterBehavior="10_0" positiveFormat="0" negativeFormat="-0" hasThousandSeparators="NO" thousandSeparator=" " id="62">
+                                        <attributedString key="attributedStringForZero">
+                                            <fragment content="0"/>
+                                        </attributedString>
+                                        <decimal key="minimum" value="NaN"/>
+                                        <decimal key="maximum" value="NaN"/>
+                                    </numberFormatter>
+                                    <font key="font" size="10" name="LucidaGrande"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField verticalHuggingPriority="750" id="63">
+                                <rect key="frame" x="47" y="11" width="96" height="14"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="selected images" id="110">
+                                    <font key="font" metaFont="smallSystem"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField toolTip="Autocheck images based on their quality" verticalHuggingPriority="750" id="66">
+                                <rect key="frame" x="50" y="50" width="37" height="19"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="99,99" drawsBackground="YES" id="111">
+                                    <numberFormatter key="formatter" formatterBehavior="10_0" positiveFormat="0.00" negativeFormat="-0.00" hasThousandSeparators="NO" thousandSeparator=" " id="69">
+                                        <attributedString key="attributedStringForZero">
+                                            <fragment content="0,00"/>
+                                        </attributedString>
+                                        <decimal key="minimum" value="NaN"/>
+                                        <decimal key="maximum" value="NaN"/>
+                                    </numberFormatter>
+                                    <font key="font" metaFont="smallSystem"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="autoSelectAction:" target="-2" id="68"/>
+                                    <outlet property="nextKeyView" destination="24" id="uv9-SQ-pj1"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                    </view>
+                    <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                    <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <font key="titleFont" size="10" name="LucidaGrande"/>
+                </box>
+                <button toolTip="Analyze images quality" verticalHuggingPriority="750" id="19">
+                    <rect key="frame" x="239" y="14" width="74" height="28"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <buttonCell key="cell" type="push" title="Analyze" bezelStyle="rounded" alignment="center" controlSize="small" enabled="NO" borderStyle="border" inset="2" id="105">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="smallSystem"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="analyzeAction:" target="-2" id="52"/>
+                        <outlet property="nextKeyView" destination="11" id="qXW-dm-kpH"/>
+                    </connections>
+                </button>
+                <box title="Analysis" id="6">
+                    <rect key="frame" x="17" y="8" width="184" height="172"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <view key="contentView">
+                        <rect key="frame" x="2" y="2" width="180" height="156"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField toolTip="Horizontal origin of analysis square" verticalHuggingPriority="750" id="11">
+                                <rect key="frame" x="29" y="126" width="57" height="19"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="left" drawsBackground="YES" id="101">
+                                    <numberFormatter key="formatter" formatterBehavior="10_0" positiveFormat="0" negativeFormat="-0" hasThousandSeparators="NO" thousandSeparator=" " id="12">
+                                        <textAttributesForNegativeValues/>
+                                        <attributedString key="attributedStringForZero">
+                                            <fragment content="0"/>
+                                        </attributedString>
+                                        <decimal key="minimum" value="NaN"/>
+                                        <decimal key="maximum" value="NaN"/>
+                                    </numberFormatter>
+                                    <font key="font" metaFont="smallSystem"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="analyzeSquareChange:" target="-2" id="49"/>
+                                    <outlet property="nextKeyView" destination="9" id="Q7M-Mn-jFT"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" id="13">
+                                <rect key="frame" x="13" y="103" width="26" height="14"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Size" id="102">
+                                    <font key="font" metaFont="smallSystem"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField verticalHuggingPriority="750" id="8">
+                                <rect key="frame" x="13" y="128" width="11" height="14"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="X" id="99">
+                                    <font key="font" metaFont="smallSystem"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField toolTip="Vertical origin of analysis square" verticalHuggingPriority="750" id="9">
+                                <rect key="frame" x="107" y="126" width="57" height="19"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="left" drawsBackground="YES" id="100">
+                                    <numberFormatter key="formatter" formatterBehavior="10_0" positiveFormat="0" negativeFormat="-0" hasThousandSeparators="NO" thousandSeparator=" " id="10">
+                                        <textAttributesForNegativeValues/>
+                                        <attributedString key="attributedStringForZero">
+                                            <fragment content="0"/>
+                                        </attributedString>
+                                        <decimal key="minimum" value="NaN"/>
+                                        <decimal key="maximum" value="NaN"/>
+                                    </numberFormatter>
+                                    <font key="font" metaFont="smallSystem"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="analyzeSquareChange:" target="-2" id="50"/>
+                                    <outlet property="nextKeyView" destination="AvI-Pq-adi" id="pf4-Uc-75s"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" id="14">
+                                <rect key="frame" x="91" y="128" width="11" height="14"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Y" id="103">
+                                    <font key="font" metaFont="smallSystem"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <popUpButton toolTip="Image analysis method to use" verticalHuggingPriority="750" id="27">
+                                <rect key="frame" x="65" y="71" width="94" height="22"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="clipping" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" id="112">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="smallSystem"/>
+                                    <menu key="menu" title="OtherViews" id="28">
+                                        <items>
+                                            <menuItem title="Entropy" toolTip="Entropy based analysis" id="29"/>
+                                            <menuItem title="Spectrum" tag="1" toolTip="Power spectrum based analysis" id="30"/>
+                                        </items>
+                                    </menu>
+                                </popUpButtonCell>
+                                <connections>
+                                    <action selector="analyzeMethodChange:" target="-2" id="53"/>
+                                    <outlet property="nextKeyView" destination="117" id="i98-5n-ez9"/>
+                                </connections>
+                            </popUpButton>
+                            <textField verticalHuggingPriority="750" id="31">
+                                <rect key="frame" x="13" y="76" width="50" height="14"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Method" id="113">
+                                    <font key="font" metaFont="smallSystem"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField verticalHuggingPriority="750" id="MPs-kl-fop">
+                                <rect key="frame" x="13" y="54" width="76" height="14"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Frequencies" id="LHc-3F-MeA">
+                                    <font key="font" metaFont="smallSystem"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button id="127">
+                                <rect key="frame" x="14" y="10" width="63" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="check" title="Preview" bezelStyle="regularSquare" imagePosition="right" controlSize="small" inset="2" id="128">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" metaFont="smallSystem"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="previewChange:" target="-2" id="132"/>
+                                    <outlet property="nextKeyView" destination="66" id="JIF-mH-Atd"/>
+                                </connections>
+                            </button>
+                            <textField verticalHuggingPriority="750" id="117">
+                                <rect key="frame" x="2" y="33" width="33" height="19"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="0,10" drawsBackground="YES" id="118">
+                                    <numberFormatter key="formatter" formatterBehavior="custom10_4" positiveFormat="#,##0.00" negativeFormat="#,##0.00" numberStyle="decimal" minimumIntegerDigits="1" maximumIntegerDigits="309" minimumFractionDigits="2" maximumFractionDigits="2" id="119">
+                                        <real key="roundingIncrement" value="0.0"/>
+                                        <integer key="minimum" value="0"/>
+                                        <integer key="maximum" value="1"/>
+                                        <metadata>
+                                            <bool key="localizesFormat" value="YES"/>
+                                        </metadata>
+                                    </numberFormatter>
+                                    <font key="font" metaFont="smallSystem"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="cutoffFrequenciesChange:" target="-2" id="134"/>
+                                    <outlet property="nextKeyView" destination="115" id="1J3-Z9-yg3"/>
+                                </connections>
+                            </textField>
+                            <slider verticalHuggingPriority="750" id="115" customClass="SMDoubleSlider">
+                                <rect key="frame" x="36" y="33" width="107" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <sliderCell key="cell" controlSize="small" alignment="left" maxValue="0.70999999999999996" doubleValue="0.25" tickMarkPosition="below" numberOfTickMarks="7" sliderType="linear" id="122" customClass="SMDoubleSliderCell"/>
+                                <connections>
+                                    <action selector="cutoffFrequenciesChange:" target="-2" id="133"/>
+                                    <outlet property="nextKeyView" destination="116" id="tjS-kH-5ZY"/>
+                                </connections>
+                            </slider>
+                            <textField verticalHuggingPriority="750" id="116">
+                                <rect key="frame" x="145" y="33" width="33" height="19"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" title="0,50" drawsBackground="YES" id="120">
+                                    <numberFormatter key="formatter" formatterBehavior="custom10_4" positiveFormat="#,##0.00" negativeFormat="#,##0.00" numberStyle="decimal" minimumIntegerDigits="1" maximumIntegerDigits="309" minimumFractionDigits="2" maximumFractionDigits="2" id="121">
+                                        <real key="roundingIncrement" value="0.0"/>
+                                        <integer key="minimum" value="0"/>
+                                        <integer key="maximum" value="1"/>
+                                        <metadata>
+                                            <bool key="localizesFormat" value="YES"/>
+                                        </metadata>
+                                    </numberFormatter>
+                                    <font key="font" metaFont="smallSystem"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="previewChange:" target="-2" id="135"/>
+                                    <outlet property="nextKeyView" destination="127" id="zbF-Ml-Bod"/>
+                                </connections>
+                            </textField>
+                            <comboBox verticalHuggingPriority="750" id="AvI-Pq-adi">
+                                <rect key="frame" x="44" y="98" width="99" height="22"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <comboBoxCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" completes="NO" numberOfVisibleItems="5" id="T95-zc-uF7">
+                                    <font key="font" metaFont="smallSystem"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </comboBoxCell>
+                                <connections>
+                                    <action selector="analysisSquareSizeChange:" target="-2" id="ZiO-WX-7ag"/>
+                                    <outlet property="nextKeyView" destination="27" id="lZw-fL-VYA"/>
+                                </connections>
+                            </comboBox>
+                        </subviews>
+                    </view>
+                    <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                    <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <font key="titleFont" size="10" name="LucidaGrande"/>
+                </box>
+            </subviews>
+        </customView>
+    </objects>
+</document>

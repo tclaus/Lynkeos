@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" promptedForUpgradeToXcode5="NO">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6250"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="MyWaveletView">
+            <connections>
+                <outlet property="_addFreqButton" destination="27" id="46"/>
+                <outlet property="_algorithmPopup" destination="130" id="135"/>
+                <outlet property="_deleteFreqButton" destination="28" id="45"/>
+                <outlet property="_freqDisplaySwitch" destination="116" id="118"/>
+                <outlet property="_freqMatrix" destination="31" id="47"/>
+                <outlet property="_levelSliderMatrix" destination="35" id="51"/>
+                <outlet property="_levelTextMatrix" destination="38" id="52"/>
+                <outlet property="_numberOfFreqStep" destination="12" id="42"/>
+                <outlet property="_numberOfFreqText" destination="10" id="41"/>
+                <outlet property="_panel" destination="5" id="40"/>
+                <outlet property="_progrStepText" destination="19" id="44"/>
+                <outlet property="_progress" destination="140" id="141"/>
+                <outlet property="_progressionPopup" destination="13" id="43"/>
+                <outlet property="_selectMatrix" destination="33" id="50"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <customView id="5" userLabel="View">
+            <rect key="frame" x="0.0" y="0.0" width="337" height="141"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <progressIndicator verticalHuggingPriority="750" maxValue="100" bezeled="NO" controlSize="small" style="bar" id="140">
+                    <rect key="frame" x="19" y="0.0" width="299" height="12"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </progressIndicator>
+                <textField verticalHuggingPriority="750" id="137">
+                    <rect key="frame" x="212" y="115" width="108" height="14"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Type d'ondelette" id="154">
+                        <font key="font" metaFont="smallSystem"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <popUpButton verticalHuggingPriority="750" id="130">
+                    <rect key="frame" x="212" y="94" width="108" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <popUpButtonCell key="cell" type="push" title="Dent de scie" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="132" id="153">
+                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="smallSystem"/>
+                        <menu key="menu" title="OtherViews" id="131">
+                            <items>
+                                <menuItem title="Dent de scie" state="on" toolTip="Ondelette en dent de scie fréquentielle (plus agressive)" id="132"/>
+                                <menuItem title="E.S.O." tag="1" toolTip="Ondelette de l'Observatoire Européen Austral (E.S.O.)" id="133"/>
+                            </items>
+                        </menu>
+                    </popUpButtonCell>
+                    <connections>
+                        <action selector="algorithmChange:" target="-2" id="136"/>
+                    </connections>
+                </popUpButton>
+                <button verticalHuggingPriority="750" id="116">
+                    <rect key="frame" x="62" y="71" width="47" height="18"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="squareTextured" title="Fréq." bezelStyle="texturedSquare" imagePosition="overlaps" alignment="center" controlSize="small" state="on" borderStyle="border" inset="2" id="152">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="smallSystem"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="freqDisplayChange:" target="-2" id="119"/>
+                    </connections>
+                </button>
+                <textField verticalHuggingPriority="750" id="72">
+                    <rect key="frame" x="108" y="71" width="29" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Aff." id="151">
+                        <font key="font" metaFont="smallSystem"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <matrix toolTip="Niveau de la couche dans le résultat final" verticalHuggingPriority="750" mode="track" allowsEmptySelection="NO" autosizesCells="NO" id="35">
+                    <rect key="frame" x="138" y="22" width="124" height="44"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    <size key="cellSize" width="124" height="17"/>
+                    <size key="intercellSpacing" width="8" height="10"/>
+                    <sliderCell key="prototype" controlSize="small" alignment="left" tag="-1" minValue="-1" maxValue="5" tickMarkPosition="below" numberOfTickMarks="7" sliderType="linear" id="158">
+                        <font key="font" size="12" name="Helvetica"/>
+                    </sliderCell>
+                    <cells>
+                        <column>
+                            <sliderCell controlSize="small" alignment="left" minValue="-1" maxValue="5" tickMarkPosition="below" numberOfTickMarks="7" sliderType="linear" id="24">
+                                <font key="font" size="12" name="Helvetica"/>
+                            </sliderCell>
+                            <sliderCell controlSize="small" alignment="left" tag="1" minValue="-1" maxValue="5" tickMarkPosition="below" numberOfTickMarks="7" sliderType="linear" id="36">
+                                <font key="font" size="12" name="Helvetica"/>
+                            </sliderCell>
+                        </column>
+                    </cells>
+                    <connections>
+                        <action selector="levelChange:" target="-2" id="61"/>
+                        <outlet property="nextKeyView" destination="38" id="98"/>
+                    </connections>
+                </matrix>
+                <button toolTip="Ajoute une ondelette" verticalHuggingPriority="750" id="27">
+                    <rect key="frame" x="20" y="21" width="13" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <buttonCell key="cell" type="squareTextured" title="+" bezelStyle="texturedSquare" alignment="center" controlSize="small" borderStyle="border" inset="2" id="150">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="smallSystem"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="addOneFrequency:" target="-2" id="57"/>
+                        <outlet property="nextKeyView" destination="28" id="94"/>
+                    </connections>
+                </button>
+                <matrix toolTip="Supprime l'ondelette" verticalHuggingPriority="750" mode="highlight" allowsEmptySelection="NO" autosizesCells="NO" id="28">
+                    <rect key="frame" x="41" y="21" width="13" height="47"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    <size key="cellSize" width="13" height="20"/>
+                    <size key="intercellSpacing" width="-1" height="7"/>
+                    <buttonCell key="prototype" type="squareTextured" title="-" bezelStyle="texturedSquare" alignment="center" controlSize="small" borderStyle="border" tag="-1" inset="2" id="155">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="smallSystem"/>
+                    </buttonCell>
+                    <cells>
+                        <column>
+                            <buttonCell type="squareTextured" title="-" bezelStyle="texturedSquare" alignment="center" controlSize="small" state="on" borderStyle="border" inset="2" id="26">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" metaFont="smallSystem"/>
+                            </buttonCell>
+                            <buttonCell type="squareTextured" title="-" bezelStyle="texturedSquare" alignment="center" controlSize="small" borderStyle="border" tag="1" inset="2" id="29">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" metaFont="smallSystem"/>
+                            </buttonCell>
+                        </column>
+                    </cells>
+                    <connections>
+                        <action selector="deleteOneFrequency:" target="-2" id="58"/>
+                        <outlet property="nextKeyView" destination="31" id="95"/>
+                    </connections>
+                </matrix>
+                <textField verticalHuggingPriority="750" id="25">
+                    <rect key="frame" x="135" y="71" width="185" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Niveau" id="149">
+                        <font key="font" metaFont="smallSystem"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <matrix toolTip="Niveau de la couche dans le résultat final" verticalHuggingPriority="750" mode="track" allowsEmptySelection="NO" autosizesCells="NO" id="38">
+                    <rect key="frame" x="270" y="20" width="47" height="46"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    <size key="cellSize" width="47" height="19"/>
+                    <size key="intercellSpacing" width="8" height="8"/>
+                    <textFieldCell key="prototype" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" tag="-1" title="99,99" drawsBackground="YES" id="159">
+                        <font key="font" metaFont="smallSystem"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        <connections>
+                            <outlet property="formatter" destination="23" id="161"/>
+                        </connections>
+                    </textFieldCell>
+                    <cells>
+                        <column>
+                            <textFieldCell controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" title="99,99" drawsBackground="YES" id="22">
+                                <numberFormatter key="formatter" formatterBehavior="10_0" positiveFormat="0.00" negativeFormat="-0.00" hasThousandSeparators="NO" thousandSeparator=" " id="23">
+                                    <attributedString key="attributedStringForZero">
+                                        <fragment content="0,00"/>
+                                    </attributedString>
+                                    <decimal key="minimum" value="NaN"/>
+                                    <decimal key="maximum" value="NaN"/>
+                                </numberFormatter>
+                                <font key="font" metaFont="smallSystem"/>
+                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                            <textFieldCell controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" tag="1" title="99,99" drawsBackground="YES" id="39">
+                                <numberFormatter key="formatter" formatterBehavior="10_0" positiveFormat="0.00" negativeFormat="-0.00" hasThousandSeparators="NO" thousandSeparator=" " id="37">
+                                    <attributedString key="attributedStringForZero">
+                                        <fragment content="0,00"/>
+                                    </attributedString>
+                                    <decimal key="minimum" value="NaN"/>
+                                    <decimal key="maximum" value="NaN"/>
+                                </numberFormatter>
+                                <font key="font" metaFont="smallSystem"/>
+                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </column>
+                    </cells>
+                    <connections>
+                        <action selector="levelChange:" target="-2" id="62"/>
+                        <outlet property="nextKeyView" destination="10" id="99"/>
+                    </connections>
+                </matrix>
+                <matrix toolTip="Afficher la couche isolée par l'ondelette" verticalHuggingPriority="750" mode="highlight" allowsEmptySelection="NO" autosizesCells="NO" id="33">
+                    <rect key="frame" x="114" y="22" width="18" height="45"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    <size key="cellSize" width="18" height="18"/>
+                    <size key="intercellSpacing" width="3" height="9"/>
+                    <buttonCell key="prototype" type="check" title="Switch" bezelStyle="regularSquare" imagePosition="only" alignment="left" controlSize="small" tag="-1" inset="2" id="157">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="smallSystem"/>
+                    </buttonCell>
+                    <cells>
+                        <column>
+                            <buttonCell type="check" title="Switch" bezelStyle="regularSquare" imagePosition="only" alignment="left" controlSize="small" inset="2" id="21">
+                                <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                <font key="font" metaFont="smallSystem"/>
+                            </buttonCell>
+                            <buttonCell type="check" title="Switch" bezelStyle="regularSquare" imagePosition="only" alignment="left" controlSize="small" tag="1" inset="2" id="34">
+                                <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                <font key="font" metaFont="smallSystem"/>
+                            </buttonCell>
+                        </column>
+                    </cells>
+                    <connections>
+                        <action selector="selectChange:" target="-2" id="60"/>
+                        <outlet property="nextKeyView" destination="35" id="97"/>
+                    </connections>
+                </matrix>
+                <textField toolTip="Pas de la progression géométrique. 2 pour une série dyadique." verticalHuggingPriority="750" id="19">
+                    <rect key="frame" x="168" y="97" width="39" height="19"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" title="2,00" drawsBackground="YES" id="148">
+                        <numberFormatter key="formatter" formatterBehavior="10_0" positiveFormat="0.00" negativeFormat="-0.00" hasThousandSeparators="NO" thousandSeparator=" " id="20">
+                            <attributedString key="attributedStringForZero">
+                                <fragment content="0,00"/>
+                            </attributedString>
+                            <decimal key="minimum" value="NaN"/>
+                            <decimal key="maximum" value="NaN"/>
+                        </numberFormatter>
+                        <font key="font" metaFont="smallSystem"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                    <connections>
+                        <action selector="progressionStepChange:" target="-2" id="56"/>
+                        <outlet property="nextKeyView" destination="27" id="93"/>
+                    </connections>
+                </textField>
+                <textField verticalHuggingPriority="750" id="18">
+                    <rect key="frame" x="138" y="99" width="25" height="14"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Pas" id="147">
+                        <font key="font" metaFont="smallSystem"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <popUpButton toolTip="Progression de la série de fréquences" verticalHuggingPriority="750" id="13">
+                    <rect key="frame" x="17" y="94" width="116" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <popUpButtonCell key="cell" type="push" title="Geométrique" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="17" id="146">
+                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="smallSystem"/>
+                        <menu key="menu" title="OtherViews" id="14">
+                            <items>
+                                <menuItem title="Arithmétique" id="16"/>
+                                <menuItem title="Geométrique" state="on" id="17"/>
+                            </items>
+                        </menu>
+                    </popUpButtonCell>
+                    <connections>
+                        <action selector="progressionChange:" target="-2" id="55"/>
+                        <outlet property="nextKeyView" destination="19" id="92"/>
+                    </connections>
+                </popUpButton>
+                <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" id="12">
+                    <rect key="frame" x="161" y="119" width="15" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <stepperCell key="cell" controlSize="small" continuous="YES" alignment="left" maxValue="99" doubleValue="6" valueWraps="YES" id="145"/>
+                    <connections>
+                        <action selector="numberOfFreqChange:" target="-2" id="54"/>
+                        <outlet property="nextKeyView" destination="13" id="91"/>
+                    </connections>
+                </stepper>
+                <textField toolTip="Nombre d'ondelettes dans le filtre" verticalHuggingPriority="750" id="10">
+                    <rect key="frame" x="138" y="121" width="22" height="19"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" title="6" drawsBackground="YES" id="144">
+                        <numberFormatter key="formatter" formatterBehavior="10_0" positiveFormat="0" negativeFormat="-0" hasThousandSeparators="NO" thousandSeparator=" " id="11">
+                            <attributedString key="attributedStringForZero">
+                                <fragment content="0"/>
+                            </attributedString>
+                            <decimal key="minimum" value="0"/>
+                            <decimal key="maximum" value="NaN"/>
+                        </numberFormatter>
+                        <font key="font" metaFont="smallSystem"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                    <connections>
+                        <action selector="numberOfFreqChange:" target="-2" id="53"/>
+                        <outlet property="nextKeyView" destination="12" id="90"/>
+                    </connections>
+                </textField>
+                <textField verticalHuggingPriority="750" id="9">
+                    <rect key="frame" x="17" y="123" width="120" height="14"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Nombre d'ondelettes" id="143">
+                        <font key="font" metaFont="smallSystem"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <matrix toolTip="Fréquence de l'ondelette" verticalHuggingPriority="750" mode="track" allowsEmptySelection="NO" autosizesCells="NO" id="31">
+                    <rect key="frame" x="62" y="20" width="47" height="46"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    <size key="cellSize" width="47" height="19"/>
+                    <size key="intercellSpacing" width="8" height="8"/>
+                    <textFieldCell key="prototype" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" tag="-1" title="0,7071" drawsBackground="YES" id="156">
+                        <font key="font" metaFont="smallSystem"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        <connections>
+                            <outlet property="formatter" destination="8" id="160"/>
+                        </connections>
+                    </textFieldCell>
+                    <cells>
+                        <column>
+                            <textFieldCell controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" title="0,7071" drawsBackground="YES" id="7">
+                                <numberFormatter key="formatter" formatterBehavior="custom10_4" positiveFormat="0.0000" negativeFormat="-0.0000" usesGroupingSeparator="NO" minimumIntegerDigits="1" maximumIntegerDigits="6" maximumFractionDigits="4" decimalSeparator="," groupingSeparator=" " id="8">
+                                    <nil key="negativeInfinitySymbol"/>
+                                    <nil key="positiveInfinitySymbol"/>
+                                </numberFormatter>
+                                <font key="font" metaFont="smallSystem"/>
+                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                            <textFieldCell controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" tag="1" title="0,7071" drawsBackground="YES" id="32">
+                                <numberFormatter key="formatter" formatterBehavior="custom10_4" positiveFormat="0.0000" negativeFormat="-0.0000" usesGroupingSeparator="NO" minimumIntegerDigits="1" maximumIntegerDigits="6" maximumFractionDigits="4" decimalSeparator="," groupingSeparator=" " id="30">
+                                    <nil key="negativeInfinitySymbol"/>
+                                    <nil key="positiveInfinitySymbol"/>
+                                </numberFormatter>
+                                <font key="font" metaFont="smallSystem"/>
+                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </column>
+                    </cells>
+                    <connections>
+                        <action selector="freqChange:" target="-2" id="59"/>
+                        <outlet property="nextKeyView" destination="33" id="96"/>
+                    </connections>
+                </matrix>
+            </subviews>
+            <connections>
+                <outlet property="nextKeyView" destination="10" id="89"/>
+            </connections>
+        </customView>
+    </objects>
+</document>

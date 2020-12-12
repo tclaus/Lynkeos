@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6250"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="MyImageStackerView">
+            <connections>
+                <outlet property="_cropH" destination="14" id="34"/>
+                <outlet property="_cropW" destination="17" id="33"/>
+                <outlet property="_cropX" destination="8" id="31"/>
+                <outlet property="_cropY" destination="10" id="32"/>
+                <outlet property="_doubleSizeCheckBox" destination="21" id="35"/>
+                <outlet property="_methodPane" destination="77" id="103"/>
+                <outlet property="_methodPopup" destination="89" id="102"/>
+                <outlet property="_minMaxMatrix" destination="107" id="112"/>
+                <outlet property="_monochromeCheckBox" destination="22" id="36"/>
+                <outlet property="_panel" destination="5" id="30"/>
+                <outlet property="_sigmaRejectSlider" destination="82" id="98"/>
+                <outlet property="_sigmaRejectText" destination="83" id="99"/>
+                <outlet property="_stackButton" destination="20" id="37"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="5" userLabel="View">
+            <rect key="frame" x="0.0" y="0.0" width="330" height="140"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <button toolTip="Accumule les images de champs en monochrome" id="22">
+                    <rect key="frame" x="199" y="84" width="92" height="18"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <buttonCell key="cell" type="check" title="Monochrome" bezelStyle="regularSquare" imagePosition="left" alignment="left" controlSize="small" enabled="NO" inset="2" id="76">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="smallSystem"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="monochromeAction:" target="-2" id="43"/>
+                        <outlet property="nextKeyView" destination="20" id="63"/>
+                    </connections>
+                </button>
+                <button toolTip="Double la taille de l'image résultante" id="21">
+                    <rect key="frame" x="199" y="104" width="91" height="18"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <buttonCell key="cell" type="check" title="Taille double" bezelStyle="regularSquare" imagePosition="left" alignment="left" controlSize="small" inset="2" id="75">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="smallSystem"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="doubleSizeAction:" target="-2" id="42"/>
+                        <outlet property="nextKeyView" destination="22" id="62"/>
+                    </connections>
+                </button>
+                <button toolTip="Accumule les images sélectionnées" verticalHuggingPriority="750" id="20">
+                    <rect key="frame" x="53" y="4" width="107" height="32"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <buttonCell key="cell" type="push" title="Accumuler" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="74">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="stackAction:" target="-2" id="44"/>
+                        <outlet property="nextKeyView" destination="8" id="64"/>
+                    </connections>
+                </button>
+                <box title="Rectangle de travail" id="6">
+                    <rect key="frame" x="17" y="35" width="180" height="85"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <view key="contentView">
+                        <rect key="frame" x="2" y="2" width="176" height="69"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField toolTip="Origine horizontale du rectangle de travail" verticalHuggingPriority="750" id="8">
+                                <rect key="frame" x="27" y="38" width="57" height="19"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="left" drawsBackground="YES" id="66">
+                                    <numberFormatter key="formatter" formatterBehavior="10_0" positiveFormat="0" negativeFormat="-0" hasThousandSeparators="NO" thousandSeparator=" " id="9">
+                                        <textAttributesForNegativeValues/>
+                                        <attributedString key="attributedStringForZero">
+                                            <fragment content="0"/>
+                                        </attributedString>
+                                        <decimal key="minimum" value="NaN"/>
+                                        <decimal key="maximum" value="NaN"/>
+                                    </numberFormatter>
+                                    <font key="font" metaFont="smallSystem"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="cropRectangleChange:" target="-2" id="38"/>
+                                    <outlet property="nextKeyView" destination="10" id="58"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" id="12">
+                                <rect key="frame" x="11" y="40" width="11" height="14"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="X" id="68">
+                                    <font key="font" metaFont="smallSystem"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField toolTip="Origine verticale du rectangle de travail" verticalHuggingPriority="750" id="10">
+                                <rect key="frame" x="105" y="39" width="57" height="19"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="left" drawsBackground="YES" id="67">
+                                    <numberFormatter key="formatter" formatterBehavior="10_0" positiveFormat="0" negativeFormat="-0" hasThousandSeparators="NO" thousandSeparator=" " id="11">
+                                        <textAttributesForNegativeValues/>
+                                        <attributedString key="attributedStringForZero">
+                                            <fragment content="0"/>
+                                        </attributedString>
+                                        <decimal key="minimum" value="NaN"/>
+                                        <decimal key="maximum" value="NaN"/>
+                                    </numberFormatter>
+                                    <font key="font" metaFont="smallSystem"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="cropRectangleChange:" target="-2" id="39"/>
+                                    <outlet property="nextKeyView" destination="17" id="59"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" id="19">
+                                <rect key="frame" x="89" y="40" width="11" height="14"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Y" id="73">
+                                    <font key="font" metaFont="smallSystem"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField verticalHuggingPriority="750" id="16">
+                                <rect key="frame" x="89" y="13" width="11" height="14"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="H" id="71">
+                                    <font key="font" metaFont="smallSystem"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField toolTip="Largeur du rectangle de travail" verticalHuggingPriority="750" id="17">
+                                <rect key="frame" x="27" y="11" width="57" height="19"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="left" drawsBackground="YES" id="72">
+                                    <numberFormatter key="formatter" formatterBehavior="10_0" positiveFormat="0" negativeFormat="-0" hasThousandSeparators="NO" thousandSeparator=" " id="18">
+                                        <textAttributesForNegativeValues/>
+                                        <attributedString key="attributedStringForZero">
+                                            <fragment content="0"/>
+                                        </attributedString>
+                                        <decimal key="minimum" value="NaN"/>
+                                        <decimal key="maximum" value="NaN"/>
+                                    </numberFormatter>
+                                    <font key="font" metaFont="smallSystem"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="cropRectangleChange:" target="-2" id="40"/>
+                                    <outlet property="nextKeyView" destination="14" id="60"/>
+                                </connections>
+                            </textField>
+                            <textField verticalHuggingPriority="750" id="13">
+                                <rect key="frame" x="11" y="13" width="11" height="14"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="W" id="69">
+                                    <font key="font" metaFont="smallSystem"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField toolTip="Hauteur du rectangle de travail" verticalHuggingPriority="750" id="14">
+                                <rect key="frame" x="105" y="11" width="57" height="19"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="left" drawsBackground="YES" id="70">
+                                    <numberFormatter key="formatter" formatterBehavior="10_0" positiveFormat="0" negativeFormat="-0" hasThousandSeparators="NO" thousandSeparator=" " id="15">
+                                        <textAttributesForNegativeValues/>
+                                        <attributedString key="attributedStringForZero">
+                                            <fragment content="0"/>
+                                        </attributedString>
+                                        <decimal key="minimum" value="NaN"/>
+                                        <decimal key="maximum" value="NaN"/>
+                                    </numberFormatter>
+                                    <font key="font" metaFont="smallSystem"/>
+                                    <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                                <connections>
+                                    <action selector="cropRectangleChange:" target="-2" id="41"/>
+                                    <outlet property="nextKeyView" destination="21" id="61"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                    </view>
+                    <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                    <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <font key="titleFont" metaFont="label"/>
+                </box>
+                <tabView drawsBackground="NO" type="noTabsNoBorder" id="77">
+                    <rect key="frame" x="202" y="0.0" width="128" height="53"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <font key="font" metaFont="system"/>
+                    <tabViewItems>
+                        <tabViewItem label="Standard" identifier="1" id="79">
+                            <view key="view" id="80">
+                                <rect key="frame" x="0.0" y="0.0" width="128" height="53"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </view>
+                        </tabViewItem>
+                        <tabViewItem label="∑ reject" identifier="2" id="78">
+                            <view key="view" id="81">
+                                <rect key="frame" x="0.0" y="0.0" width="128" height="53"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <subviews>
+                                    <slider verticalHuggingPriority="750" id="82">
+                                        <rect key="frame" x="0.0" y="10" width="115" height="16"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <sliderCell key="cell" controlSize="mini" state="on" alignment="left" maxValue="3" tickMarkPosition="below" numberOfTickMarks="4" sliderType="linear" id="88"/>
+                                        <connections>
+                                            <action selector="sigmaChange:" target="-2" id="101"/>
+                                        </connections>
+                                    </slider>
+                                    <textField verticalHuggingPriority="750" id="83">
+                                        <rect key="frame" x="89" y="34" width="26" height="19"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="left" title="3.0" drawsBackground="YES" id="86">
+                                            <numberFormatter key="formatter" formatterBehavior="custom10_4" numberStyle="decimal" minimumIntegerDigits="1" maximumIntegerDigits="1" minimumFractionDigits="1" maximumFractionDigits="1" id="87">
+                                                <real key="minimum" value="0.0"/>
+                                                <real key="maximum" value="3"/>
+                                                <metadata>
+                                                    <real key="inspectorSampleValue" value="3"/>
+                                                </metadata>
+                                            </numberFormatter>
+                                            <font key="font" metaFont="smallSystem"/>
+                                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                        <connections>
+                                            <action selector="sigmaChange:" target="-2" id="114"/>
+                                        </connections>
+                                    </textField>
+                                    <textField verticalHuggingPriority="750" id="84">
+                                        <rect key="frame" x="-3" y="36" width="92" height="14"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Nb. écarts types" id="85">
+                                            <font key="font" metaFont="smallSystem"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                    </textField>
+                                </subviews>
+                            </view>
+                        </tabViewItem>
+                        <tabViewItem label="Extrema" identifier="3" id="105">
+                            <view key="view" id="106">
+                                <rect key="frame" x="0.0" y="0.0" width="128" height="53"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <matrix verticalHuggingPriority="750" allowsEmptySelection="NO" id="107">
+                                        <rect key="frame" x="0.0" y="15" width="76" height="38"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                        <size key="cellSize" width="76" height="18"/>
+                                        <size key="intercellSpacing" width="4" height="2"/>
+                                        <buttonCell key="prototype" type="radio" title="Radio" imagePosition="left" alignment="left" controlSize="small" inset="2" id="110">
+                                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                            <font key="font" metaFont="smallSystem"/>
+                                        </buttonCell>
+                                        <cells>
+                                            <column>
+                                                <buttonCell type="radio" title="Minimum" imagePosition="left" alignment="left" controlSize="small" state="on" tag="1" inset="2" id="108">
+                                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                    <font key="font" metaFont="smallSystem"/>
+                                                </buttonCell>
+                                                <buttonCell type="radio" title="Maximum" imagePosition="left" alignment="left" controlSize="small" inset="2" id="109">
+                                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                                    <font key="font" metaFont="smallSystem"/>
+                                                </buttonCell>
+                                            </column>
+                                        </cells>
+                                        <connections>
+                                            <action selector="minMaxChange:" target="-2" id="113"/>
+                                        </connections>
+                                    </matrix>
+                                </subviews>
+                            </view>
+                        </tabViewItem>
+                    </tabViewItems>
+                </tabView>
+                <popUpButton toolTip="Méthode d'accumulation" verticalHuggingPriority="750" id="89">
+                    <rect key="frame" x="234" y="57" width="88" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <popUpButtonCell key="cell" type="push" title="Standard" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="95" id="92">
+                        <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="smallSystem"/>
+                        <menu key="menu" title="OtherViews" id="93">
+                            <items>
+                                <menuItem title="Standard" state="on" id="95"/>
+                                <menuItem title="Réjection ∑" tag="1" id="94"/>
+                                <menuItem title="Extrema" tag="2" id="111">
+                                    <modifierMask key="keyEquivalentModifierMask"/>
+                                </menuItem>
+                            </items>
+                        </menu>
+                    </popUpButtonCell>
+                    <connections>
+                        <action selector="methodChange:" target="-2" id="104"/>
+                    </connections>
+                </popUpButton>
+                <textField verticalHuggingPriority="750" id="90">
+                    <rect key="frame" x="199" y="62" width="34" height="14"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Mode" id="91">
+                        <font key="font" metaFont="smallSystem"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+            <connections>
+                <outlet property="nextKeyView" destination="8" id="57"/>
+            </connections>
+        </customView>
+    </objects>
+</document>
