@@ -27,8 +27,6 @@
 	<string>Lynkeos</string>
 	<key>CFBundleHelpBookFolder</key>
 	<string>Lynkeos help</string>
-	<key>CFBundleIconFile</key>
-	<string>Lynkeos</string>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>

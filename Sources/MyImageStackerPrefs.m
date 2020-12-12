@@ -79,7 +79,7 @@ static MyImageStackerPrefs *myImageStackerPrefsInstance = nil;
                         tip:(NSString**)tip
 {
    *title = NSLocalizedString(@"Stack",@"Stack tool");
-   *icon = [NSImage imageNamed:@"Photolist"];
+   *icon = [NSImage imageNamed:@"Stack"];
    *tip = nil;
 }
 

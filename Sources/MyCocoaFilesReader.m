@@ -201,7 +201,7 @@ static void getImageSample( REAL * const * const sample,
 
 + (void) lynkeosFileTypes:(NSArray**)fileTypes
 {
-   *fileTypes = [NSImage imageFileTypes];
+   *fileTypes = [NSImage imageTypes];
 }
 
 - (id) initWithURL:(NSURL*)url

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="17506" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="12121"/>
-        <capability name="box content view" minToolsVersion="7.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17506"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -37,21 +36,21 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES"/>
             <rect key="contentRect" x="4" y="312" width="1000" height="550"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="878"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1025"/>
             <value key="minSize" type="size" width="650" height="400"/>
             <view key="contentView" id="6">
                 <rect key="frame" x="0.0" y="0.0" width="1000" height="550"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <splitView vertical="YES" id="91">
+                    <splitView fixedFrame="YES" vertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="91">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="550"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <customView id="86">
+                            <customView fixedFrame="YES" id="86">
                                 <rect key="frame" x="0.0" y="0.0" width="484" height="550"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <subviews>
-                                    <matrix toolTip="Para trabajar sobre las listas o el resultado de accumulacion" verticalHuggingPriority="750" allowsEmptySelection="NO" autosizesCells="NO" id="647">
+                                    <matrix toolTip="Para trabajar sobre las listas o el resultado de accumulacion" verticalHuggingPriority="750" fixedFrame="YES" allowsEmptySelection="NO" autosizesCells="NO" translatesAutoresizingMaskIntoConstraints="NO" id="647">
                                         <rect key="frame" x="295" y="530" width="132" height="18"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -79,22 +78,22 @@
                                             <outlet property="nextKeyView" destination="526" id="690"/>
                                         </connections>
                                     </matrix>
-                                    <splitView id="636">
+                                    <splitView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="636">
                                         <rect key="frame" x="0.0" y="0.0" width="483" height="530"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <subviews>
-                                            <customView id="598">
+                                            <customView fixedFrame="YES" id="598">
                                                 <rect key="frame" x="0.0" y="0.0" width="483" height="327"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
-                                                    <box boxType="oldStyle" borderType="line" titlePosition="noTitle" id="642">
+                                                    <box fixedFrame="YES" boxType="oldStyle" borderType="line" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="642">
                                                         <rect key="frame" x="467" y="0.0" width="16" height="327"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" heightSizable="YES"/>
                                                         <view key="contentView" id="YhZ-ub-Wmj">
                                                             <rect key="frame" x="1" y="1" width="14" height="325"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
-                                                                <button toolTip="Partir la margen con el panel de proceso" id="603">
+                                                                <button toolTip="Partir la margen con el panel de proceso" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="603">
                                                                     <rect key="frame" x="-1" y="294" width="15" height="15"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                                                                     <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="split" imagePosition="only" alignment="center" borderStyle="border" inset="2" id="727">
@@ -106,7 +105,7 @@
                                                                         <outlet property="nextKeyView" destination="582" id="707"/>
                                                                     </connections>
                                                                 </button>
-                                                                <button toolTip="Occultar la margen" id="597">
+                                                                <button toolTip="Occultar la margen" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="597">
                                                                     <rect key="frame" x="-1" y="308" width="15" height="17"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                                                                     <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="hidemargin" imagePosition="only" alignment="center" borderStyle="border" inset="2" id="726">
@@ -124,23 +123,22 @@
                                                             <outlet property="nextKeyView" destination="583" id="692"/>
                                                         </connections>
                                                     </box>
-                                                    <scrollView horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" id="526">
+                                                    <scrollView fixedFrame="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="526">
                                                         <rect key="frame" x="0.0" y="0.0" width="469" height="327"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <clipView key="contentView" id="2MF-4K-Icd">
-                                                            <rect key="frame" x="1" y="0.0" width="467" height="326"/>
+                                                            <rect key="frame" x="1" y="1" width="467" height="325"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
                                                                 <outlineView focusRingType="none" verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" alternatingRowBackgroundColors="YES" multipleSelection="NO" autosaveColumns="NO" headerView="760" indentationPerLevel="16" autoresizesOutlineColumn="YES" outlineTableColumn="528" id="527" customClass="MyOutlineView">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="467" height="309"/>
-                                                                    <autoresizingMask key="autoresizingMask"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="467" height="308"/>
+                                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                     <size key="intercellSpacing" width="3" height="2"/>
                                                                     <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                                     <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                                                     <tableColumns>
                                                                         <tableColumn identifier="select" editable="NO" width="34" minWidth="16" maxWidth="1000" id="528">
                                                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left">
-                                                                                <font key="font" metaFont="smallSystem"/>
                                                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                                 <color key="backgroundColor" white="0.33333299" alpha="1" colorSpace="calibratedWhite"/>
                                                                             </tableHeaderCell>
@@ -153,7 +151,6 @@
                                                                         </tableColumn>
                                                                         <tableColumn identifier="name" editable="NO" width="174" minWidth="64" maxWidth="1000" id="529">
                                                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="center" title="Nombre">
-                                                                                <font key="font" metaFont="smallSystem"/>
                                                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                                 <color key="backgroundColor" white="0.33333299" alpha="1" colorSpace="calibratedWhite"/>
                                                                             </tableHeaderCell>
@@ -166,7 +163,6 @@
                                                                         </tableColumn>
                                                                         <tableColumn identifier="index" editable="NO" width="39" minWidth="20" maxWidth="1000" id="530">
                                                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="center" title="Index">
-                                                                                <font key="font" metaFont="smallSystem"/>
                                                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                                 <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                                             </tableHeaderCell>
@@ -179,7 +175,6 @@
                                                                         </tableColumn>
                                                                         <tableColumn identifier="dx" editable="NO" width="39" minWidth="20" maxWidth="1000" id="531">
                                                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="center" title="∂x">
-                                                                                <font key="font" metaFont="smallSystem"/>
                                                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                                 <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                                             </tableHeaderCell>
@@ -192,7 +187,6 @@
                                                                         </tableColumn>
                                                                         <tableColumn identifier="dy" editable="NO" width="39" minWidth="20" maxWidth="1000" id="532">
                                                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="center" title="∂y">
-                                                                                <font key="font" metaFont="smallSystem"/>
                                                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                                 <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                                             </tableHeaderCell>
@@ -205,7 +199,6 @@
                                                                         </tableColumn>
                                                                         <tableColumn identifier="rotation" editable="NO" width="39" minWidth="20" maxWidth="1000" id="MKu-H6-qYz">
                                                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="center" title="Rot.">
-                                                                                <font key="font" metaFont="smallSystem"/>
                                                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                                 <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                                             </tableHeaderCell>
@@ -218,7 +211,6 @@
                                                                         </tableColumn>
                                                                         <tableColumn identifier="scale" editable="NO" width="39" minWidth="20" maxWidth="1000" id="DKp-jg-tl6">
                                                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="center" title="Escal.">
-                                                                                <font key="font" metaFont="smallSystem"/>
                                                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                                 <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                                             </tableHeaderCell>
@@ -229,9 +221,8 @@
                                                                             </textFieldCell>
                                                                             <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                                         </tableColumn>
-                                                                        <tableColumn identifier="quality" editable="NO" width="40" minWidth="20" maxWidth="1000" id="533">
+                                                                        <tableColumn identifier="quality" editable="NO" width="20" minWidth="20" maxWidth="1000" id="533">
                                                                             <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="center" title="Calid.">
-                                                                                <font key="font" metaFont="smallSystem"/>
                                                                                 <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                                                 <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                                                             </tableHeaderCell>
@@ -250,15 +241,15 @@
                                                                 </outlineView>
                                                             </subviews>
                                                         </clipView>
-                                                        <scroller key="horizontalScroller" verticalHuggingPriority="750" horizontal="YES" id="759">
+                                                        <scroller key="horizontalScroller" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="759">
                                                             <rect key="frame" x="1" y="310" width="467" height="16"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                         </scroller>
-                                                        <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="758">
-                                                            <rect key="frame" x="452" y="17" width="16" height="309"/>
+                                                        <scroller key="verticalScroller" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="758">
+                                                            <rect key="frame" x="452" y="18" width="16" height="308"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                         </scroller>
-                                                        <tableHeaderView key="headerView" id="760">
+                                                        <tableHeaderView key="headerView" wantsLayer="YES" id="760">
                                                             <rect key="frame" x="0.0" y="0.0" width="467" height="17"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                         </tableHeaderView>
@@ -268,18 +259,18 @@
                                                     </scrollView>
                                                 </subviews>
                                             </customView>
-                                            <customView id="600">
+                                            <customView fixedFrame="YES" id="600">
                                                 <rect key="frame" x="0.0" y="336" width="483" height="194"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <subviews>
-                                                    <box boxType="oldStyle" borderType="line" title="Title" titlePosition="noTitle" id="644">
+                                                    <box fixedFrame="YES" boxType="oldStyle" borderType="line" title="Title" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="644">
                                                         <rect key="frame" x="467" y="0.0" width="16" height="195"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" heightSizable="YES"/>
                                                         <view key="contentView" id="nb0-M4-Jli">
                                                             <rect key="frame" x="1" y="1" width="14" height="193"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
-                                                                <button toolTip="Partir la margen con el cuadro de las listas" id="606">
+                                                                <button toolTip="Partir la margen con el cuadro de las listas" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="606">
                                                                     <rect key="frame" x="-1" y="149" width="15" height="15"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                                                                     <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="split" imagePosition="only" alignment="center" borderStyle="border" inset="2" id="728">
@@ -291,7 +282,7 @@
                                                                         <outlet property="nextKeyView" destination="608" id="711"/>
                                                                     </connections>
                                                                 </button>
-                                                                <button toolTip="Extender el panel de proceso" id="607">
+                                                                <button toolTip="Extender el panel de proceso" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="607">
                                                                     <rect key="frame" x="-1" y="163" width="15" height="15"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                                                                     <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="hidelist" imagePosition="only" alignment="center" borderStyle="border" inset="2" id="729">
@@ -303,7 +294,7 @@
                                                                         <outlet property="nextKeyView" destination="606" id="710"/>
                                                                     </connections>
                                                                 </button>
-                                                                <button toolTip="Separar el panel de proceso en una otra ventana" id="608">
+                                                                <button toolTip="Separar el panel de proceso en una otra ventana" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="608">
                                                                     <rect key="frame" x="-1" y="135" width="15" height="15"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                                                                     <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="detachproc" imagePosition="only" alignment="center" borderStyle="border" inset="2" id="730">
@@ -315,7 +306,7 @@
                                                                         <outlet property="nextKeyView" destination="118" id="713"/>
                                                                     </connections>
                                                                 </button>
-                                                                <button toolTip="Occultar la margen" id="626">
+                                                                <button toolTip="Occultar la margen" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="626">
                                                                     <rect key="frame" x="-1" y="177" width="15" height="15"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                                                                     <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="hidemargin" imagePosition="only" alignment="center" borderStyle="border" inset="2" id="731">
@@ -333,14 +324,14 @@
                                                             <outlet property="nextKeyView" destination="100" id="694"/>
                                                         </connections>
                                                     </box>
-                                                    <scrollView autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" usesPredominantAxisScrolling="NO" id="583">
+                                                    <scrollView fixedFrame="YES" autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="583">
                                                         <rect key="frame" x="0.0" y="0.0" width="469" height="194"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <clipView key="contentView" autoresizesSubviews="NO" id="mQU-ha-Bfd">
                                                             <rect key="frame" x="1" y="1" width="467" height="192"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
-                                                                <customView id="582">
+                                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="582">
                                                                     <rect key="frame" x="0.0" y="0.0" width="317" height="166"/>
                                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                     <connections>
@@ -349,11 +340,11 @@
                                                                 </customView>
                                                             </subviews>
                                                         </clipView>
-                                                        <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="762">
+                                                        <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="762">
                                                             <rect key="frame" x="1" y="-30" width="403" height="15"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                         </scroller>
-                                                        <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="761">
+                                                        <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="761">
                                                             <rect key="frame" x="-30" y="1" width="15" height="177"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                         </scroller>
@@ -372,7 +363,7 @@
                                             <outlet property="delegate" destination="-2" id="640"/>
                                         </connections>
                                     </splitView>
-                                    <popUpButton verticalHuggingPriority="750" id="631">
+                                    <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="631">
                                         <rect key="frame" x="66" y="526" width="135" height="26"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                         <popUpButtonCell key="cell" type="push" title="Imagen" bezelStyle="rounded" alignment="left" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" tag="4" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="633" id="725">
@@ -393,11 +384,11 @@
                                     </popUpButton>
                                 </subviews>
                             </customView>
-                            <customView id="100">
+                            <customView fixedFrame="YES" id="100">
                                 <rect key="frame" x="493" y="0.0" width="507" height="550"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <slider toolTip="Correcion del gamma de la imagen" verticalHuggingPriority="750" id="677">
+                                    <slider toolTip="Correcion del gamma de la imagen" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="677">
                                         <rect key="frame" x="389" y="4" width="112" height="17"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                         <sliderCell key="cell" controlSize="small" alignment="left" minValue="-0.69897000000000009" maxValue="0.69897000000000009" tickMarkPosition="below" numberOfTickMarks="7" sliderType="linear" id="739">
@@ -408,7 +399,7 @@
                                             <outlet property="nextKeyView" destination="631" id="722"/>
                                         </connections>
                                     </slider>
-                                    <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" id="683">
+                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="683">
                                         <rect key="frame" x="346" y="0.0" width="38" height="11"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="gamma" id="743">
@@ -417,7 +408,7 @@
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                     </textField>
-                                    <textField toolTip="Correcion del gamma de la imagen" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" id="680">
+                                    <textField toolTip="Correcion del gamma de la imagen" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="680">
                                         <rect key="frame" x="349" y="9" width="32" height="19"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                         <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" title="0,80" drawsBackground="YES" id="742">
@@ -429,7 +420,7 @@
                                                 <decimal key="maximum" value="5"/>
                                             </numberFormatter>
                                             <font key="font" metaFont="label"/>
-                                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                         <connections>
@@ -437,7 +428,7 @@
                                             <outlet property="nextKeyView" destination="677" id="721"/>
                                         </connections>
                                     </textField>
-                                    <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" id="679">
+                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="679">
                                         <rect key="frame" x="457" y="28" width="52" height="11"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="blanco" id="741">
@@ -446,7 +437,7 @@
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                     </textField>
-                                    <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" id="678">
+                                    <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="678">
                                         <rect key="frame" x="306" y="28" width="52" height="11"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                         <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="negro" id="740">
@@ -455,11 +446,11 @@
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                     </textField>
-                                    <progressIndicator horizontalHuggingPriority="750" verticalHuggingPriority="750" maxValue="100" displayedWhenStopped="NO" bezeled="NO" indeterminate="YES" controlSize="small" style="spinning" id="675">
+                                    <progressIndicator horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" maxValue="100" displayedWhenStopped="NO" bezeled="NO" indeterminate="YES" controlSize="small" style="spinning" translatesAutoresizingMaskIntoConstraints="NO" id="675">
                                         <rect key="frame" x="0.0" y="20" width="16" height="16"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                     </progressIndicator>
-                                    <textField toolTip="Nivel del blanco en la imagen" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" id="659">
+                                    <textField toolTip="Nivel del blanco en la imagen" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="659">
                                         <rect key="frame" x="460" y="37" width="46" height="19"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                         <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" title="99999,0" drawsBackground="YES" id="738">
@@ -471,7 +462,7 @@
                                                 <decimal key="maximum" value="NaN"/>
                                             </numberFormatter>
                                             <font key="font" metaFont="label"/>
-                                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                         <connections>
@@ -479,7 +470,7 @@
                                             <outlet property="nextKeyView" destination="767" id="770"/>
                                         </connections>
                                     </textField>
-                                    <textField toolTip="Nivel del negro en la imagen" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" id="656">
+                                    <textField toolTip="Nivel del negro en la imagen" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="656">
                                         <rect key="frame" x="309" y="36" width="46" height="20"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                         <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" title="99999,0" drawsBackground="YES" id="737">
@@ -491,7 +482,7 @@
                                                 <decimal key="maximum" value="NaN"/>
                                             </numberFormatter>
                                             <font key="font" metaFont="label"/>
-                                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                         <connections>
@@ -499,7 +490,7 @@
                                             <outlet property="nextKeyView" destination="659" id="718"/>
                                         </connections>
                                     </textField>
-                                    <textField toolTip="Factor de engrandecimiento de la imagen" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" id="118">
+                                    <textField toolTip="Factor de engrandecimiento de la imagen" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="118">
                                         <rect key="frame" x="58" y="29" width="42" height="19"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="left" title="100%" drawsBackground="YES" id="735">
@@ -511,7 +502,7 @@
                                                 <decimal key="maximum" value="500"/>
                                             </numberFormatter>
                                             <font key="font" metaFont="smallSystem"/>
-                                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                         <connections>
@@ -519,14 +510,14 @@
                                             <outlet property="nextKeyView" destination="87" id="714"/>
                                         </connections>
                                     </textField>
-                                    <scrollView horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" usesPredominantAxisScrolling="NO" id="95">
+                                    <scrollView fixedFrame="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="95">
                                         <rect key="frame" x="0.0" y="56" width="506" height="494"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <clipView key="contentView" id="D0d-P2-7JD">
                                             <rect key="frame" x="1" y="1" width="504" height="492"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
-                                                <customView id="88" customClass="MyImageView">
+                                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="88" customClass="MyImageView">
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <connections>
                                                         <outlet property="_blackText" destination="656" id="672"/>
@@ -541,16 +532,16 @@
                                                 </customView>
                                             </subviews>
                                         </clipView>
-                                        <scroller key="horizontalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="764">
+                                        <scroller key="horizontalScroller" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="YES" id="764">
                                             <rect key="frame" x="1" y="477" width="504" height="16"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </scroller>
-                                        <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="763">
+                                        <scroller key="verticalScroller" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="763">
                                             <rect key="frame" x="489" y="1" width="16" height="492"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </scroller>
                                     </scrollView>
-                                    <slider toolTip="Engrandecer/disminuir la imagen" verticalHuggingPriority="750" id="97">
+                                    <slider toolTip="Engrandecer/disminuir la imagen" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="97">
                                         <rect key="frame" x="24" y="4" width="110" height="17"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <sliderCell key="cell" controlSize="small" continuous="YES" alignment="left" minValue="-1" maxValue="1" tickMarkPosition="below" numberOfTickMarks="9" sliderType="linear" id="733">
@@ -561,10 +552,10 @@
                                             <outlet property="nextKeyView" destination="656" id="717"/>
                                         </connections>
                                     </slider>
-                                    <button toolTip="Engrandecer" horizontalHuggingPriority="750" verticalHuggingPriority="750" id="101">
+                                    <button toolTip="Engrandecer" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="101">
                                         <rect key="frame" x="108" y="21" width="32" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <buttonCell key="cell" type="round" title="+" bezelStyle="circular" image="buttonCell:734:image" alignment="center" controlSize="mini" borderStyle="border" id="734">
+                                        <buttonCell key="cell" type="round" title="+" bezelStyle="circular" image="buttonCell:734:image" alignment="center" borderStyle="border" id="734">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="systemBold" size="12"/>
                                             <string key="keyEquivalent">+</string>
@@ -575,10 +566,10 @@
                                             <outlet property="nextKeyView" destination="97" id="716"/>
                                         </connections>
                                     </button>
-                                    <button toolTip="Disminuir" horizontalHuggingPriority="750" verticalHuggingPriority="750" id="87">
+                                    <button toolTip="Disminuir" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="87">
                                         <rect key="frame" x="18" y="21" width="32" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <buttonCell key="cell" type="round" title="-" bezelStyle="circular" image="buttonCell:734:image" alignment="center" controlSize="mini" borderStyle="border" id="732">
+                                        <buttonCell key="cell" type="round" title="-" bezelStyle="circular" image="buttonCell:734:image" alignment="center" borderStyle="border" id="732">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="systemBold" size="12"/>
                                             <string key="keyEquivalent">-</string>
@@ -589,7 +580,7 @@
                                             <outlet property="nextKeyView" destination="101" id="715"/>
                                         </connections>
                                     </button>
-                                    <slider toolTip="Niveaux du noir et du blanc dans l'image" verticalHuggingPriority="750" id="767" customClass="SMDoubleSlider">
+                                    <slider toolTip="Niveaux du noir et du blanc dans l'image" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="767" customClass="SMDoubleSlider">
                                         <rect key="frame" x="355" y="36" width="105" height="17"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                         <sliderCell key="cell" controlSize="small" state="on" alignment="left" maxValue="100" tickMarkPosition="below" numberOfTickMarks="7" sliderType="linear" id="768" customClass="SMDoubleSliderCell"/>
@@ -615,12 +606,13 @@
                 <outlet property="delegate" destination="-2" id="17"/>
                 <outlet property="initialFirstResponder" destination="631" id="723"/>
             </connections>
+            <point key="canvasLocation" x="43" y="110"/>
         </window>
         <customView id="537" userLabel="File format">
             <rect key="frame" x="0.0" y="0.0" width="246" height="21"/>
             <autoresizingMask key="autoresizingMask"/>
             <subviews>
-                <popUpButton verticalHuggingPriority="750" id="544">
+                <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="544">
                     <rect key="frame" x="89" y="-3" width="160" height="26"/>
                     <autoresizingMask key="autoresizingMask"/>
                     <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="546" id="745">
@@ -636,7 +628,7 @@
                         <action selector="fileWritersPopupAction:" target="-2" id="549"/>
                     </connections>
                 </popUpButton>
-                <textField verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" id="543">
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="543">
                     <rect key="frame" x="0.0" y="4" width="87" height="14"/>
                     <autoresizingMask key="autoresizingMask"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" id="744">
@@ -655,7 +647,7 @@
             <rect key="frame" x="0.0" y="0.0" width="263" height="66"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
-                <button toolTip="Ir a la siguiente imagen seleccionada" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" id="554">
+                <button toolTip="Ir a la siguiente imagen seleccionada" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="554">
                     <rect key="frame" x="154" y="18" width="30" height="30"/>
                     <autoresizingMask key="autoresizingMask"/>
                     <buttonCell key="cell" type="smallSquare" title="&gt;&gt;" bezelStyle="smallSquare" imagePosition="above" alignment="center" borderStyle="border" inset="2" id="749">
@@ -667,7 +659,7 @@
                         <outlet property="nextKeyView" destination="555" id="702"/>
                     </connections>
                 </button>
-                <button toolTip="Ir a la precediente imagen seleccionada" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" id="553">
+                <button toolTip="Ir a la precediente imagen seleccionada" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="553">
                     <rect key="frame" x="116" y="18" width="30" height="30"/>
                     <autoresizingMask key="autoresizingMask"/>
                     <buttonCell key="cell" type="smallSquare" title="&lt;&lt;" bezelStyle="smallSquare" alignment="center" borderStyle="border" inset="2" id="748">
@@ -679,7 +671,7 @@
                         <outlet property="nextKeyView" destination="554" id="701"/>
                     </connections>
                 </button>
-                <button toolTip="Cancelar la linea seleccionada de la lista" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" id="552">
+                <button toolTip="Cancelar la linea seleccionada de la lista" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="552">
                     <rect key="frame" x="58" y="18" width="30" height="30"/>
                     <autoresizingMask key="autoresizingMask"/>
                     <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="minus" imagePosition="above" alignment="center" borderStyle="border" id="747">
@@ -691,7 +683,7 @@
                         <outlet property="nextKeyView" destination="553" id="700"/>
                     </connections>
                 </button>
-                <button toolTip="Añadir una imagen o una secuencia" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" id="551">
+                <button toolTip="Añadir una imagen o una secuencia" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="551">
                     <rect key="frame" x="20" y="18" width="30" height="30"/>
                     <autoresizingMask key="autoresizingMask"/>
                     <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="plus" imagePosition="above" alignment="center" borderStyle="border" id="746">
@@ -703,7 +695,7 @@
                         <outlet property="nextKeyView" destination="552" id="699"/>
                     </connections>
                 </button>
-                <button toolTip="Cambiar la seleccion" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" id="555">
+                <button toolTip="Cambiar la seleccion" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="555">
                     <rect key="frame" x="213" y="18" width="30" height="30"/>
                     <autoresizingMask key="autoresizingMask"/>
                     <buttonCell key="cell" type="smallSquare" title="√" bezelStyle="smallSquare" alignment="center" borderStyle="border" id="750">
@@ -734,34 +726,34 @@ IA
                 <outlet property="_windowController" destination="-2" id="646"/>
             </connections>
         </customObject>
-        <window title="Process" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" hidesOnDeactivate="YES" oneShot="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="586" userLabel="ProcessWindow" customClass="NSPanel">
+        <window title="Process" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" hidesOnDeactivate="YES" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="586" userLabel="ProcessWindow" customClass="NSPanel">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="460" y="20" width="400" height="300"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="878"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1025"/>
             <value key="minSize" type="size" width="200" height="100"/>
             <view key="contentView" id="587">
                 <rect key="frame" x="0.0" y="0.0" width="400" height="300"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <scrollView autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" usesPredominantAxisScrolling="NO" id="589">
+                    <scrollView fixedFrame="YES" autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="589">
                         <rect key="frame" x="0.0" y="0.0" width="400" height="300"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <clipView key="contentView" autoresizesSubviews="NO" id="YQs-ch-cW5">
                             <rect key="frame" x="1" y="1" width="398" height="298"/>
                             <autoresizingMask key="autoresizingMask"/>
                             <subviews>
-                                <customView id="588">
+                                <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="588">
                                     <rect key="frame" x="0.0" y="0.0" width="135" height="65"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </customView>
                             </subviews>
                         </clipView>
-                        <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="0.18518517911434174" horizontal="YES" id="766">
+                        <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="0.18518517911434174" horizontal="YES" id="766">
                             <rect key="frame" x="1" y="-30" width="383" height="15"/>
                             <autoresizingMask key="autoresizingMask"/>
                         </scroller>
-                        <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="NO" id="765">
+                        <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="765">
                             <rect key="frame" x="-30" y="1" width="15" height="283"/>
                             <autoresizingMask key="autoresizingMask"/>
                         </scroller>
@@ -776,135 +768,137 @@ IA
     <resources>
         <image name="buttonCell:734:image" width="1" height="1">
             <mutableData key="keyedArchiveRepresentation">
-YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
-GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
-c1dOU0NvbG9ygAKADRIgwAAAgAOAC1Z7MSwgMX3SFQoWGFpOUy5vYmplY3RzoReABIAK0hUKGh2iGxyA
-BYAGgAkQANIgCiEiXxAUTlNUSUZGUmVwcmVzZW50YXRpb26AB4AITxEb4k1NACoAAAAMAQABAQAOAQAA
-AwAAAAEAAQAAAQEAAwAAAAEAAQAAAQIAAwAAAAQAAAC6AQMAAwAAAAEAAQAAAQYAAwAAAAEAAgAAAREA
-BAAAAAEAAAAIARIAAwAAAAEAAQAAARUAAwAAAAEABAAAARYAAwAAAAEAAQAAARcABAAAAAEAAAAEARwA
-AwAAAAEAAQAAAVIAAwAAAAEAAQAAAVMAAwAAAAQAAADCh3MABwAAGxgAAADKAAAAAAAIAAgACAAIAAEA
-AQABAAEAABsYYXBwbAIQAABtbnRyUkdCIFhZWiAH3gALAAIABAApACFhY3NwQVBQTAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAA9tYAAQAAAADTLWFwcGwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAABFkZXNjAAABUAAAAGJkc2NtAAABtAAABBpjcHJ0AAAF0AAAACN3dHB0AAAF
-9AAAABRyWFlaAAAGCAAAABRnWFlaAAAGHAAAABRiWFlaAAAGMAAAABRyVFJDAAAGRAAACAxhYXJnAAAO
-UAAAACB2Y2d0AAAOcAAABhJuZGluAAAUhAAABj5jaGFkAAAaxAAAACxtbW9kAAAa8AAAAChiVFJDAAAG
-RAAACAxnVFJDAAAGRAAACAxhYWJnAAAOUAAAACBhYWdnAAAOUAAAACBkZXNjAAAAAAAAAAhEaXNwbGF5
+YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05T
+S2V5ZWRBcmNoaXZlctEICVRyb290gAGuCwwZGh8UJCkqMTQ3PUBVJG51bGzWDQ4PEBESExQVFhcYVk5T
+U2l6ZV5OU1Jlc2l6aW5nTW9kZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVwc1dOU0NvbG9ygAIQAIAN
+EiDAAACAA4ALVnsxLCAxfdIbDxweWk5TLm9iamVjdHOhHYAEgArSGw8gI6IhIoAFgAaACdMPJSYnKBRf
+EBROU1RJRkZSZXByZXNlbnRhdGlvbl8QGU5TSW50ZXJuYWxMYXlvdXREaXJlY3Rpb26ACIAHTxEb+k1N
+ACoAAAAMAQABAQAQAQAAAwAAAAEAAQAAAQEAAwAAAAEAAQAAAQIAAwAAAAQAAADSAQMAAwAAAAEAAQAA
+AQYAAwAAAAEAAgAAAQoAAwAAAAEAAQAAAREABAAAAAEAAAAIARIAAwAAAAEAAQAAARUAAwAAAAEABAAA
+ARYAAwAAAAEAAQAAARcABAAAAAEAAAAEARwAAwAAAAEAAQAAASgAAwAAAAEAAgAAAVIAAwAAAAEAAQAA
+AVMAAwAAAAQAAADah3MABwAAGxgAAADiAAAAAAAIAAgACAAIAAEAAQABAAEAABsYYXBwbAIQAABtbnRy
+UkdCIFhZWiAH3gALAAIABAApACFhY3NwQVBQTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9tYAAQAA
+AADTLWFwcGwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABFkZXNj
+AAABUAAAAGJkc2NtAAABtAAABBpjcHJ0AAAF0AAAACN3dHB0AAAF9AAAABRyWFlaAAAGCAAAABRnWFla
+AAAGHAAAABRiWFlaAAAGMAAAABRyVFJDAAAGRAAACAxhYXJnAAAOUAAAACB2Y2d0AAAOcAAABhJuZGlu
+AAAUhAAABj5jaGFkAAAaxAAAACxtbW9kAAAa8AAAAChiVFJDAAAGRAAACAxnVFJDAAAGRAAACAxhYWJn
+AAAOUAAAACBhYWdnAAAOUAAAACBkZXNjAAAAAAAAAAhEaXNwbGF5AAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAbWx1YwAAAAAAAAAiAAAADGhySFIAAAAUAAABqGtvS1IAAAAMAAAB
-vG5iTk8AAAASAAAByGlkAAAAAAASAAAB2mh1SFUAAAAUAAAB7GNzQ1oAAAAWAAACAGRhREsAAAAcAAAC
-FnVrVUEAAAAcAAACMmFyAAAAAAAUAAACTml0SVQAAAAUAAACYnJvUk8AAAASAAACdmVzRVMAAAASAAAC
-dmhlSUwAAAAWAAACiG5sTkwAAAAWAAACnmZpRkkAAAAQAAACtHpoVFcAAAAMAAACxHZpVk4AAAAOAAAC
-0HNrU0sAAAAWAAAC3npoQ04AAAAMAAACxHJ1UlUAAAAkAAAC9GZyRlIAAAAWAAADGG1zAAAAAAASAAAD
-LmNhRVMAAAAYAAADQHRoVEgAAAAMAAADWGVzWEwAAAASAAACdmRlREUAAAAQAAADZGVuVVMAAAASAAAD
-dHB0QlIAAAAYAAADhnBsUEwAAAASAAADnmVsR1IAAAAiAAADsHN2U0UAAAAQAAAD0nRyVFIAAAAUAAAD
-4mphSlAAAAAOAAAD9nB0UFQAAAAWAAAEBABMAEMARAAgAHUAIABiAG8AagBpzuy37AAgAEwAQwBEAEYA
-YQByAGcAZQAtAEwAQwBEAEwAQwBEACAAVwBhAHIAbgBhAFMAegDtAG4AZQBzACAATABDAEQAQgBhAHIA
-ZQB2AG4A/QAgAEwAQwBEAEwAQwBEAC0AZgBhAHIAdgBlAHMAawDmAHIAbQQaBD4EOwRMBD4EQAQ+BDIE
-OAQ5ACAATABDAEQgDwBMAEMARAAgBkUGRAZIBkYGKQBMAEMARAAgAGMAbwBsAG8AcgBpAEwAQwBEACAA
-YwBvAGwAbwByIA8ATABDAEQAIAXmBdEF4gXVBeAF2QBLAGwAZQB1AHIAZQBuAC0ATABDAEQAVgDkAHIA
-aQAtAEwAQwBEX2mCcgAgAEwAQwBEAEwAQwBEACAATQDgAHUARgBhAHIAZQBiAG4A6QAgAEwAQwBEBCYE
-MgQ1BEIEPQQ+BDkAIAQWBBoALQQ0BDgEQQQ/BDsENQQ5AEwAQwBEACAAYwBvAHUAbABlAHUAcgBXAGEA
-cgBuAGEAIABMAEMARABMAEMARAAgAGUAbgAgAGMAbwBsAG8AcgBMAEMARAAgDioONQBGAGEAcgBiAC0A
-TABDAEQAQwBvAGwAbwByACAATABDAEQATABDAEQAIABDAG8AbABvAHIAaQBkAG8ASwBvAGwAbwByACAA
-TABDAEQDiAOzA8cDwQPJA7wDtwAgA78DuAPMA70DtwAgAEwAQwBEAEYA5AByAGcALQBMAEMARABSAGUA
-bgBrAGwAaQAgAEwAQwBEMKsw6TD8ACAATABDAEQATABDAEQAIABhACAAQwBvAHIAZQBzAAB0ZXh0AAAA
-AENvcHlyaWdodCBBcHBsZSBJbmMuLCAyMDE0AABYWVogAAAAAAAA81IAAQAAAAEWz1hZWiAAAAAAAABl
-2wAAOkYAAAmkWFlaIAAAAAAAAGjLAACsqwAAGqFYWVogAAAAAAAAKDAAABkPAACu6GN1cnYAAAAAAAAE
-AAAAAAUACgAPABQAGQAeACMAKAAtADIANgA7AEAARQBKAE8AVABZAF4AYwBoAG0AcgB3AHwAgQCGAIsA
-kACVAJoAnwCjAKgArQCyALcAvADBAMYAywDQANUA2wDgAOUA6wDwAPYA+wEBAQcBDQETARkBHwElASsB
-MgE4AT4BRQFMAVIBWQFgAWcBbgF1AXwBgwGLAZIBmgGhAakBsQG5AcEByQHRAdkB4QHpAfIB+gIDAgwC
-FAIdAiYCLwI4AkECSwJUAl0CZwJxAnoChAKOApgCogKsArYCwQLLAtUC4ALrAvUDAAMLAxYDIQMtAzgD
-QwNPA1oDZgNyA34DigOWA6IDrgO6A8cD0wPgA+wD+QQGBBMEIAQtBDsESARVBGMEcQR+BIwEmgSoBLYE
-xATTBOEE8AT+BQ0FHAUrBToFSQVYBWcFdwWGBZYFpgW1BcUF1QXlBfYGBgYWBicGNwZIBlkGagZ7BowG
-nQavBsAG0QbjBvUHBwcZBysHPQdPB2EHdAeGB5kHrAe/B9IH5Qf4CAsIHwgyCEYIWghuCIIIlgiqCL4I
-0gjnCPsJEAklCToJTwlkCXkJjwmkCboJzwnlCfsKEQonCj0KVApqCoEKmAquCsUK3ArzCwsLIgs5C1EL
-aQuAC5gLsAvIC+EL+QwSDCoMQwxcDHUMjgynDMAM2QzzDQ0NJg1ADVoNdA2ODakNww3eDfgOEw4uDkkO
-ZA5/DpsOtg7SDu4PCQ8lD0EPXg96D5YPsw/PD+wQCRAmEEMQYRB+EJsQuRDXEPURExExEU8RbRGMEaoR
-yRHoEgcSJhJFEmQShBKjEsMS4xMDEyMTQxNjE4MTpBPFE+UUBhQnFEkUahSLFK0UzhTwFRIVNBVWFXgV
-mxW9FeAWAxYmFkkWbBaPFrIW1hb6Fx0XQRdlF4kXrhfSF/cYGxhAGGUYihivGNUY+hkgGUUZaxmRGbcZ
-3RoEGioaURp3Gp4axRrsGxQbOxtjG4obshvaHAIcKhxSHHscoxzMHPUdHh1HHXAdmR3DHeweFh5AHmoe
-lB6+HukfEx8+H2kflB+/H+ogFSBBIGwgmCDEIPAhHCFIIXUhoSHOIfsiJyJVIoIiryLdIwojOCNmI5Qj
-wiPwJB8kTSR8JKsk2iUJJTglaCWXJccl9yYnJlcmhya3JugnGCdJJ3onqyfcKA0oPyhxKKIo1CkGKTgp
-aymdKdAqAio1KmgqmyrPKwIrNitpK50r0SwFLDksbiyiLNctDC1BLXYtqy3hLhYuTC6CLrcu7i8kL1ov
-kS/HL/4wNTBsMKQw2zESMUoxgjG6MfIyKjJjMpsy1DMNM0YzfzO4M/E0KzRlNJ402DUTNU01hzXCNf02
-NzZyNq426TckN2A3nDfXOBQ4UDiMOMg5BTlCOX85vDn5OjY6dDqyOu87LTtrO6o76DwnPGU8pDzjPSI9
-YT2hPeA+ID5gPqA+4D8hP2E/oj/iQCNAZECmQOdBKUFqQaxB7kIwQnJCtUL3QzpDfUPARANER0SKRM5F
-EkVVRZpF3kYiRmdGq0bwRzVHe0fASAVIS0iRSNdJHUljSalJ8Eo3Sn1KxEsMS1NLmkviTCpMcky6TQJN
-Sk2TTdxOJU5uTrdPAE9JT5NP3VAnUHFQu1EGUVBRm1HmUjFSfFLHUxNTX1OqU/ZUQlSPVNtVKFV1VcJW
-D1ZcVqlW91dEV5JX4FgvWH1Yy1kaWWlZuFoHWlZaplr1W0VblVvlXDVchlzWXSddeF3JXhpebF69Xw9f
-YV+zYAVgV2CqYPxhT2GiYfViSWKcYvBjQ2OXY+tkQGSUZOllPWWSZedmPWaSZuhnPWeTZ+loP2iWaOxp
-Q2maafFqSGqfavdrT2una/9sV2yvbQhtYG25bhJua27Ebx5veG/RcCtwhnDgcTpxlXHwcktypnMBc11z
-uHQUdHB0zHUodYV14XY+dpt2+HdWd7N4EXhueMx5KnmJeed6RnqlewR7Y3vCfCF8gXzhfUF9oX4BfmJ+
-wn8jf4R/5YBHgKiBCoFrgc2CMIKSgvSDV4O6hB2EgITjhUeFq4YOhnKG14c7h5+IBIhpiM6JM4mZif6K
-ZIrKizCLlov8jGOMyo0xjZiN/45mjs6PNo+ekAaQbpDWkT+RqJIRknqS45NNk7aUIJSKlPSVX5XJljSW
-n5cKl3WX4JhMmLiZJJmQmfyaaJrVm0Kbr5wcnImc951kndKeQJ6unx2fi5/6oGmg2KFHobaiJqKWowaj
-dqPmpFakx6U4pammGqaLpv2nbqfgqFKoxKk3qamqHKqPqwKrdavprFys0K1ErbiuLa6hrxavi7AAsHWw
-6rFgsdayS7LCszizrrQltJy1E7WKtgG2ebbwt2i34LhZuNG5SrnCuju6tbsuu6e8IbybvRW9j74KvoS+
-/796v/XAcMDswWfB48JfwtvDWMPUxFHEzsVLxcjGRsbDx0HHv8g9yLzJOsm5yjjKt8s2y7bMNcy1zTXN
-tc42zrbPN8+40DnQutE80b7SP9LB00TTxtRJ1MvVTtXR1lXW2Ndc1+DYZNjo2WzZ8dp22vvbgNwF3Ird
-EN2W3hzeot8p36/gNuC94UThzOJT4tvjY+Pr5HPk/OWE5g3mlucf56noMui86Ubp0Opb6uXrcOv77Ibt
-Ee2c7ijutO9A78zwWPDl8XLx//KM8xnzp/Q09ML1UPXe9m32+/eK+Bn4qPk4+cf6V/rn+3f8B/yY/Sn9
-uv5L/tz/bf//cGFyYQAAAAAAAwAAAAJmZgAA8qcAAA1ZAAAT0AAACg52Y2d0AAAAAAAAAAAAAwEAAAIA
-AAAEABAAKABLAHsAuAECAVMBsQIcApEDFQOxBGAFIgX0BtYHygjWCfcLHwxqDcIPJBCaEiMTrBU/FvQY
-mxpQHA0dzR+KIVUjGyTbJqMoZColK94tiC8fMLEyRzPfNXQ3CzigOjU7wD1GPtBAU0HQQ0tEwUYwR5tJ
-A0pmS8NNF05vT7hRBFJMU49Uz1YSV1JYiFnAWvVcIV1MXnVflmC8Yd1jAWQhZT5mV2dtaIZpnGqva8Fs
-z23fbu5v+HECcgxzGXQldTJ2PndJeFl5aXpre0Z8G3zvfcZ+on98gFqBOIIagwCD6ITRhcCGsYemiJ6J
-moqXi5qMm42ijq2PuZDHkdWS5ZPzlPWV6pbal82YwZm1mrKbsJytna6esZ+1oLyhwqLJo9Gk1qXepuan
-6ajtqfKq9av0rPKt767zsA+xMLJOs2u0g7Wetra3y7jbueu6+7wJvRW+IL8pwDLBPsJKw1jEZsV2xonH
-nsi0ycvKv8uizIDNXM44zxPP7tDF0ZrScdNF1BbU6dW71o7XYtg02QXZ19qs24DcVd0s3gTe1d974B/g
-wOFk4gnisONb5AfksuVh5g/mvOdq6Bjox+l06iDqyut37CPszO117h3uwu9r8BTwuPFc8f/ypPNK8/H0
-kvUx9c/2Xvbp91f3wvga+GD4pvjs+XP6G/uu/iP//wAAAAQAEgAsAFIAhgDIARUBYwG+AicCoQMnA7cE
-YAUgBeoGxAe0CLgJzQrqDCANaA7DECMRjRMIFIoWHRe7GV0bAxyrHlcgDiHBI3wlKSbeKJIqMyurLQ8u
-ay/JMS0yjzP1NVk2vzgiOX863zw+PZo+9kBRQaZC+kRJRZhG4kgnSW9Kq0vpTSNOW0+RUMdR+1MoVFRV
-gFajV8ZY5loDWyJcO11ZXnNfiGCcYa5iwWPTZONl8Wb/aA5pHGooazRsQW1SbmVvdHCJcZpysnPLdNF1
-tnaSd2t4SHkoegh66nvNfLF9m36Ef26AW4FKgjqDLIQehRKGB4b8h/KI64nkit2L1YzNjcOOuo+qkJuR
-jpKBk3WUbpVnlmCXXJhYmVeaVptVnFWdVZ5Un1WgVaFUolOjVaRTpU+mTadJqFCpdqqmq86s+q4fr0iw
-b7GUsrOz07T1thW3M7hSuXC6jruyvNa9+78kwE7BfMKtw+DFDMYbxxTIB8j6ye/K5cvczNDNxc69z7PQ
-p9Gb0o/ThNR41WnWV9dE2DPZH9oK2vTb39zD3ZLeXd8o3/Xgw+GQ4lzjKeP25MHliOZO5xPn1+ia6Vnq
-F+rW65DsS+0F7b3uce8l797wj/FA8fDypPNY9Ar0tvVi9g/2u/dV9+f4ifk4+f/67fwL/Wf+uv8z/3f/
-u///AAAAAgALABoAMQBQAHcApwDgAR8BYQGtAgECYALIAzsDuQRCBNgFfgYxBuoHuAiMCWwKXAtSDE8N
-VQ5iD3cQkxGzEtIT9RUVFjsXWhh9GZwauhvTHOsd+x8HIBchKSI6I00kXyVuJnonhiiQKZkqoCumLKkt
-qS6oL6QwoDGVMoYzejRpNVc2RDcuOBU5ADnnOso7sDybPYk+eT9oQFJBP0IoQxVD/UTlRclGrUeTSHpJ
-XUo/SyNMBkzpTctOrU+RUHZRX1JGUy9UF1UDVfBW0VelWHVZQVoQWuBbsVyDXVReJV75X8xgnmFzYkdj
-G2PwZMVlmGZtZ0BoFmjracFqlWtpbDxtDG3RboxvP2/ycKRxU3IFcrdzZ3QXdMh1eXYrdt53kXhGePx5
-tXpweyt76XyrfW9+Mn75f8KAjYFdgi2C/YPNhJuFbYY+hw+H4IiwiYSKV4sqi/2M0Y2kjnuPUpAqkQOR
-3JK5k5WUcpVPljOXHJgImPOZ4ZrQm8Kcsp2knpufk6CLoYaihKOGpIulkKaVp5yop6mzqr+rzazgrfGv
-BbAasS+ySbNktIO1orbDt+S5DLoxu1m8gr2tvtrABcEvwlvDisSzxd3HCsgyyWHKrMv7zUPOf8+60O3S
-JNNl1KTV8tdX2MnaTNv03b/fuOHm5FHnI+ps7mrzdvpZ//8AAG5kaW4AAAAAAAAGNgAAlUYAAFbPAABS
-qQAAkU4AAChyAAAXCgAAUA0AAFQ5AALcKAACqPUAAXMzAAMBAAACAAAAGAAyAE0AZgB+AJYArgDGAN0A
-9AEMASIBOgFQAWgBfwGXAa4BxgHfAfgCEAIoAkICXAJ2ApACqwLGAuIC/wMbAzgDVQN0A5MDswPTA/ME
-FQQ3BFoEfQSjBMkE8gUcBUcFcwWfBcwF+QYoBlcGhwa4BukHHAdQB4YHvQf0CCwIZgiiCN4JHAlbCZwJ
-3wojCmkKsAr5C0MLkgvhDDAMhQzaDTANiQ3kDkEOoA7+D2APxhAtEJQRABFwEeESVBLNE0QTvxQ8FLkV
-OxW/FkcW0hddF+sYfRkRGakaQxreG30cIRzFHWweEh68H2cgFSDFIXQiJSLiI8YksiWhJooneShnKVcq
-RCswLCAtCy32LuEvyjCzMZwygzNtNFU1OzYiNwo39DjeOcs6vjvHPNs97j8BQBlBKUI5Q01EX0VyRoVH
-mEiuScVK3Uv7TRlONU9eUIVRsFLaVBFVSFaFV8RY5ln/WyBcQV1oXpVfwGDwYiZjZGSkZeVnK2h2acVr
-FmxvbcVvGnB0cctzJnSAddd3MHiJeeN7cn0jfuKApYJuhDuGFYf1idWLxo24j6+RppOhlaeXrZmxm7id
-w5/Dod+kkqdbqhis06+AsjS037eZulS9FL/fwrzFkMh+y3DOe9F11JHXu9rd3gPhSeSn6IbtlvV1+TT6
-1/vt/Nn9pv6h//8AAAAWADEASwBmAH4AlwCwAMgA4AD4AREBKQFBAVkBcQGKAaMBvQHWAfACCgIkAj4C
-WQJ0ApACrALJAuYDBAMiA0ADXwN/A54DwAPiBAQEJwRKBG8ElgTABO8FHwVRBYQFtwXrBiAGVgaMBsQG
-/Ac2B3EHrgfsCCoIagirCO4JMQl2Cb0KBQpPCpsK6As2C4gL2wwuDIYM3w05DZYN9Q5VDrgPGg+BD+sQ
-VhDCETQRpxIcEpUTEBOLFAwUixUOFZUWHharFzkXyBhbGPAZiRojGr4bXBv+HKEdRR3pHo4fNx/eIIsh
-NCHfIosjXiQ/JSgmDib0J94oxym0KpwriCx2LWMuUS9AMC8xIjIUMwk0ATT3Ne826jfoOOk57jr0PAU9
-GD4rP0BAWEFrQoFDmkSxRcxG5UgBSR9KP0thTIhNrE7WUARRM1JgU5dU0lYLV01YeFmEWpNbq1y+Xdxe
-/GAWYTpiYGOOZL1l6mccaFJpimrCbAFtPm53b7Nw8HIoc2d0oXXZdxJ4S3mFet98Yn33f4+BJ4K/hFiF
-+YebiTuK4YyOjjyP7ZGgk1eVGZblmK6afpxVnjKgDqH+pCimX6iSqsWtAa9CsYOz0LYvuJK7Ar15wAfC
-lMU2x97Kks1f0B7S/NXm2MTbrd654cbk3+iP69nunPDn8tT0c/X497T//wAAACUATwB4AKAAxwDsARIB
-NgFcAYABpQHLAfECGAI/AmcCjwK5AuQDEAM+A2wDnQPOBAIENwRuBKgE4wUiBWMFpQXoBi0Gcwa7BwUH
-UgehB/IIRQibCPMJTQmrCgsKbgrUCzwLrAwbDI8NBg2ADf4OgA8CD4oQFxCiES0RuRJHEtwTcRQLFKUV
-RRXoFpEXOxfmGJcZSxoBGrobdhw3HPgdux59H0QgCyDWIZ8iayNOJD0lNCYqJyIoHSkcKh0rHiwnLS4u
-Oi9JMFkxcDKIM6Y0wzXkNwo4NDljOps79z1pPuBAZEHlQ3JFAUaWSCxJxktfTPpOj1AoUbxTS1TgVm9X
-/lmFWxJcoF44X8thY2L/ZKFmQGfjaYprM2zibotwOXHlc5h1RXb1eKh6XXwEfaR/SoDugpKENIXch4OJ
-JIrGjGuODY+tkUiS4ZR+lh6Xu5lVmvGcjp4rn8KhYaL7pJWmNqfSqWerBayZrjOvy7Fpsvi0lbYst8S5
-Xbr0vIu+KL/JwWfDB8Skxk/H+cmey0zNAs6d0BvRntMq1L/WZ9gI2bnba90O3q7gV+Hs423k5OZT57np
-FOpQ64Psre3G7tHv1PDG8bXykPNs9Cz06/We9kj28veI+Bz4r/kv+ar6JPqe+wL7ZvvK/C78h/zR/Rv9
-Zf2v/fr+Tf65/yb/kv//AABzZjMyAAAAAAABDEIAAAXe///zJgAAB5IAAP2R///7ov///aMAAAPcAADA
-bG1tb2QAAAAAAAAGEAAAnIQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADSJSYnKFokY2xhc3NuYW1lWCRj
-bGFzc2VzXxAQTlNCaXRtYXBJbWFnZVJlcKMnKSpaTlNJbWFnZVJlcFhOU09iamVjdNIlJiwtV05TQXJy
-YXmiLCrSJSYvMF5OU011dGFibGVBcnJheaMvLCrTMjMKNDU2V05TV2hpdGVcTlNDb2xvclNwYWNlRDAg
-MAAQA4AM0iUmODlXTlNDb2xvcqI4KtIlJjs8V05TSW1hZ2WiOypfEA9OU0tleWVkQXJjaGl2ZXLRP0BU
-cm9vdIABAAgAEQAaACMALQAyADcARgBMAFcAXgBlAHIAeQCBAIMAhQCKAIwAjgCVAJoApQCnAKkAqwCw
-ALMAtQC3ALkAuwDAANcA2QDbHMEcxhzRHNoc7RzxHPwdBR0KHRIdFR0aHSkdLR00HTwdSR1OHVAdUh1X
-HV8dYh1nHW8dch2EHYcdjAAAAAAAAAIBAAAAAAAAAEEAAAAAAAAAAAAAAAAAAB2OA
+bWx1YwAAAAAAAAAiAAAADGhySFIAAAAUAAABqGtvS1IAAAAMAAABvG5iTk8AAAASAAAByGlkAAAAAAAS
+AAAB2mh1SFUAAAAUAAAB7GNzQ1oAAAAWAAACAGRhREsAAAAcAAACFnVrVUEAAAAcAAACMmFyAAAAAAAU
+AAACTml0SVQAAAAUAAACYnJvUk8AAAASAAACdmVzRVMAAAASAAACdmhlSUwAAAAWAAACiG5sTkwAAAAW
+AAACnmZpRkkAAAAQAAACtHpoVFcAAAAMAAACxHZpVk4AAAAOAAAC0HNrU0sAAAAWAAAC3npoQ04AAAAM
+AAACxHJ1UlUAAAAkAAAC9GZyRlIAAAAWAAADGG1zAAAAAAASAAADLmNhRVMAAAAYAAADQHRoVEgAAAAM
+AAADWGVzWEwAAAASAAACdmRlREUAAAAQAAADZGVuVVMAAAASAAADdHB0QlIAAAAYAAADhnBsUEwAAAAS
+AAADnmVsR1IAAAAiAAADsHN2U0UAAAAQAAAD0nRyVFIAAAAUAAAD4mphSlAAAAAOAAAD9nB0UFQAAAAW
+AAAEBABMAEMARAAgAHUAIABiAG8AagBpzuy37AAgAEwAQwBEAEYAYQByAGcAZQAtAEwAQwBEAEwAQwBE
+ACAAVwBhAHIAbgBhAFMAegDtAG4AZQBzACAATABDAEQAQgBhAHIAZQB2AG4A/QAgAEwAQwBEAEwAQwBE
+AC0AZgBhAHIAdgBlAHMAawDmAHIAbQQaBD4EOwRMBD4EQAQ+BDIEOAQ5ACAATABDAEQgDwBMAEMARAAg
+BkUGRAZIBkYGKQBMAEMARAAgAGMAbwBsAG8AcgBpAEwAQwBEACAAYwBvAGwAbwByIA8ATABDAEQAIAXm
+BdEF4gXVBeAF2QBLAGwAZQB1AHIAZQBuAC0ATABDAEQAVgDkAHIAaQAtAEwAQwBEX2mCcgAgAEwAQwBE
+AEwAQwBEACAATQDgAHUARgBhAHIAZQBiAG4A6QAgAEwAQwBEBCYEMgQ1BEIEPQQ+BDkAIAQWBBoALQQ0
+BDgEQQQ/BDsENQQ5AEwAQwBEACAAYwBvAHUAbABlAHUAcgBXAGEAcgBuAGEAIABMAEMARABMAEMARAAg
+AGUAbgAgAGMAbwBsAG8AcgBMAEMARAAgDioONQBGAGEAcgBiAC0ATABDAEQAQwBvAGwAbwByACAATABD
+AEQATABDAEQAIABDAG8AbABvAHIAaQBkAG8ASwBvAGwAbwByACAATABDAEQDiAOzA8cDwQPJA7wDtwAg
+A78DuAPMA70DtwAgAEwAQwBEAEYA5AByAGcALQBMAEMARABSAGUAbgBrAGwAaQAgAEwAQwBEMKsw6TD8
+ACAATABDAEQATABDAEQAIABhACAAQwBvAHIAZQBzAAB0ZXh0AAAAAENvcHlyaWdodCBBcHBsZSBJbmMu
+LCAyMDE0AABYWVogAAAAAAAA81IAAQAAAAEWz1hZWiAAAAAAAABl2wAAOkYAAAmkWFlaIAAAAAAAAGjL
+AACsqwAAGqFYWVogAAAAAAAAKDAAABkPAACu6GN1cnYAAAAAAAAEAAAAAAUACgAPABQAGQAeACMAKAAt
+ADIANgA7AEAARQBKAE8AVABZAF4AYwBoAG0AcgB3AHwAgQCGAIsAkACVAJoAnwCjAKgArQCyALcAvADB
+AMYAywDQANUA2wDgAOUA6wDwAPYA+wEBAQcBDQETARkBHwElASsBMgE4AT4BRQFMAVIBWQFgAWcBbgF1
+AXwBgwGLAZIBmgGhAakBsQG5AcEByQHRAdkB4QHpAfIB+gIDAgwCFAIdAiYCLwI4AkECSwJUAl0CZwJx
+AnoChAKOApgCogKsArYCwQLLAtUC4ALrAvUDAAMLAxYDIQMtAzgDQwNPA1oDZgNyA34DigOWA6IDrgO6
+A8cD0wPgA+wD+QQGBBMEIAQtBDsESARVBGMEcQR+BIwEmgSoBLYExATTBOEE8AT+BQ0FHAUrBToFSQVY
+BWcFdwWGBZYFpgW1BcUF1QXlBfYGBgYWBicGNwZIBlkGagZ7BowGnQavBsAG0QbjBvUHBwcZBysHPQdP
+B2EHdAeGB5kHrAe/B9IH5Qf4CAsIHwgyCEYIWghuCIIIlgiqCL4I0gjnCPsJEAklCToJTwlkCXkJjwmk
+CboJzwnlCfsKEQonCj0KVApqCoEKmAquCsUK3ArzCwsLIgs5C1ELaQuAC5gLsAvIC+EL+QwSDCoMQwxc
+DHUMjgynDMAM2QzzDQ0NJg1ADVoNdA2ODakNww3eDfgOEw4uDkkOZA5/DpsOtg7SDu4PCQ8lD0EPXg96
+D5YPsw/PD+wQCRAmEEMQYRB+EJsQuRDXEPURExExEU8RbRGMEaoRyRHoEgcSJhJFEmQShBKjEsMS4xMD
+EyMTQxNjE4MTpBPFE+UUBhQnFEkUahSLFK0UzhTwFRIVNBVWFXgVmxW9FeAWAxYmFkkWbBaPFrIW1hb6
+Fx0XQRdlF4kXrhfSF/cYGxhAGGUYihivGNUY+hkgGUUZaxmRGbcZ3RoEGioaURp3Gp4axRrsGxQbOxtj
+G4obshvaHAIcKhxSHHscoxzMHPUdHh1HHXAdmR3DHeweFh5AHmoelB6+HukfEx8+H2kflB+/H+ogFSBB
+IGwgmCDEIPAhHCFIIXUhoSHOIfsiJyJVIoIiryLdIwojOCNmI5QjwiPwJB8kTSR8JKsk2iUJJTglaCWX
+Jccl9yYnJlcmhya3JugnGCdJJ3onqyfcKA0oPyhxKKIo1CkGKTgpaymdKdAqAio1KmgqmyrPKwIrNitp
+K50r0SwFLDksbiyiLNctDC1BLXYtqy3hLhYuTC6CLrcu7i8kL1ovkS/HL/4wNTBsMKQw2zESMUoxgjG6
+MfIyKjJjMpsy1DMNM0YzfzO4M/E0KzRlNJ402DUTNU01hzXCNf02NzZyNq426TckN2A3nDfXOBQ4UDiM
+OMg5BTlCOX85vDn5OjY6dDqyOu87LTtrO6o76DwnPGU8pDzjPSI9YT2hPeA+ID5gPqA+4D8hP2E/oj/i
+QCNAZECmQOdBKUFqQaxB7kIwQnJCtUL3QzpDfUPARANER0SKRM5FEkVVRZpF3kYiRmdGq0bwRzVHe0fA
+SAVIS0iRSNdJHUljSalJ8Eo3Sn1KxEsMS1NLmkviTCpMcky6TQJNSk2TTdxOJU5uTrdPAE9JT5NP3VAn
+UHFQu1EGUVBRm1HmUjFSfFLHUxNTX1OqU/ZUQlSPVNtVKFV1VcJWD1ZcVqlW91dEV5JX4FgvWH1Yy1ka
+WWlZuFoHWlZaplr1W0VblVvlXDVchlzWXSddeF3JXhpebF69Xw9fYV+zYAVgV2CqYPxhT2GiYfViSWKc
+YvBjQ2OXY+tkQGSUZOllPWWSZedmPWaSZuhnPWeTZ+loP2iWaOxpQ2maafFqSGqfavdrT2una/9sV2yv
+bQhtYG25bhJua27Ebx5veG/RcCtwhnDgcTpxlXHwcktypnMBc11zuHQUdHB0zHUodYV14XY+dpt2+HdW
+d7N4EXhueMx5KnmJeed6RnqlewR7Y3vCfCF8gXzhfUF9oX4BfmJ+wn8jf4R/5YBHgKiBCoFrgc2CMIKS
+gvSDV4O6hB2EgITjhUeFq4YOhnKG14c7h5+IBIhpiM6JM4mZif6KZIrKizCLlov8jGOMyo0xjZiN/45m
+js6PNo+ekAaQbpDWkT+RqJIRknqS45NNk7aUIJSKlPSVX5XJljSWn5cKl3WX4JhMmLiZJJmQmfyaaJrV
+m0Kbr5wcnImc951kndKeQJ6unx2fi5/6oGmg2KFHobaiJqKWowajdqPmpFakx6U4pammGqaLpv2nbqfg
+qFKoxKk3qamqHKqPqwKrdavprFys0K1ErbiuLa6hrxavi7AAsHWw6rFgsdayS7LCszizrrQltJy1E7WK
+tgG2ebbwt2i34LhZuNG5SrnCuju6tbsuu6e8IbybvRW9j74KvoS+/796v/XAcMDswWfB48JfwtvDWMPU
+xFHEzsVLxcjGRsbDx0HHv8g9yLzJOsm5yjjKt8s2y7bMNcy1zTXNtc42zrbPN8+40DnQutE80b7SP9LB
+00TTxtRJ1MvVTtXR1lXW2Ndc1+DYZNjo2WzZ8dp22vvbgNwF3IrdEN2W3hzeot8p36/gNuC94UThzOJT
+4tvjY+Pr5HPk/OWE5g3mlucf56noMui86Ubp0Opb6uXrcOv77IbtEe2c7ijutO9A78zwWPDl8XLx//KM
+8xnzp/Q09ML1UPXe9m32+/eK+Bn4qPk4+cf6V/rn+3f8B/yY/Sn9uv5L/tz/bf//cGFyYQAAAAAAAwAA
+AAJmZgAA8qcAAA1ZAAAT0AAACg52Y2d0AAAAAAAAAAAAAwEAAAIAAAAEABAAKABLAHsAuAECAVMBsQIc
+ApEDFQOxBGAFIgX0BtYHygjWCfcLHwxqDcIPJBCaEiMTrBU/FvQYmxpQHA0dzR+KIVUjGyTbJqMoZCol
+K94tiC8fMLEyRzPfNXQ3CzigOjU7wD1GPtBAU0HQQ0tEwUYwR5tJA0pmS8NNF05vT7hRBFJMU49Uz1YS
+V1JYiFnAWvVcIV1MXnVflmC8Yd1jAWQhZT5mV2dtaIZpnGqva8Fsz23fbu5v+HECcgxzGXQldTJ2PndJ
+eFl5aXpre0Z8G3zvfcZ+on98gFqBOIIagwCD6ITRhcCGsYemiJ6JmoqXi5qMm42ijq2PuZDHkdWS5ZPz
+lPWV6pbal82YwZm1mrKbsJytna6esZ+1oLyhwqLJo9Gk1qXepuan6ajtqfKq9av0rPKt767zsA+xMLJO
+s2u0g7Wetra3y7jbueu6+7wJvRW+IL8pwDLBPsJKw1jEZsV2xonHnsi0ycvKv8uizIDNXM44zxPP7tDF
+0ZrScdNF1BbU6dW71o7XYtg02QXZ19qs24DcVd0s3gTe1d974B/gwOFk4gnisONb5AfksuVh5g/mvOdq
+6Bjox+l06iDqyut37CPszO117h3uwu9r8BTwuPFc8f/ypPNK8/H0kvUx9c/2Xvbp91f3wvga+GD4pvjs
++XP6G/uu/iP//wAAAAQAEgAsAFIAhgDIARUBYwG+AicCoQMnA7cEYAUgBeoGxAe0CLgJzQrqDCANaA7D
+ECMRjRMIFIoWHRe7GV0bAxyrHlcgDiHBI3wlKSbeKJIqMyurLQ8uay/JMS0yjzP1NVk2vzgiOX863zw+
+PZo+9kBRQaZC+kRJRZhG4kgnSW9Kq0vpTSNOW0+RUMdR+1MoVFRVgFajV8ZY5loDWyJcO11ZXnNfiGCc
+Ya5iwWPTZONl8Wb/aA5pHGooazRsQW1SbmVvdHCJcZpysnPLdNF1tnaSd2t4SHkoegh66nvNfLF9m36E
+f26AW4FKgjqDLIQehRKGB4b8h/KI64nkit2L1YzNjcOOuo+qkJuRjpKBk3WUbpVnlmCXXJhYmVeaVptV
+nFWdVZ5Un1WgVaFUolOjVaRTpU+mTadJqFCpdqqmq86s+q4fr0iwb7GUsrOz07T1thW3M7hSuXC6jruy
+vNa9+78kwE7BfMKtw+DFDMYbxxTIB8j6ye/K5cvczNDNxc69z7PQp9Gb0o/ThNR41WnWV9dE2DPZH9oK
+2vTb39zD3ZLeXd8o3/Xgw+GQ4lzjKeP25MHliOZO5xPn1+ia6VnqF+rW65DsS+0F7b3uce8l797wj/FA
+8fDypPNY9Ar0tvVi9g/2u/dV9+f4ifk4+f/67fwL/Wf+uv8z/3f/u///AAAAAgALABoAMQBQAHcApwDg
+AR8BYQGtAgECYALIAzsDuQRCBNgFfgYxBuoHuAiMCWwKXAtSDE8NVQ5iD3cQkxGzEtIT9RUVFjsXWhh9
+GZwauhvTHOsd+x8HIBchKSI6I00kXyVuJnonhiiQKZkqoCumLKktqS6oL6QwoDGVMoYzejRpNVc2RDcu
+OBU5ADnnOso7sDybPYk+eT9oQFJBP0IoQxVD/UTlRclGrUeTSHpJXUo/SyNMBkzpTctOrU+RUHZRX1JG
+Uy9UF1UDVfBW0VelWHVZQVoQWuBbsVyDXVReJV75X8xgnmFzYkdjG2PwZMVlmGZtZ0BoFmjracFqlWtp
+bDxtDG3RboxvP2/ycKRxU3IFcrdzZ3QXdMh1eXYrdt53kXhGePx5tXpweyt76XyrfW9+Mn75f8KAjYFd
+gi2C/YPNhJuFbYY+hw+H4IiwiYSKV4sqi/2M0Y2kjnuPUpAqkQOR3JK5k5WUcpVPljOXHJgImPOZ4ZrQ
+m8Kcsp2knpufk6CLoYaihKOGpIulkKaVp5yop6mzqr+rzazgrfGvBbAasS+ySbNktIO1orbDt+S5DLox
+u1m8gr2tvtrABcEvwlvDisSzxd3HCsgyyWHKrMv7zUPOf8+60O3SJNNl1KTV8tdX2MnaTNv03b/fuOHm
+5FHnI+ps7mrzdvpZ//8AAG5kaW4AAAAAAAAGNgAAlUYAAFbPAABSqQAAkU4AAChyAAAXCgAAUA0AAFQ5
+AALcKAACqPUAAXMzAAMBAAACAAAAGAAyAE0AZgB+AJYArgDGAN0A9AEMASIBOgFQAWgBfwGXAa4BxgHf
+AfgCEAIoAkICXAJ2ApACqwLGAuIC/wMbAzgDVQN0A5MDswPTA/MEFQQ3BFoEfQSjBMkE8gUcBUcFcwWf
+BcwF+QYoBlcGhwa4BukHHAdQB4YHvQf0CCwIZgiiCN4JHAlbCZwJ3wojCmkKsAr5C0MLkgvhDDAMhQza
+DTANiQ3kDkEOoA7+D2APxhAtEJQRABFwEeESVBLNE0QTvxQ8FLkVOxW/FkcW0hddF+sYfRkRGakaQxre
+G30cIRzFHWweEh68H2cgFSDFIXQiJSLiI8YksiWhJooneShnKVcqRCswLCAtCy32LuEvyjCzMZwygzNt
+NFU1OzYiNwo39DjeOcs6vjvHPNs97j8BQBlBKUI5Q01EX0VyRoVHmEiuScVK3Uv7TRlONU9eUIVRsFLa
+VBFVSFaFV8RY5ln/WyBcQV1oXpVfwGDwYiZjZGSkZeVnK2h2acVrFmxvbcVvGnB0cctzJnSAddd3MHiJ
+eeN7cn0jfuKApYJuhDuGFYf1idWLxo24j6+RppOhlaeXrZmxm7idw5/Dod+kkqdbqhis06+AsjS037eZ
+ulS9FL/fwrzFkMh+y3DOe9F11JHXu9rd3gPhSeSn6IbtlvV1+TT61/vt/Nn9pv6h//8AAAAWADEASwBm
+AH4AlwCwAMgA4AD4AREBKQFBAVkBcQGKAaMBvQHWAfACCgIkAj4CWQJ0ApACrALJAuYDBAMiA0ADXwN/
+A54DwAPiBAQEJwRKBG8ElgTABO8FHwVRBYQFtwXrBiAGVgaMBsQG/Ac2B3EHrgfsCCoIagirCO4JMQl2
+Cb0KBQpPCpsK6As2C4gL2wwuDIYM3w05DZYN9Q5VDrgPGg+BD+sQVhDCETQRpxIcEpUTEBOLFAwUixUO
+FZUWHharFzkXyBhbGPAZiRojGr4bXBv+HKEdRR3pHo4fNx/eIIshNCHfIosjXiQ/JSgmDib0J94oxym0
+KpwriCx2LWMuUS9AMC8xIjIUMwk0ATT3Ne826jfoOOk57jr0PAU9GD4rP0BAWEFrQoFDmkSxRcxG5UgB
+SR9KP0thTIhNrE7WUARRM1JgU5dU0lYLV01YeFmEWpNbq1y+Xdxe/GAWYTpiYGOOZL1l6mccaFJpimrC
+bAFtPm53b7Nw8HIoc2d0oXXZdxJ4S3mFet98Yn33f4+BJ4K/hFiF+YebiTuK4YyOjjyP7ZGgk1eVGZbl
+mK6afpxVnjKgDqH+pCimX6iSqsWtAa9CsYOz0LYvuJK7Ar15wAfClMU2x97Kks1f0B7S/NXm2MTbrd65
+4cbk3+iP69nunPDn8tT0c/X497T//wAAACUATwB4AKAAxwDsARIBNgFcAYABpQHLAfECGAI/AmcCjwK5
+AuQDEAM+A2wDnQPOBAIENwRuBKgE4wUiBWMFpQXoBi0Gcwa7BwUHUgehB/IIRQibCPMJTQmrCgsKbgrU
+CzwLrAwbDI8NBg2ADf4OgA8CD4oQFxCiES0RuRJHEtwTcRQLFKUVRRXoFpEXOxfmGJcZSxoBGrobdhw3
+HPgdux59H0QgCyDWIZ8iayNOJD0lNCYqJyIoHSkcKh0rHiwnLS4uOi9JMFkxcDKIM6Y0wzXkNwo4NDlj
+Ops79z1pPuBAZEHlQ3JFAUaWSCxJxktfTPpOj1AoUbxTS1TgVm9X/lmFWxJcoF44X8thY2L/ZKFmQGfj
+aYprM2zibotwOXHlc5h1RXb1eKh6XXwEfaR/SoDugpKENIXch4OJJIrGjGuODY+tkUiS4ZR+lh6Xu5lV
+mvGcjp4rn8KhYaL7pJWmNqfSqWerBayZrjOvy7Fpsvi0lbYst8S5Xbr0vIu+KL/JwWfDB8Skxk/H+cme
+y0zNAs6d0BvRntMq1L/WZ9gI2bnba90O3q7gV+Hs423k5OZT57npFOpQ64Psre3G7tHv1PDG8bXykPNs
+9Cz06/We9kj28veI+Bz4r/kv+ar6JPqe+wL7ZvvK/C78h/zR/Rv9Zf2v/fr+Tf65/yb/kv//AABzZjMy
+AAAAAAABDEIAAAXe///zJgAAB5IAAP2R///7ov///aMAAAPcAADAbG1tb2QAAAAAAAAGEAAAnIQAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAADSKywtLlokY2xhc3NuYW1lWCRjbGFzc2VzXxAQTlNCaXRtYXBJbWFn
+ZVJlcKMtLzBaTlNJbWFnZVJlcFhOU09iamVjdNIrLDIzV05TQXJyYXmiMjDSKyw1Nl5OU011dGFibGVB
+cnJheaM1MjDTODkPOjs8V05TV2hpdGVcTlNDb2xvclNwYWNlRDAgMAAQA4AM0issPj9XTlNDb2xvcqI+
+MNIrLEFCV05TSW1hZ2WiQTAACAARABoAJAApADIANwBJAEwAUQBTAGIAaAB1AHwAiwCSAJ8ApgCuALAA
+sgC0ALkAuwC9AMQAyQDUANYA2ADaAN8A4gDkAOYA6ADvAQYBIgEkASYdJB0pHTQdPR1QHVQdXx1oHW0d
+dR14HX0djB2QHZcdnx2sHbEdsx21Hbodwh3FHcod0gAAAAAAAAIBAAAAAAAAAEMAAAAAAAAAAAAAAAAA
+AB3VA
 </mutableData>
         </image>
         <image name="detachproc" width="8" height="8"/>

@@ -160,7 +160,7 @@
    *title = NSLocalizedString(@"Deconvolution",@"Deconvolution tool");
    *toolTitle = NSLocalizedString(@"Deconvolution",@"Deconvolution tool");
    *key = @"d";
-   *icon = [NSImage imageNamed:@"Deconvolution"];
+   *icon = [NSImage imageNamed:@"reflect_vertical"];
    *tip = NSLocalizedString(@"DeconvolutionTip",@"Deconvolution tooltip");;
 }
 

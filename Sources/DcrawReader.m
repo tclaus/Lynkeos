@@ -487,7 +487,7 @@ static BOOL isWaitingConversion = NO;
    // If the conversion is not finished, wait for its completion
    if (  _dcrawTask != nil )
    {
-      FILE * ppmFile;
+      FILE *ppmFile;
 
       if ( [_dcrawTask isRunning] )
       {
@@ -499,13 +499,14 @@ static BOOL isWaitingConversion = NO;
          while ([_dcrawTask isRunning])
          {
             if (progressSession != nil)
-               [NSApp runModalSession:progressSession];
-            [[NSRunLoop currentRunLoop] runUntilDate:[NSDate dateWithTimeIntervalSinceNow:0.1]];
+               [NSApp runModalSession: progressSession];
+            [[NSRunLoop currentRunLoop] runUntilDate:[NSDate dateWithTimeIntervalSinceNow:0.2]];
          }
 
          [NSCursor pop];
       }
-
+       // Todo: run code after dcraw finished processing - domnt poll !
+       
       // When succesful, initialize the PPM file info
       if ( [_dcrawTask terminationStatus] == 0 )
       {

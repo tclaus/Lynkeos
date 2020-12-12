@@ -558,7 +558,7 @@ static NSString * const K_STACK_NAME = @"name";
    *title = NSLocalizedString(@"StackMenu",@"Stack menu");
    *toolTitle = NSLocalizedString(@"StackTool",@"Stack tool");
    *key = @"s";
-   *icon = [NSImage imageNamed:@"Photolist"];
+   *icon = [NSImage imageNamed:@"ImageStack"];
    *tip = NSLocalizedString(@"StackTip",@"Stack tooltip");;
 }
 

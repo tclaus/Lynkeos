@@ -280,6 +280,14 @@ static NSString * const K_PLANELEVELS_SET_KEY = @"planeLevelsSet";
    if ( _processedSpectrum != nil )
       [self goIntoImageSpace];
 
+    if ( _black == NULL || _white == NULL || _gamma == NULL )
+    {
+       _black = (double*)malloc( (_nPlanes+1)*sizeof(double) );
+       _white = (double*)malloc( (_nPlanes+1)*sizeof(double) );
+       _gamma = (double*)malloc( (_nPlanes+1)*sizeof(double) );
+    }
+    
+    
    if ( _processedImage != nil && _white[_nPlanes] > _black[_nPlanes] )
       image = [_processedImage getImageInRect:LynkeosIntegerRectFromNSRect(rect)
                                     withBlack:_black white:_white gamma:_gamma];

@@ -47,6 +47,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		65E3A4E12585113B00E155A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65E3A4E02585113B00E155A3 /* Images.xcassets */; };
 		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
 		8F02EE9D12D9F3EA00679086 /* MyImageStacker_Extrema.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F02EE9C12D9F3EA00679086 /* MyImageStacker_Extrema.m */; };
 		8F02FC1719AD2E5B009DF896 /* project-support.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F02FC1619AD2E5B009DF896 /* project-support.jpg */; };
@@ -68,7 +69,6 @@
 		8F13695A0A84CEF7003D8FB7 /* cross.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8F13694B0A84CEF7003D8FB7 /* cross.gif */; };
 		8F13695B0A84CEF7003D8FB7 /* hand.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8F13694C0A84CEF7003D8FB7 /* hand.gif */; };
 		8F13695C0A84CEF7003D8FB7 /* left.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8F13694D0A84CEF7003D8FB7 /* left.gif */; };
-		8F13695D0A84CEF7003D8FB7 /* Lynkeos.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8F13694E0A84CEF7003D8FB7 /* Lynkeos.icns */; };
 		8F13695E0A84CEF7003D8FB7 /* minus.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8F13694F0A84CEF7003D8FB7 /* minus.gif */; };
 		8F13695F0A84CEF7003D8FB7 /* Photolist.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8F1369500A84CEF7003D8FB7 /* Photolist.icns */; };
 		8F1369600A84CEF7003D8FB7 /* plus.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8F1369510A84CEF7003D8FB7 /* plus.gif */; };
@@ -182,14 +182,12 @@
 		8F8D849417EE135200342AE6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8D849317EE135200342AE6 /* XCTest.framework */; };
 		8F969C6D188737940097BAE4 /* MyImageStacker_Calibration.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F969C6C188737940097BAE4 /* MyImageStacker_Calibration.m */; };
 		8F9D174E0C1A007300D1F1FC /* MyImageAnalyzerPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9D174C0C1A007300D1F1FC /* MyImageAnalyzerPrefs.m */; };
-		8F9D17E10C1A132500D1F1FC /* Analysis.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8F9D17E00C1A132500D1F1FC /* Analysis.gif */; };
 		8F9FFE6F0CF07F0A0049B7A4 /* LucyRichardson.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8F9FFE6E0CF07F0A0049B7A4 /* LucyRichardson.gif */; };
 		8FA0357D12CFCB7E0061A6B1 /* MyImageStacker_Standard.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA0357C12CFCB7E0061A6B1 /* MyImageStacker_Standard.m */; };
 		8FA7237C0EE21A6A00AEBC77 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2BD1310E8D8F950084D6BA /* Carbon.framework */; };
 		8FAC885619CA36C400FC8F43 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FACEC8019C8DC0F000F035C /* Accelerate.framework */; };
 		8FACEC8119C8DC0F000F035C /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FACEC8019C8DC0F000F035C /* Accelerate.framework */; };
 		8FAD2F210D948686006D43D3 /* dcraw_file_extensions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FAD2F200D948686006D43D3 /* dcraw_file_extensions.plist */; };
-		8FAD3DAC0CB26FDF00B7F483 /* Deconvolution.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8FAD3DAB0CB26FDE00B7F483 /* Deconvolution.gif */; };
 		8FAD9EFC0C25871200C79F5F /* MyImageStacker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FAD9EFA0C25871200C79F5F /* MyImageStacker.m */; };
 		8FAE70B00EBE063B00D9F041 /* LynkeosObjectCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FD570D90D8ACFE100D743CC /* LynkeosObjectCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8FAE70B10EBE063B00D9F041 /* LynkeosObjectCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD570DA0D8ACFE100D743CC /* LynkeosObjectCache.m */; };
@@ -292,17 +290,14 @@
 		8FE3C35D0E588261002C9F4B /* LynkeosGammaCorrecter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FE3C35B0E588261002C9F4B /* LynkeosGammaCorrecter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8FE3C35E0E588261002C9F4B /* LynkeosGammaCorrecter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE3C35C0E588261002C9F4B /* LynkeosGammaCorrecter.m */; };
 		8FE4399A0DC791CD00981D5E /* ChromaticLevels.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8FE439990DC791CD00981D5E /* ChromaticLevels.gif */; };
-		8FE489D50CF072FA004939C8 /* List.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8FE489D40CF072F9004939C8 /* List.gif */; };
 		8FE834240D97B41C00EF04EC /* MyCustomAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE834230D97B41C00EF04EC /* MyCustomAlert.m */; };
 		8FE834280D97BE7600EF04EC /* MyCustomAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE834230D97B41C00EF04EC /* MyCustomAlert.m */; };
 		8FEBD9F012D27799007AA622 /* MyImageStacker_SigmaReject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FEBD9EF12D27799007AA622 /* MyImageStacker_SigmaReject.m */; };
-		8FEBFDE00CF4DA9600C263B9 /* ProcessStack.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8FEBFDDF0CF4DA9500C263B9 /* ProcessStack.gif */; };
 		8FED91630A937BC000746C7D /* FFmpegReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FED91620A937BC000746C7D /* FFmpegReader.m */; };
 		8FEF3B8C21BC837800C29447 /* LynkeosCore.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8FD46CDD0DD303FD00766CE1 /* LynkeosCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8FEFA67220F92BF900E5E8EE /* LynkeosBicubicInterpolator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FEFA67120F92BF900E5E8EE /* LynkeosBicubicInterpolator.m */; };
 		8FF351CF0E8ADFD100C4F672 /* DcrawReaderPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF351CE0E8ADFD100C4F672 /* DcrawReaderPrefs.m */; };
 		8FF352170E8AE52800C4F672 /* Dcraw.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8FF352160E8AE52800C4F672 /* Dcraw.icns */; };
-		8FFC7A240BF2522D00E67179 /* Align.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8FFC7A230BF2522D00E67179 /* Align.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -478,6 +473,7 @@
 		65DAA7F52584D9ED009E08D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SER_ReaderPrefs.xib; sourceTree = "<group>"; };
 		65DAA7F62584D9ED009E08D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TiffWriter.xib; sourceTree = "<group>"; };
 		65DAA7F72584D9ED009E08D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/FITSWriter.xib; sourceTree = "<group>"; };
+		65E3A4E02585113B00E155A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Lynkeos/Images.xcassets; sourceTree = "<group>"; };
 		8D15AC360486D014006FF6A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D15AC370486D014006FF6A4 /* Lynkeos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lynkeos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F02EE9B12D9F3EA00679086 /* MyImageStacker_Extrema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyImageStacker_Extrema.h; path = Sources/MyImageStacker_Extrema.h; sourceTree = "<group>"; };
@@ -514,7 +510,6 @@
 		8F13694B0A84CEF7003D8FB7 /* cross.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = cross.gif; path = Assets/cross.gif; sourceTree = "<group>"; };
 		8F13694C0A84CEF7003D8FB7 /* hand.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = hand.gif; path = Assets/hand.gif; sourceTree = "<group>"; };
 		8F13694D0A84CEF7003D8FB7 /* left.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = left.gif; path = Assets/left.gif; sourceTree = "<group>"; };
-		8F13694E0A84CEF7003D8FB7 /* Lynkeos.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Lynkeos.icns; path = Assets/Lynkeos.icns; sourceTree = "<group>"; };
 		8F13694F0A84CEF7003D8FB7 /* minus.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = minus.gif; path = Assets/minus.gif; sourceTree = "<group>"; };
 		8F1369500A84CEF7003D8FB7 /* Photolist.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Photolist.icns; path = Assets/Photolist.icns; sourceTree = "<group>"; };
 		8F1369510A84CEF7003D8FB7 /* plus.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = plus.gif; path = Assets/plus.gif; sourceTree = "<group>"; };
@@ -661,7 +656,6 @@
 		8F97008419EEDAC000B9EF05 /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = it.lproj/MyImageAligner.xib; sourceTree = "<group>"; };
 		8F9D174B0C1A007300D1F1FC /* MyImageAnalyzerPrefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyImageAnalyzerPrefs.h; path = Sources/MyImageAnalyzerPrefs.h; sourceTree = "<group>"; };
 		8F9D174C0C1A007300D1F1FC /* MyImageAnalyzerPrefs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyImageAnalyzerPrefs.m; path = Sources/MyImageAnalyzerPrefs.m; sourceTree = "<group>"; };
-		8F9D17E00C1A132500D1F1FC /* Analysis.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Analysis.gif; path = Assets/Analysis.gif; sourceTree = "<group>"; };
 		8F9FFE6E0CF07F0A0049B7A4 /* LucyRichardson.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = LucyRichardson.gif; path = Assets/LucyRichardson.gif; sourceTree = "<group>"; };
 		8FA0357B12CFCB7E0061A6B1 /* MyImageStacker_Standard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyImageStacker_Standard.h; path = Sources/MyImageStacker_Standard.h; sourceTree = "<group>"; };
 		8FA0357C12CFCB7E0061A6B1 /* MyImageStacker_Standard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyImageStacker_Standard.m; path = Sources/MyImageStacker_Standard.m; sourceTree = "<group>"; };
@@ -705,7 +699,6 @@
 		8FA987562471D4B10029B92D /* SER_ReaderPrefs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SER_ReaderPrefs.m; path = Sources/SER_ReaderPrefs.m; sourceTree = "<group>"; };
 		8FACEC8019C8DC0F000F035C /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = ../../../../../../System/Library/Frameworks/Accelerate.framework; sourceTree = "<group>"; };
 		8FAD2F200D948686006D43D3 /* dcraw_file_extensions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = dcraw_file_extensions.plist; path = Assets/dcraw_file_extensions.plist; sourceTree = "<group>"; };
-		8FAD3DAB0CB26FDE00B7F483 /* Deconvolution.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Deconvolution.gif; path = Assets/Deconvolution.gif; sourceTree = "<group>"; };
 		8FAD9EF90C25871200C79F5F /* MyImageStacker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyImageStacker.h; path = Sources/MyImageStacker.h; sourceTree = "<group>"; };
 		8FAD9EFA0C25871200C79F5F /* MyImageStacker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyImageStacker.m; path = Sources/MyImageStacker.m; sourceTree = "<group>"; };
 		8FAF6764189AF3B0002E9ADF /* MyMultiPassImageEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyMultiPassImageEnumerator.h; path = Sources/MyMultiPassImageEnumerator.h; sourceTree = "<group>"; };
@@ -834,12 +827,10 @@
 		8FE3C35B0E588261002C9F4B /* LynkeosGammaCorrecter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LynkeosGammaCorrecter.h; path = Sources/LynkeosGammaCorrecter.h; sourceTree = "<group>"; };
 		8FE3C35C0E588261002C9F4B /* LynkeosGammaCorrecter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LynkeosGammaCorrecter.m; path = Sources/LynkeosGammaCorrecter.m; sourceTree = "<group>"; };
 		8FE439990DC791CD00981D5E /* ChromaticLevels.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = ChromaticLevels.gif; path = Assets/ChromaticLevels.gif; sourceTree = "<group>"; };
-		8FE489D40CF072F9004939C8 /* List.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = List.gif; path = Assets/List.gif; sourceTree = "<group>"; };
 		8FE834220D97B41C00EF04EC /* MyCustomAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyCustomAlert.h; path = Sources/MyCustomAlert.h; sourceTree = "<group>"; };
 		8FE834230D97B41C00EF04EC /* MyCustomAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyCustomAlert.m; path = Sources/MyCustomAlert.m; sourceTree = "<group>"; };
 		8FEBD9EE12D27799007AA622 /* MyImageStacker_SigmaReject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyImageStacker_SigmaReject.h; path = Sources/MyImageStacker_SigmaReject.h; sourceTree = "<group>"; };
 		8FEBD9EF12D27799007AA622 /* MyImageStacker_SigmaReject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyImageStacker_SigmaReject.m; path = Sources/MyImageStacker_SigmaReject.m; sourceTree = "<group>"; };
-		8FEBFDDF0CF4DA9500C263B9 /* ProcessStack.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = ProcessStack.gif; path = Assets/ProcessStack.gif; sourceTree = "<group>"; };
 		8FED912F0A9329DE00746C7D /* doxy-filter */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.sh; name = "doxy-filter"; path = "Docs/doxy-filter"; sourceTree = "<group>"; };
 		8FED91300A9329DE00746C7D /* Doxyfile */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = Doxyfile; path = Docs/Doxyfile; sourceTree = "<group>"; };
 		8FED91310A9329DE00746C7D /* doxytag-apple */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.script.sh; name = "doxytag-apple"; path = "Docs/doxytag-apple"; sourceTree = "<group>"; };
@@ -855,7 +846,6 @@
 		8FF351CD0E8ADFD100C4F672 /* DcrawReaderPrefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DcrawReaderPrefs.h; path = Sources/DcrawReaderPrefs.h; sourceTree = "<group>"; };
 		8FF351CE0E8ADFD100C4F672 /* DcrawReaderPrefs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DcrawReaderPrefs.m; path = Sources/DcrawReaderPrefs.m; sourceTree = "<group>"; };
 		8FF352160E8AE52800C4F672 /* Dcraw.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Dcraw.icns; path = Assets/Dcraw.icns; sourceTree = "<group>"; };
-		8FFC7A230BF2522D00E67179 /* Align.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Align.gif; path = Assets/Align.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1013,6 +1003,7 @@
 		2A37F4AAFDCFA73011CA2CEA /* Lynkeos */ = {
 			isa = PBXGroup;
 			children = (
+				65E3A4E02585113B00E155A3 /* Images.xcassets */,
 				8FC626E40DE377ED009DF792 /* Help */,
 				8FED912E0A9329A700746C7D /* Doc */,
 				8FA611BF17B7E6910087DAD5 /* SDK */,
@@ -1067,10 +1058,7 @@
 				8F512B420D95153000086CD4 /* Cache.gif */,
 				8F1B2FED0D09AC890090C4AF /* Wavelet.gif */,
 				8F4D48630D03713400965F8E /* UnsharpMask.gif */,
-				8FEBFDDF0CF4DA9500C263B9 /* ProcessStack.gif */,
 				8F9FFE6E0CF07F0A0049B7A4 /* LucyRichardson.gif */,
-				8FE489D40CF072F9004939C8 /* List.gif */,
-				8FAD3DAB0CB26FDE00B7F483 /* Deconvolution.gif */,
 				8D15AC360486D014006FF6A4 /* Info.plist */,
 				8F2D02B919AC8F95005C8C3A /* Localizable.strings */,
 				8F2D02BF19AC8FC7005C8C3A /* Credits.rtf */,
@@ -1079,7 +1067,6 @@
 				8F2D02D119AC907F005C8C3A /* License.rtf */,
 				8F2D02D719AC90AA005C8C3A /* InfoPlist.strings */,
 				8F2D02DD19AC90D4005C8C3A /* Lynkeos help */,
-				8F9D17E00C1A132500D1F1FC /* Analysis.gif */,
 				8FC2A72C0C070C0900E44D6C /* hidemargin.gif */,
 				8F1369480A84CEF7003D8FB7 /* bottom.gif */,
 				8F1369490A84CEF7003D8FB7 /* bottomLeft.gif */,
@@ -1087,7 +1074,6 @@
 				8F13694B0A84CEF7003D8FB7 /* cross.gif */,
 				8F13694C0A84CEF7003D8FB7 /* hand.gif */,
 				8F13694D0A84CEF7003D8FB7 /* left.gif */,
-				8F13694E0A84CEF7003D8FB7 /* Lynkeos.icns */,
 				8F13694F0A84CEF7003D8FB7 /* minus.gif */,
 				8F1369500A84CEF7003D8FB7 /* Photolist.icns */,
 				8F1369510A84CEF7003D8FB7 /* plus.gif */,
@@ -1096,7 +1082,6 @@
 				8F1369540A84CEF7003D8FB7 /* topLeft.gif */,
 				8F1369550A84CEF7003D8FB7 /* topRight.gif */,
 				8F1369560A84CEF7003D8FB7 /* watch.gif */,
-				8FFC7A230BF2522D00E67179 /* Align.gif */,
 				8FC478A90C06F29B009386B5 /* detachproc.gif */,
 				8FC478AA0C06F29B009386B5 /* hidelist.gif */,
 				8FC478AB0C06F29B009386B5 /* split.gif */,
@@ -1798,7 +1783,6 @@
 				8F2D011719AC8E99005C8C3A /* MyChromaticAlign.xib in Resources */,
 				8F13695C0A84CEF7003D8FB7 /* left.gif in Resources */,
 				8F2D02B019AC8F43005C8C3A /* TiffWriter.xib in Resources */,
-				8F13695D0A84CEF7003D8FB7 /* Lynkeos.icns in Resources */,
 				8F2D02BB19AC8F95005C8C3A /* Localizable.strings in Resources */,
 				8F13695E0A84CEF7003D8FB7 /* minus.gif in Resources */,
 				8F13695F0A84CEF7003D8FB7 /* Photolist.icns in Resources */,
@@ -1811,9 +1795,9 @@
 				8F1369650A84CEF7003D8FB7 /* watch.gif in Resources */,
 				8F2D02D319AC907F005C8C3A /* License.rtf in Resources */,
 				8F2D00DD19AC8BB4005C8C3A /* MainMenu.xib in Resources */,
-				8FFC7A240BF2522D00E67179 /* Align.gif in Resources */,
 				8FC478AC0C06F29B009386B5 /* detachproc.gif in Resources */,
 				8FC478AD0C06F29B009386B5 /* hidelist.gif in Resources */,
+				65E3A4E12585113B00E155A3 /* Images.xcassets in Resources */,
 				8F2D010619AC8E13005C8C3A /* MyUnsharpMask.xib in Resources */,
 				8F2D02DF19AC90D4005C8C3A /* Lynkeos help in Resources */,
 				8F2D02CD19AC9058005C8C3A /* Copyrights.rtf in Resources */,
@@ -1822,14 +1806,10 @@
 				8FC478AE0C06F29B009386B5 /* split.gif in Resources */,
 				8F2D010019AC8DF0005C8C3A /* MyDeconvolution.xib in Resources */,
 				8FC2A72D0C070C0900E44D6C /* hidemargin.gif in Resources */,
-				8F9D17E10C1A132500D1F1FC /* Analysis.gif in Resources */,
 				8F2D00E519AC8C98005C8C3A /* ImageListWindow.xib in Resources */,
-				8FAD3DAC0CB26FDF00B7F483 /* Deconvolution.gif in Resources */,
-				8FE489D50CF072FA004939C8 /* List.gif in Resources */,
 				8F2D00FA19AC8DAB005C8C3A /* MyWavelet.xib in Resources */,
 				8F9FFE6F0CF07F0A0049B7A4 /* LucyRichardson.gif in Resources */,
 				8F2D010C19AC8E37005C8C3A /* MyLucyRichardson.xib in Resources */,
-				8FEBFDE00CF4DA9600C263B9 /* ProcessStack.gif in Resources */,
 				8F2D011219AC8E68005C8C3A /* MyProcessStackView.xib in Resources */,
 				8F4D48640D03713500965F8E /* UnsharpMask.gif in Resources */,
 				8F2D02C719AC9017005C8C3A /* Changelog.rtf in Resources */,
@@ -3109,6 +3089,7 @@
 		C05733C808A9546B00998B17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CURRENT_PROJECT_VERSION = 340.0;
@@ -3133,6 +3114,7 @@
 		C05733C908A9546B00998B17 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CURRENT_PROJECT_VERSION = 340.0;
@@ -3157,7 +3139,6 @@
 		C05733CC08A9546B00998B17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
 				BASEDOCURL = "";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -3229,7 +3210,6 @@
 		C05733CD08A9546B00998B17 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
 				BASEDOCURL = "http://developer.apple.com/library/mac/#documentation/Cocoa/Reference";
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
