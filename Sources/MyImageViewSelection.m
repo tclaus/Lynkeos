@@ -28,28 +28,16 @@
 #define min(a,b) ((a) > (b) ? b : a )
 
 static const NSString
-*crossImage = @"cross",
-*leftImage = @"left",
-*rightImage = @"right",
-*topImage = @"top",
-*bottomImage = @"bottom",
 *topLeftImage = @"topLeft",
 *topRightImage = @"topRight",
 *bottomLeftImage = @"bottomLeft",
-*bottomRightImage = @"bottomRight",
-*insideImage = @"hand";
+*bottomRightImage = @"bottomRight";
 
 static const NSPoint
-crossSpot = {8,8},
-leftSpot = {1,7},
-rightSpot = {14,7},
-topSpot = {7,1},
-bottomSpot = {7,14},
 topLeftSpot = {1,1},
 topRightSpot = {14,1},
 bottomLeftSpot = {1,14},
-bottomRightSpot = {14,14},
-insideSpot = {8,8};
+bottomRightSpot = {14,14};
 
 // Utility function to construct the new selection
 static short processDrag( long mouse, u_short origin, u_short maximum, 
@@ -215,9 +203,6 @@ static short processDrag( long mouse, u_short origin, u_short maximum,
    _bottomRightCursor = [[[NSCursor alloc] initWithImage:
                                 [NSImage imageNamed:(NSString*)bottomRightImage]
                                                hotSpot:bottomRightSpot] retain];
-   _insideCursor = [[[NSCursor alloc] initWithImage:
-                                    [NSImage imageNamed:(NSString*)insideImage]
-                                            hotSpot:insideSpot] retain];
 }
 
 -  (void) mouseDown:(NSEvent *)theEvent
@@ -303,6 +288,7 @@ static short processDrag( long mouse, u_short origin, u_short maximum,
          _selectionOrigin = sel->_rect.origin;
          _lastPoint = LynkeosIntegerPointFromNSPoint(o);
          _draggingMode = SelMove;
+          [NSCursor.closedHandCursor push];
       }
       else
          selIndex++;
@@ -608,7 +594,10 @@ static short processDrag( long mouse, u_short origin, u_short maximum,
 
       _draggingMode = SelNone;
       _previousSelectionIndex = NSNotFound;
-
+       if (NSCursor.currentCursor == NSCursor.closedHandCursor) {
+           [NSCursor pop];
+       }
+       
       // Delete any running autoscroll timer
       if ( _autoscrollTimer != nil && [_autoscrollTimer isValid] )
       {
@@ -665,7 +654,7 @@ static short processDrag( long mouse, u_short origin, u_short maximum,
                            visible:v view:self];
          }
          if ( sel->_movable )
-            [sel processCursorRect:&sel->_inside cursor:_insideCursor size:s
+            [sel processCursorRect:&sel->_inside cursor:NSCursor.openHandCursor size:s
                    horizontalOrder:MiddlePosition verticalOrder:MiddlePosition
                            visible:v view:self];
       }
