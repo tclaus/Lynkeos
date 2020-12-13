@@ -1,0 +1,69 @@
+
+/* Class = "NSButton"; ibShadowedToolTip = "Aligne les images"; ObjectID = "28"; */
+"28.ibShadowedToolTip" = "Aligne les images";
+
+/* Class = "NSButtonCell"; title = "Aligner"; ObjectID = "136"; */
+"136.title" = "Aligner";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Marque les carrés comme spécifique à l'image"; ObjectID = "2Xg-PX-u5y"; */
+"2Xg-PX-u5y.ibShadowedToolTip" = "Marque les carrés comme spécifique à l'image";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Supprime l'alignement de l'image sélectionnée, ou de toutes les images en l'absence de sélection"; ObjectID = "8zj-Pw-gps"; */
+"8zj-Pw-gps.ibShadowedToolTip" = "Supprime l'alignement de l'image sélectionnée, ou de toutes les images en l'absence de sélection";
+
+/* Class = "NSButtonCell"; title = "Annuler"; ObjectID = "9bj-g9-SsH"; */
+"9bj-g9-SsH.title" = "Annuler";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "BMZ-t8-0I1"; */
+"BMZ-t8-0I1.title" = "Text Cell";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Autorise à calculer le rapport d'échelle entre les images"; ObjectID = "HvR-R0-WhI"; */
+"HvR-R0-WhI.ibShadowedToolTip" = "Autorise à calculer le rapport d'échelle entre les images";
+
+/* Class = "NSTableColumn"; headerCell.title = "X"; ObjectID = "IO1-SU-bA0"; */
+"IO1-SU-bA0.headerCell.title" = "X";
+
+/* Class = "NSTableColumn"; headerToolTip = "Origine horizontale du carré de recherche"; ObjectID = "IO1-SU-bA0"; */
+"IO1-SU-bA0.headerToolTip" = "Origine horizontale du carré de recherche";
+
+/* Class = "NSButtonCell"; title = "Rotation"; ObjectID = "InJ-jm-urd"; */
+"InJ-jm-urd.title" = "Rotation";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "JQq-kc-owM"; */
+"JQq-kc-owM.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "Rfe-7O-18F"; */
+"Rfe-7O-18F.title" = "Text Cell";
+
+/* Class = "NSTableColumn"; headerCell.title = "Y"; ObjectID = "UEM-Wg-fnS"; */
+"UEM-Wg-fnS.headerCell.title" = "Y";
+
+/* Class = "NSTableColumn"; headerToolTip = "Origine verticale du carré de recherche"; ObjectID = "UEM-Wg-fnS"; */
+"UEM-Wg-fnS.headerToolTip" = "Origine verticale du carré de recherche";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Marque l'image courante comme référence d'alignement"; ObjectID = "UEY-QJ-H56"; */
+"UEY-QJ-H56.ibShadowedToolTip" = "Marque l'image courante comme référence d'alignement";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "VsP-7u-t8h"; */
+"VsP-7u-t8h.title" = "Text Cell";
+
+/* Class = "NSButtonCell"; title = "Référence"; ObjectID = "XpX-Xp-eDZ"; */
+"XpX-Xp-eDZ.title" = "Référence";
+
+/* Class = "NSButtonCell"; title = "Specifique"; ObjectID = "brb-Q8-jBT"; */
+"brb-Q8-jBT.title" = "Specifique";
+
+/* Class = "NSButtonCell"; title = "Echelle"; ObjectID = "dPO-1I-ydd"; */
+"dPO-1I-ydd.title" = "Echelle";
+
+/* Class = "NSTableColumn"; headerCell.title = "Taille"; ObjectID = "fue-dg-w24"; */
+"fue-dg-w24.headerCell.title" = "Taille";
+
+/* Class = "NSTableColumn"; headerToolTip = "Taille du carré de recherche"; ObjectID = "fue-dg-w24"; */
+"fue-dg-w24.headerToolTip" = "Taille du carré de recherche";
+
+/* Class = "NSTableColumn"; headerToolTip = "Ajoute ou supprime un carré de recherche.\nVous pouvez aussi ajouter un nouveau carré en pressant <shift> tout en traçant un carré."; ObjectID = "m4F-eq-tKk"; */
+"m4F-eq-tKk.headerToolTip" = "Ajoute ou supprime un carré de recherche.\nVous pouvez aussi ajouter un nouveau carré en pressant <shift> tout en traçant un carré.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Autorise à calculer la rotation entre les images"; ObjectID = "vLD-8k-CDx"; */
+"vLD-8k-CDx.ibShadowedToolTip" = "Autorise à calculer la rotation entre les images";

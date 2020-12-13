@@ -1,0 +1,366 @@
+
+/* Class = "NSMenuItem"; title = "Traer todo al frente"; ObjectID = "5"; */
+"5.title" = "Traer todo al frente";
+
+/* Class = "NSMenuItem"; title = "Ventana"; ObjectID = "19"; */
+"19.title" = "Ventana";
+
+/* Class = "NSMenuItem"; title = "Minimizar"; ObjectID = "23"; */
+"23.title" = "Minimizar";
+
+/* Class = "NSMenu"; title = "Ventana"; ObjectID = "24"; */
+"24.title" = "Ventana";
+
+/* Class = "NSMenu"; title = "MainMenu"; ObjectID = "29"; */
+"29.title" = "MainMenu";
+
+/* Class = "NSMenuItem"; title = "Lynkeos"; ObjectID = "56"; */
+"56.title" = "Lynkeos";
+
+/* Class = "NSMenu"; title = "Lynkeos"; ObjectID = "57"; */
+"57.title" = "Lynkeos";
+
+/* Class = "NSMenuItem"; title = "Acerca de Lynkeos"; ObjectID = "58"; */
+"58.title" = "Acerca de Lynkeos";
+
+/* Class = "NSMenuItem"; title = "Abrir..."; ObjectID = "72"; */
+"72.title" = "Abrir...";
+
+/* Class = "NSMenuItem"; title = "Cerrar"; ObjectID = "73"; */
+"73.title" = "Cerrar";
+
+/* Class = "NSMenuItem"; title = " "; ObjectID = "74"; */
+"74.title" = " ";
+
+/* Class = "NSMenuItem"; title = "Guardar"; ObjectID = "75"; */
+"75.title" = "Guardar";
+
+/* Class = "NSMenuItem"; title = "Ajustár pagina..."; ObjectID = "77"; */
+"77.title" = "Ajustár pagina...";
+
+/* Class = "NSMenuItem"; title = "Imprimir..."; ObjectID = "78"; */
+"78.title" = "Imprimir...";
+
+/* Class = "NSMenuItem"; title = "Guardar como..."; ObjectID = "80"; */
+"80.title" = "Guardar como...";
+
+/* Class = "NSMenu"; title = "Archivo"; ObjectID = "81"; */
+"81.title" = "Archivo";
+
+/* Class = "NSMenuItem"; title = "Nuevo"; ObjectID = "82"; */
+"82.title" = "Nuevo";
+
+/* Class = "NSMenuItem"; title = "Archivo"; ObjectID = "83"; */
+"83.title" = "Archivo";
+
+/* Class = "NSMenuItem"; title = "Ayuda"; ObjectID = "103"; */
+"103.title" = "Ayuda";
+
+/* Class = "NSMenu"; title = "Ayuda"; ObjectID = "106"; */
+"106.title" = "Ayuda";
+
+/* Class = "NSMenuItem"; title = "Ayuda Lynkeos"; ObjectID = "111"; */
+"111.title" = "Ayuda Lynkeos";
+
+/* Class = "NSMenuItem"; title = "Volver a la versión guardada"; ObjectID = "112"; */
+"112.title" = "Volver a la versión guardada";
+
+/* Class = "NSMenuItem"; title = "Abrir recientes"; ObjectID = "124"; */
+"124.title" = "Abrir recientes";
+
+/* Class = "NSMenu"; title = "Abrir recientes"; ObjectID = "125"; */
+"125.title" = "Abrir recientes";
+
+/* Class = "NSMenuItem"; title = "Clear Menu"; ObjectID = "126"; */
+"126.title" = "Clear Menu";
+
+/* Class = "NSMenuItem"; title = "Preferencias..."; ObjectID = "129"; */
+"129.title" = "Preferencias...";
+
+/* Class = "NSMenu"; title = "Servicios"; ObjectID = "130"; */
+"130.title" = "Servicios";
+
+/* Class = "NSMenuItem"; title = "Servicios"; ObjectID = "131"; */
+"131.title" = "Servicios";
+
+/* Class = "NSMenuItem"; title = "Ocultar Lynkeos"; ObjectID = "134"; */
+"134.title" = "Ocultar Lynkeos";
+
+/* Class = "NSMenuItem"; title = "Salir de Lynkeos"; ObjectID = "136"; */
+"136.title" = "Salir de Lynkeos";
+
+/* Class = "NSMenuItem"; title = "Ocultar otros"; ObjectID = "145"; */
+"145.title" = "Ocultar otros";
+
+/* Class = "NSMenuItem"; title = "Mostrar todo"; ObjectID = "150"; */
+"150.title" = "Mostrar todo";
+
+/* Class = "NSMenuItem"; title = "Copiar"; ObjectID = "157"; */
+"157.title" = "Copiar";
+
+/* Class = "NSMenuItem"; title = "Deshacer"; ObjectID = "158"; */
+"158.title" = "Deshacer";
+
+/* Class = "NSMenuItem"; title = "Cortar"; ObjectID = "160"; */
+"160.title" = "Cortar";
+
+/* Class = "NSMenuItem"; title = "Edición"; ObjectID = "163"; */
+"163.title" = "Edición";
+
+/* Class = "NSMenuItem"; title = "Eliminar"; ObjectID = "164"; */
+"164.title" = "Eliminar";
+
+/* Class = "NSMenu"; title = "Edición"; ObjectID = "169"; */
+"169.title" = "Edición";
+
+/* Class = "NSMenuItem"; title = "Pegar"; ObjectID = "171"; */
+"171.title" = "Pegar";
+
+/* Class = "NSMenuItem"; title = "Seleccionar todo"; ObjectID = "172"; */
+"172.title" = "Seleccionar todo";
+
+/* Class = "NSMenuItem"; title = "Rehacer"; ObjectID = "173"; */
+"173.title" = "Rehacer";
+
+/* Class = "NSMenuItem"; title = "Exportar como secuencia ..."; ObjectID = "203"; */
+"203.title" = "Exportar como secuencia ...";
+
+/* Class = "NSMenuItem"; title = "Guardar la imagen..."; ObjectID = "205"; */
+"205.title" = "Guardar la imagen...";
+
+/* Class = "NSMenuItem"; title = "Añadir imágen..."; ObjectID = "208"; */
+"208.title" = "Añadir imágen...";
+
+/* Class = "NSWindow"; title = "Preferences"; ObjectID = "212"; */
+"212.title" = "Preferences";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Reset settings to factory defaults"; ObjectID = "291"; */
+"291.ibShadowedToolTip" = "Reset settings to factory defaults";
+
+/* Class = "NSWindow"; title = "About Lynkeos"; ObjectID = "436"; */
+"436.title" = "About Lynkeos";
+
+/* Class = "NSTabViewItem"; label = "Gracias"; ObjectID = "440"; */
+"440.label" = "Gracias";
+
+/* Class = "NSTabViewItem"; label = "Copyrights"; ObjectID = "442"; */
+"442.label" = "Copyrights";
+
+/* Class = "NSTabViewItem"; label = "Licencia"; ObjectID = "444"; */
+"444.label" = "Licencia";
+
+/* Class = "NSTabViewItem"; label = "Cambios"; ObjectID = "446"; */
+"446.label" = "Cambios";
+
+/* Class = "NSMenuItem"; title = "Proceso"; ObjectID = "490"; */
+"490.title" = "Proceso";
+
+/* Class = "NSMenu"; title = "Proceso"; ObjectID = "491"; */
+"491.title" = "Proceso";
+
+/* Class = "NSMenuItem"; title = "Visualisación"; ObjectID = "493"; */
+"493.title" = "Visualisación";
+
+/* Class = "NSMenu"; title = "Visualisación"; ObjectID = "494"; */
+"494.title" = "Visualisación";
+
+/* Class = "NSMenuItem"; title = "Mostrar barra de herramientas"; ObjectID = "495"; */
+"495.title" = "Mostrar barra de herramientas";
+
+/* Class = "NSMenuItem"; title = "Personalizar barra de herramientas…"; ObjectID = "496"; */
+"496.title" = "Personalizar barra de herramientas…";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Detach/Attach process pane in a separate window"; ObjectID = "500"; */
+"500.ibShadowedToolTip" = "Detach/Attach process pane in a separate window";
+
+/* Class = "NSMenuItem"; title = "Separar el proceso"; ObjectID = "500"; */
+"500.title" = "Separar el proceso";
+
+/* Class = "NSMenuItem"; title = "Occultar las listas"; ObjectID = "501"; */
+"501.title" = "Occultar las listas";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Sonido tocado al fin de los procesos de listas"; ObjectID = "505"; */
+"505.ibShadowedToolTip" = "Sonido tocado al fin de los procesos de listas";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "506"; */
+"506.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "No sound"; ObjectID = "507"; */
+"507.title" = "No sound";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Cambiar el tamaño para approvechar el tiempo de calculacion de la transformada de Fourier"; ObjectID = "509"; */
+"509.ibShadowedToolTip" = "Cambiar el tamaño para approvechar el tiempo de calculacion de la transformada de Fourier";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Frecuencia de cortura aplicada al spectro antes de correlacion"; ObjectID = "517"; */
+"517.ibShadowedToolTip" = "Frecuencia de cortura aplicada al spectro antes de correlacion";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Maximum correlation standard deviation in fraction of search square side"; ObjectID = "523"; */
+"523.ibShadowedToolTip" = "Maximum correlation standard deviation in fraction of search square side";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Visualizar la imagen despues del alineamiento"; ObjectID = "524"; */
+"524.ibShadowedToolTip" = "Visualizar la imagen despues del alineamiento";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Cambia eso solamente si sabe lo que usted hace"; ObjectID = "527"; */
+"527.ibShadowedToolTip" = "Cambia eso solamente si sabe lo que usted hace";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "528"; */
+"528.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "No multiprocessador"; ObjectID = "530"; */
+"530.title" = "No multiprocessador";
+
+/* Class = "NSMenuItem"; title = "Parallelas listas"; ObjectID = "531"; */
+"531.title" = "Parallelas listas";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Lower frequency cutoff for analysis algorithm"; ObjectID = "599"; */
+"599.ibShadowedToolTip" = "Lower frequency cutoff for analysis algorithm";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Visualizar la imagen despues del analisis"; ObjectID = "605"; */
+"605.ibShadowedToolTip" = "Visualizar la imagen despues del analisis";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Cambia eso solamente si sabe lo que usted hace"; ObjectID = "607"; */
+"607.ibShadowedToolTip" = "Cambia eso solamente si sabe lo que usted hace";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "608"; */
+"608.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "No multiprocesador"; ObjectID = "609"; */
+"609.title" = "No multiprocesador";
+
+/* Class = "NSMenuItem"; title = "Paralelas listas"; ObjectID = "610"; */
+"610.title" = "Paralelas listas";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Visualizar la imagen despues de ser accumulada"; ObjectID = "631"; */
+"631.ibShadowedToolTip" = "Visualizar la imagen despues de ser accumulada";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Cambia eso solamente si sabe lo que usted hace"; ObjectID = "633"; */
+"633.ibShadowedToolTip" = "Cambia eso solamente si sabe lo que usted hace";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "634"; */
+"634.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "No multiprocesador"; ObjectID = "635"; */
+"635.title" = "No multiprocesador";
+
+/* Class = "NSMenuItem"; title = "Paralelas listas"; ObjectID = "636"; */
+"636.title" = "Paralelas listas";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Alineamiento mas seguro, perro mas lento"; ObjectID = "644"; */
+"644.ibShadowedToolTip" = "Alineamiento mas seguro, perro mas lento";
+
+/* Class = "NSMenuItem"; title = "Ampliar/Reducir"; ObjectID = "707"; */
+"707.title" = "Ampliar/Reducir";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "842"; */
+"842.title" = "Window";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Cambia eso solamente si sabe lo que usted hace"; ObjectID = "859"; */
+"859.ibShadowedToolTip" = "Cambia eso solamente si sabe lo que usted hace";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "860"; */
+"860.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Multiprocessador"; ObjectID = "861"; */
+"861.title" = "Multiprocessador";
+
+/* Class = "NSMenuItem"; title = "No multiprocessador"; ObjectID = "862"; */
+"862.title" = "No multiprocessador";
+
+/* Class = "NSMenuItem"; title = "Ayuda de los paquetes"; ObjectID = "997"; */
+"997.title" = "Ayuda de los paquetes";
+
+/* Class = "NSMenu"; title = "Ayuda de los paquetes"; ObjectID = "998"; */
+"998.title" = "Ayuda de los paquetes";
+
+/* Class = "NSButtonCell"; title = "Cancelar"; ObjectID = "1001"; */
+"1001.title" = "Cancelar";
+
+/* Class = "NSButtonCell"; title = "Reset"; ObjectID = "1002"; */
+"1002.title" = "Reset";
+
+/* Class = "NSButtonCell"; title = "Aplicar"; ObjectID = "1003"; */
+"1003.title" = "Aplicar";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "1004"; */
+"1004.title" = "OK";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "1005"; */
+"1005.title" = "OK";
+
+/* Class = "NSTextFieldCell"; title = "Copyright\nTranslation\n\n"; ObjectID = "1006"; */
+"1006.title" = "Copyright\nTranslation\n\n";
+
+/* Class = "NSTextFieldCell"; title = "Version\n"; ObjectID = "1008"; */
+"1008.title" = "Version\n";
+
+/* Class = "NSTextFieldCell"; title = "Lynkeos\n"; ObjectID = "1009"; */
+"1009.title" = "Lynkeos\n";
+
+/* Class = "NSTextFieldCell"; title = "Sonido de fin \nde proceso"; ObjectID = "1011"; */
+"1011.title" = "Sonido de fin \nde proceso";
+
+/* Class = "NSTextFieldCell"; title = " Cambiar el tamaño para la transformacion de Fourier"; ObjectID = "1013"; */
+"1013.title" = " Cambiar el tamaño para la transformacion de Fourier";
+
+/* Class = "NSTextFieldCell"; title = "Aprovechamiento de los procesos"; ObjectID = "1014"; */
+"1014.title" = "Aprovechamiento de los procesos";
+
+/* Class = "NSTextFieldCell"; title = "Frequencia de cortura para alineamento"; ObjectID = "1016"; */
+"1016.title" = "Frequencia de cortura para alineamento";
+
+/* Class = "NSTextFieldCell"; title = "0,00"; ObjectID = "1018"; */
+"1018.title" = "0,00";
+
+/* Class = "NSTextFieldCell"; title = "100,0%"; ObjectID = "1019"; */
+"1019.title" = "100,0%";
+
+/* Class = "NSTextFieldCell"; title = "Limite de précision \npara alineamento"; ObjectID = "1020"; */
+"1020.title" = "Limite de précision \npara alineamento";
+
+/* Class = "NSTextFieldCell"; title = "Actualización de la imágen"; ObjectID = "1023"; */
+"1023.title" = "Actualización de la imágen";
+
+/* Class = "NSTextFieldCell"; title = "Multiprocesador aprovechamiento"; ObjectID = "1024"; */
+"1024.title" = "Multiprocesador aprovechamiento";
+
+/* Class = "NSTextFieldCell"; title = "Comprobar alineamento"; ObjectID = "1027"; */
+"1027.title" = "Comprobar alineamento";
+
+/* Class = "NSTextFieldCell"; title = "0,00"; ObjectID = "1028"; */
+"1028.title" = "0,00";
+
+/* Class = "NSTextFieldCell"; title = "Frequencias de cortura para analisa"; ObjectID = "1032"; */
+"1032.title" = "Frequencias de cortura para analisa";
+
+/* Class = "NSTextFieldCell"; title = "0,00"; ObjectID = "1033"; */
+"1033.title" = "0,00";
+
+/* Class = "NSTextFieldCell"; title = "Actualización de la imágen"; ObjectID = "1034"; */
+"1034.title" = "Actualización de la imágen";
+
+/* Class = "NSTextFieldCell"; title = "Multiprocesador aprovechamiento"; ObjectID = "1036"; */
+"1036.title" = "Multiprocesador aprovechamiento";
+
+/* Class = "NSTextFieldCell"; title = "Actualización de la imágen"; ObjectID = "1038"; */
+"1038.title" = "Actualización de la imágen";
+
+/* Class = "NSTextFieldCell"; title = "Multiprocesador aprovechamiento"; ObjectID = "1040"; */
+"1040.title" = "Multiprocesador aprovechamiento";
+
+/* Class = "NSTextFieldCell"; title = "Numero de imagenes de secuencias en el cache"; ObjectID = "1042"; */
+"1042.title" = "Numero de imagenes de secuencias en el cache";
+
+/* Class = "NSTextFieldCell"; title = "999"; ObjectID = "1043"; */
+"1043.title" = "999";
+
+/* Class = "NSTextFieldCell"; title = "Tamaño de la memoria para el cache de procesos de imagen"; ObjectID = "1045"; */
+"1045.title" = "Tamaño de la memoria para el cache de procesos de imagen";
+
+/* Class = "NSTextFieldCell"; title = "999"; ObjectID = "1046"; */
+"1046.title" = "999";
+
+/* Class = "NSTextFieldCell"; title = "Mo"; ObjectID = "1048"; */
+"1048.title" = "Mo";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "1050"; */
+"1050.title" = "OK";

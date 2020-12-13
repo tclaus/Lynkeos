@@ -1,0 +1,78 @@
+
+/* Class = "NSStepper"; ibShadowedToolTip = "Nombre d'itérations de l'algorithme"; ObjectID = "6"; */
+"6.ibShadowedToolTip" = "Nombre d'itérations de l'algorithme";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Type de convolueur aussi connu comme \"point spread function\""; ObjectID = "9"; */
+"9.ibShadowedToolTip" = "Type de convolueur aussi connu comme \"point spread function\"";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "10"; */
+"10.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Gaussienne"; ObjectID = "12"; */
+"12.title" = "Gaussienne";
+
+/* Class = "NSMenuItem"; title = "Fichier"; ObjectID = "13"; */
+"13.title" = "Fichier";
+
+/* Class = "NSMenuItem"; title = "Sélection"; ObjectID = "15"; */
+"15.title" = "Sélection";
+
+/* Class = "NSImageView"; ibShadowedToolTip = "Image du convolueur"; ObjectID = "16"; */
+"16.ibShadowedToolTip" = "Image du convolueur";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Rayon de la gaussienne"; ObjectID = "17"; */
+"17.ibShadowedToolTip" = "Rayon de la gaussienne";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Rayon de la gaussienne"; ObjectID = "18"; */
+"18.ibShadowedToolTip" = "Rayon de la gaussienne";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Charger le convolueur à partir d'un fichier image"; ObjectID = "21"; */
+"21.ibShadowedToolTip" = "Charger le convolueur à partir d'un fichier image";
+
+/* Class = "NSBox"; title = "Gaussienne"; ObjectID = "22"; */
+"22.title" = "Gaussienne";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Lancer les itérations"; ObjectID = "39"; */
+"39.ibShadowedToolTip" = "Lancer les itérations";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Rafraîchir (ou non) l'image à la fin de chaque itération"; ObjectID = "42"; */
+"42.ibShadowedToolTip" = "Rafraîchir (ou non) l'image à la fin de chaque itération";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Numéro de l'itération en cours"; ObjectID = "44"; */
+"44.ibShadowedToolTip" = "Numéro de l'itération en cours";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Enregistrer le convolueur actuel dans un fichier image"; ObjectID = "48"; */
+"48.ibShadowedToolTip" = "Enregistrer le convolueur actuel dans un fichier image";
+
+/* Class = "NSBox"; title = "File"; ObjectID = "49"; */
+"49.title" = "File";
+
+/* Class = "NSTextFieldCell"; title = "100"; ObjectID = "97"; */
+"97.title" = "100";
+
+/* Class = "NSTextFieldCell"; title = "Nombre d'itérations"; ObjectID = "98"; */
+"98.title" = "Nombre d'itérations";
+
+/* Class = "NSTextFieldCell"; title = "Convolueur"; ObjectID = "100"; */
+"100.title" = "Convolueur";
+
+/* Class = "NSTextFieldCell"; title = "12,50"; ObjectID = "103"; */
+"103.title" = "12,50";
+
+/* Class = "NSTextFieldCell"; title = "Rayon"; ObjectID = "104"; */
+"104.title" = "Rayon";
+
+/* Class = "NSButtonCell"; title = "Lancer"; ObjectID = "105"; */
+"105.title" = "Lancer";
+
+/* Class = "NSButtonCell"; title = "Progression"; ObjectID = "106"; */
+"106.title" = "Progression";
+
+/* Class = "NSTextFieldCell"; title = "Itération"; ObjectID = "107"; */
+"107.title" = "Itération";
+
+/* Class = "NSButtonCell"; title = "Ouvrir…"; ObjectID = "109"; */
+"109.title" = "Ouvrir…";
+
+/* Class = "NSButtonCell"; title = "Enregistrer…"; ObjectID = "110"; */
+"110.title" = "Enregistrer…";

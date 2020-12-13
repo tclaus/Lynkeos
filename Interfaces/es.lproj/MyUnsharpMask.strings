@@ -1,0 +1,24 @@
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Limite entre los pequeños detalles y variaciones a grande escala"; ObjectID = "12"; */
+"12.ibShadowedToolTip" = "Limite entre los pequeños detalles y variaciones a grande escala";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Ampliacion de los pequeños detalles"; ObjectID = "13"; */
+"13.ibShadowedToolTip" = "Ampliacion de los pequeños detalles";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Calcula solamente el gradiente de la imagen"; ObjectID = "41"; */
+"41.ibShadowedToolTip" = "Calcula solamente el gradiente de la imagen";
+
+/* Class = "NSTextFieldCell"; title = "999,99"; ObjectID = "46"; */
+"46.title" = "999,99";
+
+/* Class = "NSTextFieldCell"; title = "9,99"; ObjectID = "47"; */
+"47.title" = "9,99";
+
+/* Class = "NSTextFieldCell"; title = "Rayo"; ObjectID = "48"; */
+"48.title" = "Rayo";
+
+/* Class = "NSTextFieldCell"; title = "Ganancia"; ObjectID = "49"; */
+"49.title" = "Ganancia";
+
+/* Class = "NSButtonCell"; title = "Gradiente"; ObjectID = "52"; */
+"52.title" = "Gradiente";

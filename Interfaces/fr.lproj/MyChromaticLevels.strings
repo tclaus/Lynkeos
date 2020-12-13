@@ -1,0 +1,60 @@
+
+/* Class = "NSMatrix"; ibShadowedToolTip = "Niveau du noir ou correction du gamma"; ObjectID = "61"; */
+"61.ibShadowedToolTip" = "Niveau du noir ou correction du gamma";
+
+/* Class = "NSMatrix"; ibShadowedToolTip = "Niveau du blanc"; ObjectID = "71"; */
+"71.ibShadowedToolTip" = "Niveau du blanc";
+
+/* Class = "NSTextFieldCell"; title = "Niveaux"; ObjectID = "81"; */
+"81.title" = "Niveaux";
+
+/* Class = "NSTextFieldCell"; title = "Gamma"; ObjectID = "82"; */
+"82.title" = "Gamma";
+
+/* Class = "NSTextFieldCell"; title = "999.99"; ObjectID = "83"; */
+"83.title" = "999.99";
+
+/* Class = "NSTextFieldCell"; title = "9,99"; ObjectID = "84"; */
+"84.title" = "9,99";
+
+/* Class = "NSTextFieldCell"; title = "999.99"; ObjectID = "87"; */
+"87.title" = "999.99";
+
+/* Class = "NSTextFieldCell"; title = "9,99"; ObjectID = "88"; */
+"88.title" = "9,99";
+
+/* Class = "NSTextFieldCell"; title = "Global"; ObjectID = "95"; */
+"95.title" = "Global";
+
+/* Class = "NSTextFieldCell"; title = "Incrément gamma"; ObjectID = "126"; */
+"126.title" = "Incrément gamma";
+
+/* Class = "NSComboBoxCell"; 127.ibShadowedObjectValues[0] = "100"; ObjectID = "127"; */
+"127.ibShadowedObjectValues[0]" = "100";
+
+/* Class = "NSComboBoxCell"; 127.ibShadowedObjectValues[1] = "50"; ObjectID = "127"; */
+"127.ibShadowedObjectValues[1]" = "50";
+
+/* Class = "NSComboBoxCell"; 127.ibShadowedObjectValues[2] = "10"; ObjectID = "127"; */
+"127.ibShadowedObjectValues[2]" = "10";
+
+/* Class = "NSComboBoxCell"; 127.ibShadowedObjectValues[3] = "5"; ObjectID = "127"; */
+"127.ibShadowedObjectValues[3]" = "5";
+
+/* Class = "NSComboBoxCell"; 127.ibShadowedObjectValues[4] = "1"; ObjectID = "127"; */
+"127.ibShadowedObjectValues[4]" = "1";
+
+/* Class = "NSTextFieldCell"; title = "Incrément des niveaux"; ObjectID = "128"; */
+"128.title" = "Incrément des niveaux";
+
+/* Class = "NSTextFieldCell"; title = "9,99"; ObjectID = "129"; */
+"129.title" = "9,99";
+
+/* Class = "NSTextFieldCell"; title = "Levels"; ObjectID = "130"; */
+"130.title" = "Levels";
+
+/* Class = "NSTextFieldCell"; title = "9,99"; ObjectID = "132"; */
+"132.title" = "9,99";
+
+/* Class = "NSTextFieldCell"; title = "Global"; ObjectID = "133"; */
+"133.title" = "Global";

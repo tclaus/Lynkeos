@@ -1,0 +1,36 @@
+
+/* Class = "NSWindow"; title = "TIFF Parameters"; ObjectID = "10"; */
+"10.title" = "TIFF Parameters";
+
+/* Class = "NSMenuItem"; title = "None"; ObjectID = "50"; */
+"50.title" = "None";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "51"; */
+"51.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "LZW"; ObjectID = "52"; */
+"52.title" = "LZW";
+
+/* Class = "NSMenuItem"; title = "Intero 16 bits"; ObjectID = "55"; */
+"55.title" = "Intero 16 bits";
+
+/* Class = "NSMenuItem"; title = "Intero 8 bits"; ObjectID = "57"; */
+"57.title" = "Intero 8 bits";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "58"; */
+"58.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Reale 32 bits"; ObjectID = "71"; */
+"71.title" = "Reale 32 bits";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "73"; */
+"73.title" = "Cancel";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "74"; */
+"74.title" = "OK";
+
+/* Class = "NSTextFieldCell"; title = "Compression"; ObjectID = "75"; */
+"75.title" = "Compression";
+
+/* Class = "NSTextFieldCell"; title = "Bits per sample\n"; ObjectID = "76"; */
+"76.title" = "Bits per sample\n";

@@ -1,0 +1,57 @@
+
+/* Class = "NSTextFieldCell"; title = "Levels"; ObjectID = "81"; */
+"81.title" = "Levels";
+
+/* Class = "NSTextFieldCell"; title = "Gamma"; ObjectID = "82"; */
+"82.title" = "Gamma";
+
+/* Class = "NSTextFieldCell"; title = "999.99"; ObjectID = "83"; */
+"83.title" = "999.99";
+
+/* Class = "NSTextFieldCell"; title = "9,99"; ObjectID = "84"; */
+"84.title" = "9,99";
+
+/* Class = "NSTextFieldCell"; title = "999.99"; ObjectID = "87"; */
+"87.title" = "999.99";
+
+/* Class = "NSTextFieldCell"; title = "9,99"; ObjectID = "88"; */
+"88.title" = "9,99";
+
+/* Class = "NSTextFieldCell"; title = "Global"; ObjectID = "95"; */
+"95.title" = "Global";
+
+/* Class = "NSTextFieldCell"; title = "Gamma step"; ObjectID = "124"; */
+"124.title" = "Gamma step";
+
+/* Class = "NSComboBoxCell"; title = "1"; ObjectID = "125"; */
+"125.title" = "1";
+
+/* Class = "NSComboBoxCell"; 125.ibShadowedObjectValues[0] = "100"; ObjectID = "125"; */
+"125.ibShadowedObjectValues[0]" = "100";
+
+/* Class = "NSComboBoxCell"; 125.ibShadowedObjectValues[1] = "50"; ObjectID = "125"; */
+"125.ibShadowedObjectValues[1]" = "50";
+
+/* Class = "NSComboBoxCell"; 125.ibShadowedObjectValues[2] = "10"; ObjectID = "125"; */
+"125.ibShadowedObjectValues[2]" = "10";
+
+/* Class = "NSComboBoxCell"; 125.ibShadowedObjectValues[3] = "5"; ObjectID = "125"; */
+"125.ibShadowedObjectValues[3]" = "5";
+
+/* Class = "NSComboBoxCell"; 125.ibShadowedObjectValues[4] = "1"; ObjectID = "125"; */
+"125.ibShadowedObjectValues[4]" = "1";
+
+/* Class = "NSTextFieldCell"; title = "Levels step"; ObjectID = "126"; */
+"126.title" = "Levels step";
+
+/* Class = "NSTextFieldCell"; title = "9,99"; ObjectID = "127"; */
+"127.title" = "9,99";
+
+/* Class = "NSTextFieldCell"; title = "Levels"; ObjectID = "128"; */
+"128.title" = "Levels";
+
+/* Class = "NSTextFieldCell"; title = "9,99"; ObjectID = "130"; */
+"130.title" = "9,99";
+
+/* Class = "NSTextFieldCell"; title = "Global"; ObjectID = "131"; */
+"131.title" = "Global";

@@ -1,0 +1,87 @@
+
+/* Class = "NSBox"; title = "Riquadro di ritaglio"; ObjectID = "6"; */
+"6.title" = "Riquadro di ritaglio";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Origine orizzontale del riquadro di ritaglio"; ObjectID = "8"; */
+"8.ibShadowedToolTip" = "Origine orizzontale del riquadro di ritaglio";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Origine verticale del riquadro di ritaglio"; ObjectID = "10"; */
+"10.ibShadowedToolTip" = "Origine verticale del riquadro di ritaglio";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Altezza del riquadro di ritaglio"; ObjectID = "14"; */
+"14.ibShadowedToolTip" = "Altezza del riquadro di ritaglio";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Larghezza del riquadro di ritaglio"; ObjectID = "17"; */
+"17.ibShadowedToolTip" = "Larghezza del riquadro di ritaglio";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Somma tutte le immagini selezionate"; ObjectID = "20"; */
+"20.ibShadowedToolTip" = "Somma tutte le immagini selezionate";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Raddoppia le dimensioni dell'immagine risultante"; ObjectID = "21"; */
+"21.ibShadowedToolTip" = "Raddoppia le dimensioni dell'immagine risultante";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Converti il flat field in monocromatico"; ObjectID = "22"; */
+"22.ibShadowedToolTip" = "Converti il flat field in monocromatico";
+
+/* Class = "NSTextFieldCell"; title = "X"; ObjectID = "68"; */
+"68.title" = "X";
+
+/* Class = "NSTextFieldCell"; title = "W"; ObjectID = "69"; */
+"69.title" = "W";
+
+/* Class = "NSTextFieldCell"; title = "H"; ObjectID = "71"; */
+"71.title" = "H";
+
+/* Class = "NSTextFieldCell"; title = "Y"; ObjectID = "73"; */
+"73.title" = "Y";
+
+/* Class = "NSButtonCell"; title = "Somma"; ObjectID = "74"; */
+"74.title" = "Somma";
+
+/* Class = "NSButtonCell"; title = "Raddoppia dimensioni"; ObjectID = "75"; */
+"75.title" = "Raddoppia dimensioni";
+
+/* Class = "NSButtonCell"; title = "Monocromatico"; ObjectID = "76"; */
+"76.title" = "Monocromatico";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Stack method"; ObjectID = "77"; */
+"77.ibShadowedToolTip" = "Stack method";
+
+/* Class = "NSTextFieldCell"; title = "Mode"; ObjectID = "79"; */
+"79.title" = "Mode";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "81"; */
+"81.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Standard"; ObjectID = "82"; */
+"82.title" = "Standard";
+
+/* Class = "NSMenuItem"; title = "∑ Reject"; ObjectID = "83"; */
+"83.title" = "∑ Reject";
+
+/* Class = "NSTabViewItem"; label = "Standard"; ObjectID = "85"; */
+"85.label" = "Standard";
+
+/* Class = "NSTabViewItem"; label = "∑ reject"; ObjectID = "86"; */
+"86.label" = "∑ reject";
+
+/* Class = "NSTextFieldCell"; title = "Std. deviations"; ObjectID = "92"; */
+"92.title" = "Std. deviations";
+
+/* Class = "NSTextFieldCell"; title = "3.0"; ObjectID = "93"; */
+"93.title" = "3.0";
+
+/* Class = "NSTabViewItem"; label = "Extrema"; ObjectID = "103"; */
+"103.label" = "Extrema";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "106"; */
+"106.title" = "Radio";
+
+/* Class = "NSButtonCell"; title = "Maximum"; ObjectID = "107"; */
+"107.title" = "Maximum";
+
+/* Class = "NSButtonCell"; title = "Minimum"; ObjectID = "108"; */
+"108.title" = "Minimum";
+
+/* Class = "NSMenuItem"; title = "Extrema"; ObjectID = "111"; */
+"111.title" = "Extrema";

@@ -1,0 +1,78 @@
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Chemin vers le dossier où seront placés les fichiers temporaires de conversion"; ObjectID = "7"; */
+"7.ibShadowedToolTip" = "Chemin vers le dossier où seront placés les fichiers temporaires de conversion";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Poids du pixel rouge dans la balance des blancs"; ObjectID = "9"; */
+"9.ibShadowedToolTip" = "Poids du pixel rouge dans la balance des blancs";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Choix d'utiliser la balance des blancs de l'appareil ou une balance manuelle"; ObjectID = "25"; */
+"25.ibShadowedToolTip" = "Choix d'utiliser la balance des blancs de l'appareil ou une balance manuelle";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Poids du premier pixel vert de la matrice de Bayer dans la balance des blancs"; ObjectID = "28"; */
+"28.ibShadowedToolTip" = "Poids du premier pixel vert de la matrice de Bayer dans la balance des blancs";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Poids du pixel bleu dans la balance des blancs"; ObjectID = "31"; */
+"31.ibShadowedToolTip" = "Poids du pixel bleu dans la balance des blancs";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Poids du second pixel vert de la matrice de Bayer dans la balance des blancs"; ObjectID = "34"; */
+"34.ibShadowedToolTip" = "Poids du second pixel vert de la matrice de Bayer dans la balance des blancs";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Choix d'utiliser des niveaux manuels ou automatiques pour la coupure des basses et hautes lumières"; ObjectID = "43"; */
+"43.ibShadowedToolTip" = "Choix d'utiliser des niveaux manuels ou automatiques pour la coupure des basses et hautes lumières";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Niveau du noir, tous les pixels en dessous de ce niveau seront noirs"; ObjectID = "47"; */
+"47.ibShadowedToolTip" = "Niveau du noir, tous les pixels en dessous de ce niveau seront noirs";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Niveau de saturation, tous les pixels au dessus de ce niveau seront blancs"; ObjectID = "55"; */
+"55.ibShadowedToolTip" = "Niveau de saturation, tous les pixels au dessus de ce niveau seront blancs";
+
+/* Class = "NSTextFieldCell"; title = "99.0000"; ObjectID = "149"; */
+"149.title" = "99.0000";
+
+/* Class = "NSTextFieldCell"; title = "Dossier de conversion"; ObjectID = "150"; */
+"150.title" = "Dossier de conversion";
+
+/* Class = "NSTextFieldCell"; title = "Rouge"; ObjectID = "151"; */
+"151.title" = "Rouge";
+
+/* Class = "NSButtonCell"; title = "Balance des blancs manuelle"; ObjectID = "152"; */
+"152.title" = "Balance des blancs manuelle";
+
+/* Class = "NSTextFieldCell"; title = "99.0000"; ObjectID = "153"; */
+"153.title" = "99.0000";
+
+/* Class = "NSTextFieldCell"; title = "99.0000"; ObjectID = "154"; */
+"154.title" = "99.0000";
+
+/* Class = "NSTextFieldCell"; title = "99.0000"; ObjectID = "155"; */
+"155.title" = "99.0000";
+
+/* Class = "NSTextFieldCell"; title = "Vert 2"; ObjectID = "156"; */
+"156.title" = "Vert 2";
+
+/* Class = "NSTextFieldCell"; title = "Vert 1"; ObjectID = "157"; */
+"157.title" = "Vert 1";
+
+/* Class = "NSTextFieldCell"; title = "Bleu"; ObjectID = "158"; */
+"158.title" = "Bleu";
+
+/* Class = "NSButtonCell"; title = "Niveaux manuels"; ObjectID = "159"; */
+"159.title" = "Niveaux manuels";
+
+/* Class = "NSTextFieldCell"; title = "Saturation"; ObjectID = "160"; */
+"160.title" = "Saturation";
+
+/* Class = "NSTextFieldCell"; title = "65536.0"; ObjectID = "161"; */
+"161.title" = "65536.0";
+
+/* Class = "NSTextFieldCell"; title = "Noir"; ObjectID = "162"; */
+"162.title" = "Noir";
+
+/* Class = "NSTextFieldCell"; title = "65536.0"; ObjectID = "163"; */
+"163.title" = "65536.0";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Utiliser ou pas la rotation d'image de l'appareil"; ObjectID = "164"; */
+"164.ibShadowedToolTip" = "Utiliser ou pas la rotation d'image de l'appareil";
+
+/* Class = "NSButtonCell"; title = "Rotation automatique"; ObjectID = "165"; */
+"165.title" = "Rotation automatique";

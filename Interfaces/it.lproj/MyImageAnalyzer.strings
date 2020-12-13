@@ -1,0 +1,81 @@
+
+/* Class = "NSBox"; title = "Analisi"; ObjectID = "6"; */
+"6.title" = "Analisi";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Origine verticale del riquadro di riferimento analisi"; ObjectID = "9"; */
+"9.ibShadowedToolTip" = "Origine verticale del riquadro di riferimento analisi";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Origine orizzontale del riquadro di riferimento analisi"; ObjectID = "11"; */
+"11.ibShadowedToolTip" = "Origine orizzontale del riquadro di riferimento analisi";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Analizza la qualità delle immagini"; ObjectID = "19"; */
+"19.ibShadowedToolTip" = "Analizza la qualità delle immagini";
+
+/* Class = "NSBox"; title = "Selezione automatica"; ObjectID = "20"; */
+"20.title" = "Selezione automatica";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Minimum quality"; ObjectID = "22"; */
+"22.ibShadowedToolTip" = "Minimum quality";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Seleziona automaticamente le immagjni in base alla qualità"; ObjectID = "24"; */
+"24.ibShadowedToolTip" = "Seleziona automaticamente le immagjni in base alla qualità";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Maximum quality"; ObjectID = "25"; */
+"25.ibShadowedToolTip" = "Maximum quality";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Image analysis method to use"; ObjectID = "27"; */
+"27.ibShadowedToolTip" = "Image analysis method to use";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "28"; */
+"28.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Entropy based analysis"; ObjectID = "29"; */
+"29.ibShadowedToolTip" = "Entropy based analysis";
+
+/* Class = "NSMenuItem"; title = "Entropia"; ObjectID = "29"; */
+"29.title" = "Entropia";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Power spectrum based analysis"; ObjectID = "30"; */
+"30.ibShadowedToolTip" = "Power spectrum based analysis";
+
+/* Class = "NSMenuItem"; title = "Spettro"; ObjectID = "30"; */
+"30.title" = "Spettro";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Number of images selected for further processing"; ObjectID = "61"; */
+"61.ibShadowedToolTip" = "Number of images selected for further processing";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Seleziona automaticamente le immagjni in base alla qualità"; ObjectID = "66"; */
+"66.ibShadowedToolTip" = "Seleziona automaticamente le immagjni in base alla qualità";
+
+/* Class = "NSTextFieldCell"; title = "X"; ObjectID = "99"; */
+"99.title" = "X";
+
+/* Class = "NSTextFieldCell"; title = "Dim."; ObjectID = "102"; */
+"102.title" = "Dim.";
+
+/* Class = "NSTextFieldCell"; title = "Y"; ObjectID = "103"; */
+"103.title" = "Y";
+
+/* Class = "NSButtonCell"; title = "Analizza"; ObjectID = "105"; */
+"105.title" = "Analizza";
+
+/* Class = "NSTextFieldCell"; title = "selected images"; ObjectID = "110"; */
+"110.title" = "selected images";
+
+/* Class = "NSTextFieldCell"; title = "99,99"; ObjectID = "111"; */
+"111.title" = "99,99";
+
+/* Class = "NSTextFieldCell"; title = "Metodo"; ObjectID = "113"; */
+"113.title" = "Metodo";
+
+/* Class = "NSTextFieldCell"; title = "0,10"; ObjectID = "118"; */
+"118.title" = "0,10";
+
+/* Class = "NSTextFieldCell"; title = "0,50"; ObjectID = "120"; */
+"120.title" = "0,50";
+
+/* Class = "NSButtonCell"; title = "Preview"; ObjectID = "134"; */
+"134.title" = "Preview";
+
+/* Class = "NSTextFieldCell"; title = "Frequenza"; ObjectID = "Jhx-bt-iK4"; */
+"Jhx-bt-iK4.title" = "Frequenza";

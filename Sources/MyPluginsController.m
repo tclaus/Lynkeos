@@ -156,7 +156,7 @@ static NSComparisonResult compareWriters( id obj1, id obj2, void *ctx )
                 [err localizedDescription] );
          NSRunAlertPanel(NSLocalizedString(@"ObsoleteFrameworkTitle",
                                            @"Obsolete system framework alert panel title"),
-                         [NSString stringWithFormat:
+                         @"%@", [NSString stringWithFormat:
                             NSLocalizedString(@"ObsoleteFrameworkText",
                                               @"Obsolete system framework text"),
                             homeFramework],

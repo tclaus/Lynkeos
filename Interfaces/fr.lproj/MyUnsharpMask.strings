@@ -1,0 +1,30 @@
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Seuil entre les détails fins et les variations à grande échelle"; ObjectID = "6"; */
+"6.ibShadowedToolTip" = "Seuil entre les détails fins et les variations à grande échelle";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Amplification des détails fins"; ObjectID = "8"; */
+"8.ibShadowedToolTip" = "Amplification des détails fins";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Seuil entre les détails fins et les variations à grande échelle"; ObjectID = "12"; */
+"12.ibShadowedToolTip" = "Seuil entre les détails fins et les variations à grande échelle";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Amplification des détails fins"; ObjectID = "13"; */
+"13.ibShadowedToolTip" = "Amplification des détails fins";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Calcule seulement le gradient de l'image"; ObjectID = "41"; */
+"41.ibShadowedToolTip" = "Calcule seulement le gradient de l'image";
+
+/* Class = "NSTextFieldCell"; title = "999,99"; ObjectID = "46"; */
+"46.title" = "999,99";
+
+/* Class = "NSTextFieldCell"; title = "9,99"; ObjectID = "47"; */
+"47.title" = "9,99";
+
+/* Class = "NSTextFieldCell"; title = "Rayon"; ObjectID = "48"; */
+"48.title" = "Rayon";
+
+/* Class = "NSTextFieldCell"; title = "Gain"; ObjectID = "49"; */
+"49.title" = "Gain";
+
+/* Class = "NSButtonCell"; title = "Gradient"; ObjectID = "52"; */
+"52.title" = "Gradient";

@@ -1,0 +1,42 @@
+
+/* Class = "NSTextFieldCell"; title = "99.9"; ObjectID = "18"; */
+"18.title" = "99.9";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Calcule les décalages probables à partir de l'image"; ObjectID = "44"; */
+"44.ibShadowedToolTip" = "Calcule les décalages probables à partir de l'image";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Réaccumule la liste, en prenant en compte la correction de la dispersion chromatique."; ObjectID = "46"; */
+"46.ibShadowedToolTip" = "Réaccumule la liste, en prenant en compte la correction de la dispersion chromatique.";
+
+/* Class = "NSMatrix"; ibShadowedToolTip = "Décalage du plan de couleur, en pixels"; ObjectID = "90"; */
+"90.ibShadowedToolTip" = "Décalage du plan de couleur, en pixels";
+
+/* Class = "NSTextFieldCell"; title = "99,9"; ObjectID = "93"; */
+"93.title" = "99,9";
+
+/* Class = "NSMatrix"; ibShadowedToolTip = "Décalage du plan de couleur, en pixels"; ObjectID = "97"; */
+"97.ibShadowedToolTip" = "Décalage du plan de couleur, en pixels";
+
+/* Class = "NSTextFieldCell"; title = "Yellow x"; ObjectID = "120"; */
+"120.title" = "Yellow x";
+
+/* Class = "NSTextFieldCell"; title = "Yellow x"; ObjectID = "124"; */
+"124.title" = "Yellow x";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Affiche l'image originale, ou corrigée de la dispersion chromatique"; ObjectID = "137"; */
+"137.ibShadowedToolTip" = "Affiche l'image originale, ou corrigée de la dispersion chromatique";
+
+/* Class = "NSButtonCell"; title = "Auto"; ObjectID = "148"; */
+"148.title" = "Auto";
+
+/* Class = "NSButtonCell"; title = "Réaccumuler"; ObjectID = "149"; */
+"149.title" = "Réaccumuler";
+
+/* Class = "NSButtonCell"; title = "Original"; ObjectID = "150"; */
+"150.title" = "Original";
+
+/* Class = "NSTextFieldCell"; title = "99,9"; ObjectID = "151"; */
+"151.title" = "99,9";
+
+/* Class = "NSTextFieldCell"; title = "Yellow x"; ObjectID = "153"; */
+"153.title" = "Yellow x";

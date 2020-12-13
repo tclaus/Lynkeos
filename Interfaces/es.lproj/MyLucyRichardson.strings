@@ -1,0 +1,75 @@
+
+/* Class = "NSStepper"; ibShadowedToolTip = "Numero de iteraciones del algoritmo "; ObjectID = "6"; */
+"6.ibShadowedToolTip" = "Numero de iteraciones del algoritmo ";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Method to retrieve the \"blur sample\", aka \"convolver\" or \"point spread function\""; ObjectID = "9"; */
+"9.ibShadowedToolTip" = "Method to retrieve the \"blur sample\", aka \"convolver\" or \"point spread function\"";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "10"; */
+"10.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Gauss"; ObjectID = "12"; */
+"12.title" = "Gauss";
+
+/* Class = "NSMenuItem"; title = "Archivo"; ObjectID = "13"; */
+"13.title" = "Archivo";
+
+/* Class = "NSMenuItem"; title = "Selección"; ObjectID = "15"; */
+"15.title" = "Selección";
+
+/* Class = "NSImageView"; ibShadowedToolTip = "Eso es el imagen del \"borroso\""; ObjectID = "16"; */
+"16.ibShadowedToolTip" = "Eso es el imagen del \"borroso\"";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Rayo de \"borroso\""; ObjectID = "17"; */
+"17.ibShadowedToolTip" = "Rayo de \"borroso\"";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Carga el \"boroso\" desde un archivo"; ObjectID = "21"; */
+"21.ibShadowedToolTip" = "Carga el \"boroso\" desde un archivo";
+
+/* Class = "NSBox"; title = "Gauss"; ObjectID = "22"; */
+"22.title" = "Gauss";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Empezar las iteraciones del algoritmo de Lucy Richardson"; ObjectID = "39"; */
+"39.ibShadowedToolTip" = "Empezar las iteraciones del algoritmo de Lucy Richardson";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Si la imagen esta visualizada al fin de cada iteraciones, para seguir el progreso del proceso"; ObjectID = "42"; */
+"42.ibShadowedToolTip" = "Si la imagen esta visualizada al fin de cada iteraciones, para seguir el progreso del proceso";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Cuantas iteraciónes han sido efectuada"; ObjectID = "44"; */
+"44.ibShadowedToolTip" = "Cuantas iteraciónes han sido efectuada";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Guarda el \"borroso\" en un archivo"; ObjectID = "48"; */
+"48.ibShadowedToolTip" = "Guarda el \"borroso\" en un archivo";
+
+/* Class = "NSBox"; title = "Archivo"; ObjectID = "49"; */
+"49.title" = "Archivo";
+
+/* Class = "NSTextFieldCell"; title = "100"; ObjectID = "97"; */
+"97.title" = "100";
+
+/* Class = "NSTextFieldCell"; title = "Numero de iteraciónes"; ObjectID = "98"; */
+"98.title" = "Numero de iteraciónes";
+
+/* Class = "NSTextFieldCell"; title = "Tipo de \"borroso\""; ObjectID = "100"; */
+"100.title" = "Tipo de \"borroso\"";
+
+/* Class = "NSTextFieldCell"; title = "12,50"; ObjectID = "103"; */
+"103.title" = "12,50";
+
+/* Class = "NSTextFieldCell"; title = "Rayo"; ObjectID = "104"; */
+"104.title" = "Rayo";
+
+/* Class = "NSButtonCell"; title = "Empezar"; ObjectID = "105"; */
+"105.title" = "Empezar";
+
+/* Class = "NSButtonCell"; title = "Progreso"; ObjectID = "106"; */
+"106.title" = "Progreso";
+
+/* Class = "NSTextFieldCell"; title = "Iteración"; ObjectID = "107"; */
+"107.title" = "Iteración";
+
+/* Class = "NSButtonCell"; title = "Abrir…"; ObjectID = "109"; */
+"109.title" = "Abrir…";
+
+/* Class = "NSButtonCell"; title = "Guardar…"; ObjectID = "110"; */
+"110.title" = "Guardar…";

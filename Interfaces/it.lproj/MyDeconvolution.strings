@@ -1,0 +1,24 @@
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Radius of the gaussian which blur will be corrected"; ObjectID = "9"; */
+"9.ibShadowedToolTip" = "Radius of the gaussian which blur will be corrected";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Noise threshold : the lower the value the more agressive is the processing"; ObjectID = "10"; */
+"10.ibShadowedToolTip" = "Noise threshold : the lower the value the more agressive is the processing";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Radius of the gaussian which blur will be corrected"; ObjectID = "26"; */
+"26.ibShadowedToolTip" = "Radius of the gaussian which blur will be corrected";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Noise threshold : the lower the value the more agressive is the processing"; ObjectID = "27"; */
+"27.ibShadowedToolTip" = "Noise threshold : the lower the value the more agressive is the processing";
+
+/* Class = "NSTextFieldCell"; title = "999,99"; ObjectID = "62"; */
+"62.title" = "999,99";
+
+/* Class = "NSTextFieldCell"; title = "9,99"; ObjectID = "63"; */
+"63.title" = "9,99";
+
+/* Class = "NSTextFieldCell"; title = "Raggio"; ObjectID = "64"; */
+"64.title" = "Raggio";
+
+/* Class = "NSTextFieldCell"; title = "Soglia"; ObjectID = "65"; */
+"65.title" = "Soglia";

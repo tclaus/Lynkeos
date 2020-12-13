@@ -327,11 +327,6 @@ static const double MM_LN_10 = -M_LN10;
       [_imageTransform release];
 
    [_selection release];
-   [_crossCursor release];
-   [_leftCursor release];
-   [_rightCursor release];
-   [_topCursor release];
-   [_bottomCursor release];
    [_topLeftCursor release];
    [_topRightCursor release];
    [_bottomLeftCursor release];

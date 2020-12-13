@@ -1,0 +1,21 @@
+
+/* Class = "NSTableColumn"; headerCell.title = "Process"; ObjectID = "15"; */
+"15.headerCell.title" = "Process";
+
+/* Class = "NSTableColumn"; headerCell.title = "Delete"; ObjectID = "17"; */
+"17.headerCell.title" = "Delete";
+
+/* Class = "NSTableColumn"; headerCell.title = "Add"; ObjectID = "18"; */
+"18.headerCell.title" = "Add";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "35"; */
+"35.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "36"; */
+"36.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "37"; */
+"37.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "38"; */
+"38.title" = "Text Cell";

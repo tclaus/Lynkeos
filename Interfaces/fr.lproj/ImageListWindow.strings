@@ -1,0 +1,162 @@
+
+/* Class = "NSWindow"; title = "Image list"; ObjectID = "5"; */
+"5.title" = "Image list";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Rétrécir"; ObjectID = "87"; */
+"87.ibShadowedToolTip" = "Rétrécir";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Rétrécir/agrandir l'image"; ObjectID = "97"; */
+"97.ibShadowedToolTip" = "Rétrécir/agrandir l'image";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Agrandir"; ObjectID = "101"; */
+"101.ibShadowedToolTip" = "Agrandir";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Niveau de zoom"; ObjectID = "118"; */
+"118.ibShadowedToolTip" = "Niveau de zoom";
+
+/* Class = "NSTableColumn"; headerCell.title = "Nom"; ObjectID = "529"; */
+"529.headerCell.title" = "Nom";
+
+/* Class = "NSTableColumn"; headerCell.title = "Index"; ObjectID = "530"; */
+"530.headerCell.title" = "Index";
+
+/* Class = "NSTableColumn"; headerCell.title = "∂x"; ObjectID = "531"; */
+"531.headerCell.title" = "∂x";
+
+/* Class = "NSTableColumn"; headerCell.title = "∂y"; ObjectID = "532"; */
+"532.headerCell.title" = "∂y";
+
+/* Class = "NSTableColumn"; headerCell.title = "Qual."; ObjectID = "533"; */
+"533.headerCell.title" = "Qual.";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "545"; */
+"545.title" = "OtherViews";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Ajouter une image ou une séquence"; ObjectID = "551"; */
+"551.ibShadowedToolTip" = "Ajouter une image ou une séquence";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Supprimer la ligne courante"; ObjectID = "552"; */
+"552.ibShadowedToolTip" = "Supprimer la ligne courante";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Aller à l'image sélectionnée précédente"; ObjectID = "553"; */
+"553.ibShadowedToolTip" = "Aller à l'image sélectionnée précédente";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Aller à l'image sélectionnée suivante"; ObjectID = "554"; */
+"554.ibShadowedToolTip" = "Aller à l'image sélectionnée suivante";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Changer la sélection de l'image courante"; ObjectID = "555"; */
+"555.ibShadowedToolTip" = "Changer la sélection de l'image courante";
+
+/* Class = "NSWindow"; title = "Process"; ObjectID = "586"; */
+"586.title" = "Process";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Masquer la marge"; ObjectID = "597"; */
+"597.ibShadowedToolTip" = "Masquer la marge";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Partager la marge avec le cadre des traitements"; ObjectID = "603"; */
+"603.ibShadowedToolTip" = "Partager la marge avec le cadre des traitements";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Partager la marge avec le cadre des listes"; ObjectID = "606"; */
+"606.ibShadowedToolTip" = "Partager la marge avec le cadre des listes";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Agrandir le panneau des traitements"; ObjectID = "607"; */
+"607.ibShadowedToolTip" = "Agrandir le panneau des traitements";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Detacher le cadre des traitements dans une fenêtre séparée"; ObjectID = "608"; */
+"608.ibShadowedToolTip" = "Detacher le cadre des traitements dans une fenêtre séparée";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Masquer la marge"; ObjectID = "626"; */
+"626.ibShadowedToolTip" = "Masquer la marge";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "632"; */
+"632.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Image"; ObjectID = "633"; */
+"633.title" = "Image";
+
+/* Class = "NSMenuItem"; title = "Thermique"; ObjectID = "634"; */
+"634.title" = "Thermique";
+
+/* Class = "NSMenuItem"; title = "Champs"; ObjectID = "635"; */
+"635.title" = "Champs";
+
+/* Class = "NSBox"; title = "Title"; ObjectID = "644"; */
+"644.title" = "Title";
+
+/* Class = "NSMatrix"; ibShadowedToolTip = "Pour travailler sur les listes ou sur le résultat d'accumulation"; ObjectID = "647"; */
+"647.ibShadowedToolTip" = "Pour travailler sur les listes ou sur le résultat d'accumulation";
+
+/* Class = "NSButtonCell"; title = "Listes"; ObjectID = "651"; */
+"651.title" = "Listes";
+
+/* Class = "NSButtonCell"; title = "Cumul"; ObjectID = "652"; */
+"652.title" = "Cumul";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Niveau du noir dans l'image"; ObjectID = "656"; */
+"656.ibShadowedToolTip" = "Niveau du noir dans l'image";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Niveau du blanc dans l'image"; ObjectID = "659"; */
+"659.ibShadowedToolTip" = "Niveau du blanc dans l'image";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Correction de contraste appliquée à l'image"; ObjectID = "677"; */
+"677.ibShadowedToolTip" = "Correction de contraste appliquée à l'image";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Correction de contraste appliquée à l'image"; ObjectID = "680"; */
+"680.ibShadowedToolTip" = "Correction de contraste appliquée à l'image";
+
+/* Class = "NSButtonCell"; title = "-"; ObjectID = "776"; */
+"776.title" = "-";
+
+/* Class = "NSButtonCell"; title = "+"; ObjectID = "778"; */
+"778.title" = "+";
+
+/* Class = "NSTextFieldCell"; title = "100%"; ObjectID = "779"; */
+"779.title" = "100%";
+
+/* Class = "NSTextFieldCell"; title = "99999,0"; ObjectID = "781"; */
+"781.title" = "99999,0";
+
+/* Class = "NSTextFieldCell"; title = "99999,0"; ObjectID = "782"; */
+"782.title" = "99999,0";
+
+/* Class = "NSTextFieldCell"; title = "noir"; ObjectID = "784"; */
+"784.title" = "noir";
+
+/* Class = "NSTextFieldCell"; title = "blanc"; ObjectID = "785"; */
+"785.title" = "blanc";
+
+/* Class = "NSTextFieldCell"; title = "0,80"; ObjectID = "786"; */
+"786.title" = "0,80";
+
+/* Class = "NSTextFieldCell"; title = "gamma"; ObjectID = "787"; */
+"787.title" = "gamma";
+
+/* Class = "NSTextFieldCell"; title = "Format de fichier"; ObjectID = "788"; */
+"788.title" = "Format de fichier";
+
+/* Class = "NSButtonCell"; title = "<<"; ObjectID = "792"; */
+"792.title" = "<<";
+
+/* Class = "NSButtonCell"; title = ">>"; ObjectID = "793"; */
+"793.title" = ">>";
+
+/* Class = "NSButtonCell"; title = "√"; ObjectID = "794"; */
+"794.title" = "√";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "795"; */
+"795.title" = "Radio";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Niveaux du noir et du blanc dans l'image"; ObjectID = "811"; */
+"811.ibShadowedToolTip" = "Niveaux du noir et du blanc dans l'image";
+
+/* Class = "NSTableColumn"; headerCell.title = "Ech."; ObjectID = "1dx-Na-jrT"; */
+"1dx-Na-jrT.headerCell.title" = "Ech.";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "Jdi-sX-vC4"; */
+"Jdi-sX-vC4.title" = "Text Cell";
+
+/* Class = "NSTableColumn"; headerCell.title = "Rot."; ObjectID = "Rxf-7L-kL7"; */
+"Rxf-7L-kL7.headerCell.title" = "Rot.";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "S7T-LX-SKi"; */
+"S7T-LX-SKi.title" = "Text Cell";

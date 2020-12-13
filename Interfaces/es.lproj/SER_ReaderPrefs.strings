@@ -1,0 +1,27 @@
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Peso de los píxeles rojos en el balance manual de blancos"; ObjectID = "9"; */
+"9.ibShadowedToolTip" = "Peso de los píxeles rojos en el balance manual de blancos";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Peso de los píxeles verdes en el balance manual de blancos"; ObjectID = "28"; */
+"28.ibShadowedToolTip" = "Peso de los píxeles verdes en el balance manual de blancos";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Peso de los píxeles azules en el balance manual de blancos"; ObjectID = "31"; */
+"31.ibShadowedToolTip" = "Peso de los píxeles azules en el balance manual de blancos";
+
+/* Class = "NSTextFieldCell"; title = "1.0000"; ObjectID = "149"; */
+"149.title" = "1.0000";
+
+/* Class = "NSTextFieldCell"; title = "Red"; ObjectID = "151"; */
+"151.title" = "Red";
+
+/* Class = "NSTextFieldCell"; title = "1.0000"; ObjectID = "153"; */
+"153.title" = "1.0000";
+
+/* Class = "NSTextFieldCell"; title = "1.0000"; ObjectID = "154"; */
+"154.title" = "1.0000";
+
+/* Class = "NSTextFieldCell"; title = "Green"; ObjectID = "157"; */
+"157.title" = "Green";
+
+/* Class = "NSTextFieldCell"; title = "Blue"; ObjectID = "158"; */
+"158.title" = "Blue";

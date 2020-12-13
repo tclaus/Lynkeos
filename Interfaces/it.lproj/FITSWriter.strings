@@ -1,0 +1,42 @@
+
+/* Class = "NSWindow"; title = "FITS Parameters"; ObjectID = "5"; */
+"5.title" = "FITS Parameters";
+
+/* Class = "NSMenuItem"; title = "Double float"; ObjectID = "9"; */
+"9.title" = "Double float";
+
+/* Class = "NSMenuItem"; title = "8 bits integer"; ObjectID = "10"; */
+"10.title" = "8 bits integer";
+
+/* Class = "NSMenuItem"; title = "Single float"; ObjectID = "11"; */
+"11.title" = "Single float";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "13"; */
+"13.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Gzip"; ObjectID = "15"; */
+"15.title" = "Gzip";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "17"; */
+"17.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "None"; ObjectID = "18"; */
+"18.title" = "None";
+
+/* Class = "NSMenuItem"; title = "16 bits integer"; ObjectID = "19"; */
+"19.title" = "16 bits integer";
+
+/* Class = "NSMenuItem"; title = "32 bits integer"; ObjectID = "20"; */
+"20.title" = "32 bits integer";
+
+/* Class = "NSTextFieldCell"; title = "Samples representation"; ObjectID = "30"; */
+"30.title" = "Samples representation";
+
+/* Class = "NSTextFieldCell"; title = "Compression\n"; ObjectID = "31"; */
+"31.title" = "Compression\n";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "34"; */
+"34.title" = "Cancel";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "35"; */
+"35.title" = "OK";

@@ -47,8 +47,6 @@ static NSString * const K_MARGINWIDTH_KEY = @"margin width";
 static NSString * const K_PROCESSHEIGHT_KEY = @"process height";
 static NSString * const K_COLUMNSWIDTH_KEY = @"columns width";
 
-static NSCursor *myWatchCursor = nil;
-
 typedef enum { K_UP, K_DOWN } enumeration_direction_t;
 
 /*!
@@ -194,12 +192,6 @@ typedef enum { K_UP, K_DOWN } enumeration_direction_t;
    [_toolBar setAutosavesConfiguration:YES];
    [_toolBar setDelegate:self];
 
-   // Create the watch cursor
-   if ( myWatchCursor == nil )
-      myWatchCursor = [[NSCursor alloc] initWithImage:
-                                                   [NSImage imageNamed:@"watch"]
-                                              hotSpot:NSMakePoint(8,8)];
-
    return( [super initWithWindowNibName:@"ImageListWindow"] );
 }
 
@@ -231,7 +223,7 @@ typedef enum { K_UP, K_DOWN } enumeration_direction_t;
    [buttonCell setEditable: YES];
    [buttonCell setButtonType: NSSwitchButton];
    [buttonCell setAllowsMixedState: YES];
-   [buttonCell setControlSize:NSSmallControlSize];
+    [buttonCell setControlSize:NSControlSizeSmall];
    [tableColumn setDataCell:buttonCell];
    [_textView reloadData];
 
@@ -240,7 +232,7 @@ typedef enum { K_UP, K_DOWN } enumeration_direction_t;
 
    // Initialize dragging
    [_textView registerForDraggedTypes:
-    [NSArray arrayWithObject:NSFilenamesPboardType]];
+    [NSArray arrayWithObject:NSPasteboardTypeFileURL]];
 
    // Initialize image view
    [_imageView setSelectionMode:NoSelection];
@@ -934,7 +926,7 @@ typedef enum { K_UP, K_DOWN } enumeration_direction_t;
    writerClass = [_currentWriters objectAtIndex:selectedIndex];
    [_savePanel setAllowedFileTypes:[NSArray arrayWithObject:[writerClass fileExtension]]];
 
-   if ( [_savePanel runModal] == NSFileHandlingPanelOKButton )
+    if ( [_savePanel runModal] == NSModalResponseOK )
    {
       // The user gave a filename, save the image in it
       NSURL *url = [_savePanel URL];
@@ -951,11 +943,9 @@ typedef enum { K_UP, K_DOWN } enumeration_direction_t;
                                              metaData:nil];
 
       // Let the user fine tune the writer's options
-      if ( [NSApp runModalForWindow:[writer configurationPanel]] == NSOKButton )
+       if ( [NSApp runModalForWindow:[writer configurationPanel]] == NSModalResponseOK )
       {
-         // Set the watch cursor
-         [myWatchCursor push];
-
+         
          // And save at last
          LynkeosImageBuffer *copy = [image copy];
          const u_short nPlanes = copy->_nPlanes;
@@ -997,9 +987,6 @@ typedef enum { K_UP, K_DOWN } enumeration_direction_t;
          [[NSUserDefaults standardUserDefaults] 
           setObject:[writerClass writerName]
           forKey:K_PREFERED_IMAGE_WRITER];
-
-         // Revert the cursor to its normal state when we finished saving
-         [NSCursor pop];
       }
    }
 }
@@ -1195,7 +1182,7 @@ typedef enum { K_UP, K_DOWN } enumeration_direction_t;
 
    [panel setAllowedFileTypes:[MyImageListItem imageListItemFileTypes]];
    [panel setAllowsMultipleSelection:YES];
-   if ( [panel runModal] == NSFileHandlingPanelOKButton )
+    if ( [panel runModal] == NSModalResponseOK )
    {
       URLs = [panel URLs];
 
@@ -1219,7 +1206,6 @@ typedef enum { K_UP, K_DOWN } enumeration_direction_t;
 
    // Set the watch cursor
    [[self window] disableCursorRects];
-   [myWatchCursor push];
 
    // Add their objects to the document
    list = [URLs objectEnumerator];

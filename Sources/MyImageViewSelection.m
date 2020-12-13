@@ -202,21 +202,7 @@ static short processDrag( long mouse, u_short origin, u_short maximum,
 
 - (void) initCursors
 {
-   _crossCursor = [[[NSCursor alloc] initWithImage:
-                                     [NSImage imageNamed: (NSString*)crossImage]
-                                           hotSpot:crossSpot] retain];
-   _leftCursor = [[[NSCursor alloc] initWithImage:
-                                       [NSImage imageNamed:(NSString*)leftImage]
-                                          hotSpot:leftSpot] retain];
-   _rightCursor = [[[NSCursor alloc] initWithImage:
-                                      [NSImage imageNamed:(NSString*)rightImage]
-                                           hotSpot:rightSpot] retain];
-   _topCursor = [[[NSCursor alloc] initWithImage:
-                                        [NSImage imageNamed:(NSString*)topImage]
-                                         hotSpot:topSpot] retain];
-   _bottomCursor = [[[NSCursor alloc] initWithImage:
-                                     [NSImage imageNamed:(NSString*)bottomImage]
-                                            hotSpot:bottomSpot] retain];
+
    _topLeftCursor = [[[NSCursor alloc] initWithImage:
                                     [NSImage imageNamed:(NSString*)topLeftImage]
                                              hotSpot:topLeftSpot] retain];
@@ -533,7 +519,7 @@ static short processDrag( long mouse, u_short origin, u_short maximum,
 {
    // Act on current selection, except if shift was pressed to add a new selection
    _modifiers = (unsigned int)[theEvent modifierFlags];
-   if (_selectionMode == MultiSelection && (_modifiers & NSShiftKeyMask) != 0)
+    if (_selectionMode == MultiSelection && (_modifiers & NSEventModifierFlagShift) != 0)
    {
       _previousSelectionIndex = _currentSelectionIndex;
       _currentSelectionIndex = [_selection count];
@@ -655,26 +641,26 @@ static short processDrag( long mouse, u_short origin, u_short maximum,
                               size:s
                    horizontalOrder:PrecedingSide verticalOrder:PrecedingSide
                            visible:v view:self];
-            [sel processCursorRect:&sel->_left cursor:_leftCursor size:s
+            [sel processCursorRect:&sel->_left cursor:NSCursor.resizeLeftCursor size:s
                    horizontalOrder:PrecedingSide verticalOrder:MiddlePosition
                            visible:v view:self];
             [sel processCursorRect:&sel->_topLeft cursor:_topLeftCursor size:s
                    horizontalOrder:PrecedingSide verticalOrder:FollowingSide
                            visible:v view:self];
-            [sel processCursorRect:&sel->_top cursor:_topCursor size:s
+            [sel processCursorRect:&sel->_top cursor:NSCursor.resizeUpCursor size:s
                    horizontalOrder:MiddlePosition verticalOrder:FollowingSide
                            visible:v view:self];
             [sel processCursorRect:&sel->_topRight cursor:_topRightCursor size:s
                    horizontalOrder:FollowingSide verticalOrder:FollowingSide
                            visible:v view:self];
-            [sel processCursorRect:&sel->_right cursor:_rightCursor size:s
+            [sel processCursorRect:&sel->_right cursor:NSCursor.resizeRightCursor size:s
                    horizontalOrder:FollowingSide verticalOrder:MiddlePosition
                            visible:v view:self];
             [sel processCursorRect:&sel->_bottomRight cursor:_bottomRightCursor
                               size:s
                    horizontalOrder:FollowingSide verticalOrder:PrecedingSide
                            visible:v view:self];
-            [sel processCursorRect:&sel->_bottom cursor:_bottomCursor size:s
+            [sel processCursorRect:&sel->_bottom cursor:NSCursor.resizeDownCursor size:s
                    horizontalOrder:MiddlePosition verticalOrder:PrecedingSide
                            visible:v view:self];
          }
@@ -686,7 +672,7 @@ static short processDrag( long mouse, u_short origin, u_short maximum,
    }
 
    if ( v.size.width != 0 && v.size.height != 0 )
-      [self addCursorRect:v cursor:_crossCursor];
+      [self addCursorRect:v cursor: NSCursor.crosshairCursor];
 }
 
 @end

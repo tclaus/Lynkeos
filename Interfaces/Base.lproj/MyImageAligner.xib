@@ -36,11 +36,11 @@
                     </connections>
                 </button>
                 <button toolTip="Cancels previous alignment" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8zj-Pw-gps">
-                    <rect key="frame" x="183" y="9" width="56" height="18"/>
+                    <rect key="frame" x="172" y="9" width="79" height="27"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <buttonCell key="cell" type="square" title="Cancel" bezelStyle="shadowlessSquare" alignment="center" controlSize="small" enabled="NO" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="9bj-g9-SsH">
+                    <buttonCell key="cell" type="push" title="Cancel" bezelStyle="rounded" alignment="center" controlSize="small" enabled="NO" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="9bj-g9-SsH">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                        <font key="font" metaFont="smallSystem"/>
+                        <font key="font" metaFont="system"/>
                         <string key="keyEquivalent" base64-UTF8="YES">
 Gw
 </string>
@@ -60,7 +60,7 @@ Gw
                                 <rect key="frame" x="0.0" y="0.0" width="264" height="95"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <size key="intercellSpacing" width="3" height="2"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                 <tableColumns>
                                     <tableColumn identifier="modify" width="24" minWidth="10" maxWidth="3.4028234663852886e+38" id="m4F-eq-tKk">
@@ -101,7 +101,7 @@ You can also add a new square by pressing &lt;shift&gt; while drawing a square. 
                                         </textFieldCell>
                                         <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                     </tableColumn>
-                                    <tableColumn identifier="size" width="71" minWidth="10" maxWidth="1000" headerToolTip="Size of search square" id="fue-dg-w24">
+                                    <tableColumn identifier="size" width="42" minWidth="10" maxWidth="1000" headerToolTip="Size of search square" id="fue-dg-w24">
                                         <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Size">
                                             <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>

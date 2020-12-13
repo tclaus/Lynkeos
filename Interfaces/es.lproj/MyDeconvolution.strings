@@ -1,0 +1,18 @@
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Rayo de \"borroso\" que va a ser corregido"; ObjectID = "26"; */
+"26.ibShadowedToolTip" = "Rayo de \"borroso\" que va a ser corregido";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Limite de ruido : mas bajo es el nivel, mas agresivo es el proceso"; ObjectID = "27"; */
+"27.ibShadowedToolTip" = "Limite de ruido : mas bajo es el nivel, mas agresivo es el proceso";
+
+/* Class = "NSTextFieldCell"; title = "999,99"; ObjectID = "62"; */
+"62.title" = "999,99";
+
+/* Class = "NSTextFieldCell"; title = "9,99"; ObjectID = "63"; */
+"63.title" = "9,99";
+
+/* Class = "NSTextFieldCell"; title = "Rayo"; ObjectID = "64"; */
+"64.title" = "Rayo";
+
+/* Class = "NSTextFieldCell"; title = "Limite"; ObjectID = "65"; */
+"65.title" = "Limite";

@@ -214,13 +214,13 @@
 
 - (IBAction) confirmParams :(id)sender
 {
-   [NSApp stopModalWithCode:NSOKButton];
+   [NSApp stopModalWithCode:NSModalResponseOK];
    [_cfgPanel close];
 }
 
 - (IBAction) cancelParams :(id)sender 
 {
-   [NSApp stopModalWithCode:NSCancelButton];
+   [NSApp stopModalWithCode:NSModalResponseCancel];
    [_cfgPanel close];
 }
 @end

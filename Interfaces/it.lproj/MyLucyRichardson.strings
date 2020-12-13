@@ -1,0 +1,78 @@
+
+/* Class = "NSStepper"; ibShadowedToolTip = "The number of algorithm iterations that will be performed"; ObjectID = "6"; */
+"6.ibShadowedToolTip" = "The number of algorithm iterations that will be performed";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Method to retrieve the \"blur sample\", aka \"convolver\" or \"point spread function\""; ObjectID = "9"; */
+"9.ibShadowedToolTip" = "Method to retrieve the \"blur sample\", aka \"convolver\" or \"point spread function\"";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "10"; */
+"10.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Gaussian"; ObjectID = "12"; */
+"12.title" = "Gaussian";
+
+/* Class = "NSMenuItem"; title = "File"; ObjectID = "13"; */
+"13.title" = "File";
+
+/* Class = "NSMenuItem"; title = "Selection"; ObjectID = "15"; */
+"15.title" = "Selection";
+
+/* Class = "NSImageView"; ibShadowedToolTip = "This is the image of the blur sample"; ObjectID = "16"; */
+"16.ibShadowedToolTip" = "This is the image of the blur sample";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Radius of the gaussian blur sample"; ObjectID = "17"; */
+"17.ibShadowedToolTip" = "Radius of the gaussian blur sample";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Radius of the gaussian blur sample"; ObjectID = "18"; */
+"18.ibShadowedToolTip" = "Radius of the gaussian blur sample";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Load the blur sample from an image file"; ObjectID = "21"; */
+"21.ibShadowedToolTip" = "Load the blur sample from an image file";
+
+/* Class = "NSBox"; title = "Gaussian"; ObjectID = "22"; */
+"22.title" = "Gaussian";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Start the iterations"; ObjectID = "39"; */
+"39.ibShadowedToolTip" = "Start the iterations";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Whether to display the processed image at the end of each iteration"; ObjectID = "42"; */
+"42.ibShadowedToolTip" = "Whether to display the processed image at the end of each iteration";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "How much iteration have been started so far"; ObjectID = "44"; */
+"44.ibShadowedToolTip" = "How much iteration have been started so far";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Save the current blur sample in an image file"; ObjectID = "48"; */
+"48.ibShadowedToolTip" = "Save the current blur sample in an image file";
+
+/* Class = "NSBox"; title = "File"; ObjectID = "49"; */
+"49.title" = "File";
+
+/* Class = "NSTextFieldCell"; title = "100"; ObjectID = "97"; */
+"97.title" = "100";
+
+/* Class = "NSTextFieldCell"; title = "Number of iterations"; ObjectID = "98"; */
+"98.title" = "Number of iterations";
+
+/* Class = "NSTextFieldCell"; title = "Blur sample"; ObjectID = "100"; */
+"100.title" = "Blur sample";
+
+/* Class = "NSTextFieldCell"; title = "12,50"; ObjectID = "103"; */
+"103.title" = "12,50";
+
+/* Class = "NSTextFieldCell"; title = "Radius"; ObjectID = "104"; */
+"104.title" = "Radius";
+
+/* Class = "NSButtonCell"; title = "Start"; ObjectID = "105"; */
+"105.title" = "Start";
+
+/* Class = "NSButtonCell"; title = "Progress"; ObjectID = "106"; */
+"106.title" = "Progress";
+
+/* Class = "NSTextFieldCell"; title = "Iteration"; ObjectID = "107"; */
+"107.title" = "Iteration";
+
+/* Class = "NSButtonCell"; title = "Load…"; ObjectID = "109"; */
+"109.title" = "Load…";
+
+/* Class = "NSButtonCell"; title = "Save…"; ObjectID = "110"; */
+"110.title" = "Save…";

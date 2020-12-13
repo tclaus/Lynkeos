@@ -1,0 +1,69 @@
+
+/* Class = "NSButton"; ibShadowedToolTip = "Alinea le immagini"; ObjectID = "28"; */
+"28.ibShadowedToolTip" = "Alinea le immagini";
+
+/* Class = "NSButtonCell"; title = "Alinea"; ObjectID = "136"; */
+"136.title" = "Alinea";
+
+/* Class = "NSButton"; ibShadowedToolTip = "I quadrati di ricerca sono specifici a questa immagine"; ObjectID = "2Xg-PX-u5y"; */
+"2Xg-PX-u5y.ibShadowedToolTip" = "I quadrati di ricerca sono specifici a questa immagine";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Elimina l'allineamento dell'immagine scelta, o di tutte le immagini in mancanza di selezione"; ObjectID = "8zj-Pw-gps"; */
+"8zj-Pw-gps.ibShadowedToolTip" = "Elimina l'allineamento dell'immagine scelta, o di tutte le immagini in mancanza di selezione";
+
+/* Class = "NSButtonCell"; title = "Cancella"; ObjectID = "9bj-g9-SsH"; */
+"9bj-g9-SsH.title" = "Cancella";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "BMZ-t8-0I1"; */
+"BMZ-t8-0I1.title" = "Text Cell";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Autorizza il calcolo della differenza di scala tra le immagini"; ObjectID = "HvR-R0-WhI"; */
+"HvR-R0-WhI.ibShadowedToolTip" = "Autorizza il calcolo della differenza di scala tra le immagini";
+
+/* Class = "NSTableColumn"; headerCell.title = "X"; ObjectID = "IO1-SU-bA0"; */
+"IO1-SU-bA0.headerCell.title" = "X";
+
+/* Class = "NSTableColumn"; headerToolTip = "Origine orizzontale del quadrato de ricerca"; ObjectID = "IO1-SU-bA0"; */
+"IO1-SU-bA0.headerToolTip" = "Origine orizzontale del quadrato de ricerca";
+
+/* Class = "NSButtonCell"; title = "Rotazione"; ObjectID = "InJ-jm-urd"; */
+"InJ-jm-urd.title" = "Rotazione";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "JQq-kc-owM"; */
+"JQq-kc-owM.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "Rfe-7O-18F"; */
+"Rfe-7O-18F.title" = "Text Cell";
+
+/* Class = "NSTableColumn"; headerCell.title = "Y"; ObjectID = "UEM-Wg-fnS"; */
+"UEM-Wg-fnS.headerCell.title" = "Y";
+
+/* Class = "NSTableColumn"; headerToolTip = "Origine verticale del quadrato de ricerca"; ObjectID = "UEM-Wg-fnS"; */
+"UEM-Wg-fnS.headerToolTip" = "Origine verticale del quadrato de ricerca";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Considera l'immagine evidenziata come riferimento per l'alineamento"; ObjectID = "UEY-QJ-H56"; */
+"UEY-QJ-H56.ibShadowedToolTip" = "Considera l'immagine evidenziata come riferimento per l'alineamento";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "VsP-7u-t8h"; */
+"VsP-7u-t8h.title" = "Text Cell";
+
+/* Class = "NSButtonCell"; title = "Riferimento"; ObjectID = "XpX-Xp-eDZ"; */
+"XpX-Xp-eDZ.title" = "Riferimento";
+
+/* Class = "NSButtonCell"; title = "Specifico"; ObjectID = "brb-Q8-jBT"; */
+"brb-Q8-jBT.title" = "Specifico";
+
+/* Class = "NSButtonCell"; title = "Scala"; ObjectID = "dPO-1I-ydd"; */
+"dPO-1I-ydd.title" = "Scala";
+
+/* Class = "NSTableColumn"; headerCell.title = "Dimensione"; ObjectID = "fue-dg-w24"; */
+"fue-dg-w24.headerCell.title" = "Dimensione";
+
+/* Class = "NSTableColumn"; headerToolTip = "Dimensione del quadrato di ricerca"; ObjectID = "fue-dg-w24"; */
+"fue-dg-w24.headerToolTip" = "Dimensione del quadrato di ricerca";
+
+/* Class = "NSTableColumn"; headerToolTip = "Aggiunga o rimuova un quadrato di ricerca.\nLei può aggiungere anche un quadrato nuova pigiando turno mentre disegna un quadrato."; ObjectID = "m4F-eq-tKk"; */
+"m4F-eq-tKk.headerToolTip" = "Aggiunga o rimuova un quadrato di ricerca.\nLei può aggiungere anche un quadrato nuova pigiando turno mentre disegna un quadrato.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Autorizza il calcolo della rotazione tra le immagini"; ObjectID = "vLD-8k-CDx"; */
+"vLD-8k-CDx.ibShadowedToolTip" = "Autorizza il calcolo della rotazione tra le immagini";

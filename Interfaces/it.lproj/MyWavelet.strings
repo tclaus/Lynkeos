@@ -1,0 +1,114 @@
+
+/* Class = "NSTextFieldCell"; title = "0,7071"; ObjectID = "7"; */
+"7.title" = "0,7071";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Number of wavelets in the filter"; ObjectID = "10"; */
+"10.ibShadowedToolTip" = "Number of wavelets in the filter";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Progression of the series"; ObjectID = "13"; */
+"13.ibShadowedToolTip" = "Progression of the series";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "14"; */
+"14.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Arithmetic"; ObjectID = "16"; */
+"16.title" = "Arithmetic";
+
+/* Class = "NSMenuItem"; title = "Geometric"; ObjectID = "17"; */
+"17.title" = "Geometric";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Step of the geometric progression. 2 for dyadic."; ObjectID = "19"; */
+"19.ibShadowedToolTip" = "Step of the geometric progression. 2 for dyadic.";
+
+/* Class = "NSButtonCell"; title = "Switch"; ObjectID = "21"; */
+"21.title" = "Switch";
+
+/* Class = "NSTextFieldCell"; title = "99,99"; ObjectID = "22"; */
+"22.title" = "99,99";
+
+/* Class = "NSButtonCell"; title = "-"; ObjectID = "26"; */
+"26.title" = "-";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Add a new wavelet"; ObjectID = "27"; */
+"27.ibShadowedToolTip" = "Add a new wavelet";
+
+/* Class = "NSMatrix"; ibShadowedToolTip = "Delete a wavelet"; ObjectID = "28"; */
+"28.ibShadowedToolTip" = "Delete a wavelet";
+
+/* Class = "NSButtonCell"; title = "-"; ObjectID = "29"; */
+"29.title" = "-";
+
+/* Class = "NSMatrix"; ibShadowedToolTip = "Wavelet frequency"; ObjectID = "31"; */
+"31.ibShadowedToolTip" = "Wavelet frequency";
+
+/* Class = "NSTextFieldCell"; title = "0,7071"; ObjectID = "32"; */
+"32.title" = "0,7071";
+
+/* Class = "NSMatrix"; ibShadowedToolTip = "Display the layer isolated by a wavelet"; ObjectID = "33"; */
+"33.ibShadowedToolTip" = "Display the layer isolated by a wavelet";
+
+/* Class = "NSButtonCell"; title = "Switch"; ObjectID = "34"; */
+"34.title" = "Switch";
+
+/* Class = "NSMatrix"; ibShadowedToolTip = "Level of a layer in the final result"; ObjectID = "35"; */
+"35.ibShadowedToolTip" = "Level of a layer in the final result";
+
+/* Class = "NSMatrix"; ibShadowedToolTip = "Level of a layer in the final result"; ObjectID = "38"; */
+"38.ibShadowedToolTip" = "Level of a layer in the final result";
+
+/* Class = "NSTextFieldCell"; title = "99,99"; ObjectID = "39"; */
+"39.title" = "99,99";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "121"; */
+"121.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Frequency sawtooth wavelet (more agressive)"; ObjectID = "122"; */
+"122.ibShadowedToolTip" = "Frequency sawtooth wavelet (more agressive)";
+
+/* Class = "NSMenuItem"; title = "Sawtooth"; ObjectID = "122"; */
+"122.title" = "Sawtooth";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "European Southern Observatory (E.S.O.) wavelet"; ObjectID = "123"; */
+"123.ibShadowedToolTip" = "European Southern Observatory (E.S.O.) wavelet";
+
+/* Class = "NSMenuItem"; title = "E.S.O."; ObjectID = "123"; */
+"123.title" = "E.S.O.";
+
+/* Class = "NSTextFieldCell"; title = "Number of wavelets"; ObjectID = "132"; */
+"132.title" = "Number of wavelets";
+
+/* Class = "NSTextFieldCell"; title = "6"; ObjectID = "133"; */
+"133.title" = "6";
+
+/* Class = "NSTextFieldCell"; title = "Step"; ObjectID = "136"; */
+"136.title" = "Step";
+
+/* Class = "NSTextFieldCell"; title = "2,00"; ObjectID = "137"; */
+"137.title" = "2,00";
+
+/* Class = "NSTextFieldCell"; title = "Level"; ObjectID = "138"; */
+"138.title" = "Level";
+
+/* Class = "NSButtonCell"; title = "+"; ObjectID = "139"; */
+"139.title" = "+";
+
+/* Class = "NSTextFieldCell"; title = "Display"; ObjectID = "140"; */
+"140.title" = "Display";
+
+/* Class = "NSButtonCell"; title = "Fréq."; ObjectID = "141"; */
+"141.title" = "Fréq.";
+
+/* Class = "NSTextFieldCell"; title = "Wavelet kind"; ObjectID = "143"; */
+"143.title" = "Wavelet kind";
+
+/* Class = "NSButtonCell"; title = "-"; ObjectID = "144"; */
+"144.title" = "-";
+
+/* Class = "NSTextFieldCell"; title = "0,7071"; ObjectID = "145"; */
+"145.title" = "0,7071";
+
+/* Class = "NSButtonCell"; title = "Switch"; ObjectID = "146"; */
+"146.title" = "Switch";
+
+/* Class = "NSTextFieldCell"; title = "99,99"; ObjectID = "148"; */
+"148.title" = "99,99";

@@ -62,7 +62,7 @@
 
    pboard = [sender draggingPasteboard];
 
-   if ( [[pboard types] containsObject:NSFilenamesPboardType] )
+   if ( [[pboard types] containsObject:NSPasteboardTypeFileURL] )
    {
       if (sourceDragMask & NSDragOperationCopy)
          return NSDragOperationCopy;

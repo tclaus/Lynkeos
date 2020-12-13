@@ -36,7 +36,7 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="17" y="324" width="1000" height="550"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1025"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1050"/>
             <value key="minSize" type="size" width="650" height="400"/>
             <view key="contentView" id="6">
                 <rect key="frame" x="0.0" y="0.0" width="1000" height="550"/>
@@ -145,7 +145,7 @@
                                                                             <textFieldCell key="dataCell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" alignment="left" id="752">
                                                                                 <font key="font" metaFont="system"/>
                                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                                             </textFieldCell>
                                                                             <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                                         </tableColumn>
@@ -157,7 +157,7 @@
                                                                             <textFieldCell key="dataCell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" alignment="left" id="753">
                                                                                 <font key="font" metaFont="system"/>
                                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                                             </textFieldCell>
                                                                             <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                                         </tableColumn>
@@ -169,7 +169,7 @@
                                                                             <textFieldCell key="dataCell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" alignment="right" id="754">
                                                                                 <font key="font" metaFont="system"/>
                                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                                                                <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                                             </textFieldCell>
                                                                             <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                                         </tableColumn>
@@ -181,7 +181,7 @@
                                                                             <textFieldCell key="dataCell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" alignment="right" id="755">
                                                                                 <font key="font" metaFont="system"/>
                                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                                                                <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                                             </textFieldCell>
                                                                             <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                                         </tableColumn>
@@ -193,7 +193,7 @@
                                                                             <textFieldCell key="dataCell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" alignment="right" id="756">
                                                                                 <font key="font" metaFont="system"/>
                                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                                                                <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                                             </textFieldCell>
                                                                             <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                                         </tableColumn>
@@ -205,7 +205,7 @@
                                                                             <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="right" title="Text Cell" id="Lrm-gT-q7a">
                                                                                 <font key="font" metaFont="system"/>
                                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                                                                <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                                             </textFieldCell>
                                                                             <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                                         </tableColumn>
@@ -217,7 +217,7 @@
                                                                             <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="right" title="Text Cell" id="iXN-Va-u7V">
                                                                                 <font key="font" metaFont="system"/>
                                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                                                                <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                                             </textFieldCell>
                                                                             <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                                         </tableColumn>
@@ -229,7 +229,7 @@
                                                                             <textFieldCell key="dataCell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" alignment="right" id="757">
                                                                                 <font key="font" metaFont="system"/>
                                                                                 <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                                                                <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                                             </textFieldCell>
                                                                             <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                                         </tableColumn>
@@ -609,7 +609,7 @@
             <point key="canvasLocation" x="112" y="110"/>
         </window>
         <customView id="537" userLabel="File format">
-            <rect key="frame" x="0.0" y="0.0" width="236" height="18"/>
+            <rect key="frame" x="0.0" y="0.0" width="236" height="29"/>
             <autoresizingMask key="autoresizingMask"/>
             <subviews>
                 <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="544">
@@ -617,7 +617,7 @@
                     <autoresizingMask key="autoresizingMask"/>
                     <popUpButtonCell key="cell" type="push" bezelStyle="rounded" alignment="left" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="546" id="745">
                         <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                        <font key="font" metaFont="menu"/>
+                        <font key="font" metaFont="smallSystem"/>
                         <menu key="menu" title="OtherViews" id="545">
                             <items>
                                 <menuItem state="on" id="546"/>
@@ -633,84 +633,147 @@
                     <autoresizingMask key="autoresizingMask"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="File format" id="744">
                         <font key="font" metaFont="smallSystem"/>
-                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
             </subviews>
+            <point key="canvasLocation" x="-390" y="-303"/>
         </customView>
-        <customView id="550" userLabel="List">
-            <rect key="frame" x="0.0" y="0.0" width="263" height="66"/>
+        <customView id="550" userLabel="Image Controls">
+            <rect key="frame" x="0.0" y="0.0" width="301" height="70"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
-                <button toolTip="Toggle image checkbox" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="555">
-                    <rect key="frame" x="213" y="19" width="30" height="30"/>
-                    <autoresizingMask key="autoresizingMask"/>
-                    <buttonCell key="cell" type="smallSquare" title="√" bezelStyle="smallSquare" alignment="center" borderStyle="border" id="750">
-                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                        <font key="font" metaFont="systemBold"/>
-                        <string key="keyEquivalent" base64-UTF8="YES">
+                <stackView distribution="fillEqually" orientation="horizontal" alignment="top" spacing="60" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qmN-Hd-NKb">
+                    <rect key="frame" x="20" y="20" width="261" height="30"/>
+                    <subviews>
+                        <stackView distribution="fillEqually" orientation="horizontal" alignment="top" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JGa-4r-xrt">
+                            <rect key="frame" x="0.0" y="5" width="58" height="25"/>
+                            <subviews>
+                                <button toolTip="Add an image or a movie" horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="551">
+                                    <rect key="frame" x="0.0" y="-1" width="25" height="27"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="FlZ-RX-9Kd"/>
+                                        <constraint firstAttribute="width" constant="25" id="MTX-j1-uUP"/>
+                                    </constraints>
+                                    <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="NSAddTemplate" imagePosition="only" alignment="center" borderStyle="border" id="746">
+                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                    <connections>
+                                        <action selector="addAction:" target="562" id="563"/>
+                                        <outlet property="nextKeyView" destination="552" id="699"/>
+                                    </connections>
+                                </button>
+                                <button toolTip="Delete hilighted line from list" horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="552">
+                                    <rect key="frame" x="33" y="-1" width="25" height="27"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="GuR-LB-zFi"/>
+                                        <constraint firstAttribute="width" constant="25" id="IFZ-1z-Sse"/>
+                                    </constraints>
+                                    <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="NSMenuMixedStateTemplate" imagePosition="only" alignment="center" borderStyle="border" id="747">
+                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                    <connections>
+                                        <action selector="deleteAction:" target="562" id="564"/>
+                                        <outlet property="nextKeyView" destination="553" id="700"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <visibilityPriorities>
+                                <integer value="1000"/>
+                                <integer value="1000"/>
+                            </visibilityPriorities>
+                            <customSpacing>
+                                <real value="3.4028234663852886e+38"/>
+                                <real value="3.4028234663852886e+38"/>
+                            </customSpacing>
+                        </stackView>
+                        <stackView distribution="fillEqually" orientation="horizontal" alignment="top" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fqG-kb-S3W">
+                            <rect key="frame" x="118" y="5" width="58" height="25"/>
+                            <subviews>
+                                <button toolTip="Go to previous selected image" horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="553">
+                                    <rect key="frame" x="0.0" y="-1" width="25" height="27"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="bjN-ET-zbU"/>
+                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="25" id="wzR-fN-3Ax"/>
+                                    </constraints>
+                                    <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="NSGoLeftTemplate" imagePosition="overlaps" alignment="center" borderStyle="border" inset="2" id="748">
+                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="systemBold"/>
+                                    </buttonCell>
+                                    <connections>
+                                        <action selector="highlightPrevious:" target="562" id="565"/>
+                                        <outlet property="nextKeyView" destination="554" id="701"/>
+                                    </connections>
+                                </button>
+                                <button toolTip="Go to next selected image" horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="554">
+                                    <rect key="frame" x="33" y="-1" width="25" height="27"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="25" id="ndO-MH-bQ8"/>
+                                        <constraint firstAttribute="height" constant="25" id="u2g-SC-tYa"/>
+                                    </constraints>
+                                    <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="NSGoForwardTemplate" imagePosition="only" alignment="left" borderStyle="border" inset="2" id="749">
+                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                        <font key="font" metaFont="systemBold"/>
+                                    </buttonCell>
+                                    <connections>
+                                        <action selector="highlightNext:" target="562" id="566"/>
+                                        <outlet property="nextKeyView" destination="555" id="702"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <visibilityPriorities>
+                                <integer value="1000"/>
+                                <integer value="1000"/>
+                            </visibilityPriorities>
+                            <customSpacing>
+                                <real value="3.4028234663852886e+38"/>
+                                <real value="3.4028234663852886e+38"/>
+                            </customSpacing>
+                        </stackView>
+                        <button toolTip="Toggle image checkbox" horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="555">
+                            <rect key="frame" x="236" y="4" width="25" height="27"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="25" id="4g3-Kg-Ffh"/>
+                                <constraint firstAttribute="height" constant="25" id="6yn-LB-Bem"/>
+                            </constraints>
+                            <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="NSMenuOnStateTemplate" imagePosition="only" alignment="center" borderStyle="border" id="750">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" metaFont="systemBold"/>
+                                <string key="keyEquivalent" base64-UTF8="YES">
 IA
 </string>
-                    </buttonCell>
-                    <connections>
-                        <action selector="toggleEntrySelection:" target="562" id="567"/>
-                        <outlet property="nextKeyView" destination="551" id="703"/>
-                    </connections>
-                </button>
-                <button toolTip="Go to next selected image" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="554">
-                    <rect key="frame" x="145" y="19" width="30" height="30"/>
-                    <autoresizingMask key="autoresizingMask"/>
-                    <buttonCell key="cell" type="smallSquare" title="&gt;&gt;" bezelStyle="smallSquare" imagePosition="above" alignment="center" borderStyle="border" inset="2" id="749">
-                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                        <font key="font" metaFont="systemBold"/>
-                    </buttonCell>
-                    <connections>
-                        <action selector="highlightNext:" target="562" id="566"/>
-                        <outlet property="nextKeyView" destination="555" id="702"/>
-                    </connections>
-                </button>
-                <button toolTip="Go to previous selected image" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="553">
-                    <rect key="frame" x="107" y="19" width="30" height="30"/>
-                    <autoresizingMask key="autoresizingMask"/>
-                    <buttonCell key="cell" type="smallSquare" title="&lt;&lt;" bezelStyle="smallSquare" alignment="center" borderStyle="border" inset="2" id="748">
-                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                        <font key="font" metaFont="systemBold"/>
-                    </buttonCell>
-                    <connections>
-                        <action selector="highlightPrevious:" target="562" id="565"/>
-                        <outlet property="nextKeyView" destination="554" id="701"/>
-                    </connections>
-                </button>
-                <button toolTip="Add an image or a movie" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="551">
-                    <rect key="frame" x="19" y="19" width="30" height="30"/>
-                    <autoresizingMask key="autoresizingMask"/>
-                    <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="plus" imagePosition="only" alignment="center" borderStyle="border" id="746">
-                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                        <font key="font" metaFont="system"/>
-                    </buttonCell>
-                    <connections>
-                        <action selector="addAction:" target="562" id="563"/>
-                        <outlet property="nextKeyView" destination="552" id="699"/>
-                    </connections>
-                </button>
-                <button toolTip="Delete hilighted line from list" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="552">
-                    <rect key="frame" x="57" y="19" width="30" height="30"/>
-                    <autoresizingMask key="autoresizingMask"/>
-                    <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="minus" imagePosition="only" alignment="center" borderStyle="border" id="747">
-                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                        <font key="font" metaFont="system"/>
-                    </buttonCell>
-                    <connections>
-                        <action selector="deleteAction:" target="562" id="564"/>
-                        <outlet property="nextKeyView" destination="553" id="700"/>
-                    </connections>
-                </button>
+                            </buttonCell>
+                            <connections>
+                                <action selector="toggleEntrySelection:" target="562" id="567"/>
+                                <outlet property="nextKeyView" destination="551" id="703"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <visibilityPriorities>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                        <integer value="1000"/>
+                    </visibilityPriorities>
+                    <customSpacing>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                        <real value="3.4028234663852886e+38"/>
+                    </customSpacing>
+                </stackView>
             </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="qmN-Hd-NKb" secondAttribute="bottom" constant="20" symbolic="YES" id="2ct-8T-B9W"/>
+                <constraint firstItem="qmN-Hd-NKb" firstAttribute="leading" secondItem="550" secondAttribute="leading" constant="20" symbolic="YES" id="8JH-II-pag"/>
+                <constraint firstAttribute="trailing" secondItem="qmN-Hd-NKb" secondAttribute="trailing" constant="20" symbolic="YES" id="CG3-gz-bzf"/>
+                <constraint firstItem="qmN-Hd-NKb" firstAttribute="top" secondItem="550" secondAttribute="top" constant="20" symbolic="YES" id="f3c-OL-GPs"/>
+            </constraints>
             <connections>
                 <outlet property="nextKeyView" destination="551" id="704"/>
             </connections>
-            <point key="canvasLocation" x="-117.5" y="-237"/>
+            <point key="canvasLocation" x="-131.5" y="-396"/>
         </customView>
         <customObject id="562" userLabel="MyListManagement" customClass="MyListManagement">
             <connections>
@@ -727,7 +790,7 @@ IA
             <windowStyleMask key="styleMask" titled="YES" closable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="460" y="20" width="400" height="300"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1025"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1050"/>
             <value key="minSize" type="size" width="200" height="100"/>
             <view key="contentView" id="587">
                 <rect key="frame" x="0.0" y="0.0" width="400" height="300"/>
@@ -738,7 +801,7 @@ IA
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <clipView key="contentView" autoresizesSubviews="NO" id="2Ve-IY-4ee">
                             <rect key="frame" x="1" y="1" width="398" height="298"/>
-                            <autoresizingMask key="autoresizingMask"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
                                 <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="588">
                                     <rect key="frame" x="0.0" y="0.0" width="135" height="65"/>
@@ -760,9 +823,15 @@ IA
             <connections>
                 <outlet property="delegate" destination="-2" id="594"/>
             </connections>
+            <point key="canvasLocation" x="-512" y="-667"/>
         </window>
     </objects>
     <resources>
+        <image name="NSAddTemplate" width="14" height="13"/>
+        <image name="NSGoForwardTemplate" width="10" height="14"/>
+        <image name="NSGoLeftTemplate" width="10" height="14"/>
+        <image name="NSMenuMixedStateTemplate" width="14" height="4"/>
+        <image name="NSMenuOnStateTemplate" width="14" height="13"/>
         <image name="buttonCell:734:image" width="1" height="1">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05T
@@ -778,8 +847,6 @@ KgEvATEBMwE4AUABQwFIAVAAAAAAAAACAQAAAAAAAAAxAAAAAAAAAAAAAAAAAAABUw
         <image name="detachproc" width="8" height="8"/>
         <image name="hidelist" width="8" height="8"/>
         <image name="hidemargin" width="8" height="8"/>
-        <image name="minus" width="25" height="25"/>
-        <image name="plus" width="25" height="25"/>
         <image name="split" width="8" height="8"/>
     </resources>
 </document>

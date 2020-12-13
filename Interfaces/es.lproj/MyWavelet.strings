@@ -1,0 +1,111 @@
+
+/* Class = "NSTextFieldCell"; title = "0,7071"; ObjectID = "7"; */
+"7.title" = "0,7071";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Numero de ondículas en el filtro"; ObjectID = "10"; */
+"10.ibShadowedToolTip" = "Numero de ondículas en el filtro";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Progreso de la serie"; ObjectID = "13"; */
+"13.ibShadowedToolTip" = "Progreso de la serie";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "14"; */
+"14.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Aritmetico"; ObjectID = "16"; */
+"16.title" = "Aritmetico";
+
+/* Class = "NSMenuItem"; title = "Geométrico"; ObjectID = "17"; */
+"17.title" = "Geométrico";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Paso del progreso geométrico. 2 para dyadic."; ObjectID = "19"; */
+"19.ibShadowedToolTip" = "Paso del progreso geométrico. 2 para dyadic.";
+
+/* Class = "NSButtonCell"; title = "Switch"; ObjectID = "21"; */
+"21.title" = "Switch";
+
+/* Class = "NSTextFieldCell"; title = "99,99"; ObjectID = "22"; */
+"22.title" = "99,99";
+
+/* Class = "NSButtonCell"; title = "-"; ObjectID = "26"; */
+"26.title" = "-";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Añadir una nueva ondícula"; ObjectID = "27"; */
+"27.ibShadowedToolTip" = "Añadir una nueva ondícula";
+
+/* Class = "NSMatrix"; ibShadowedToolTip = "Borrar la ondícula"; ObjectID = "28"; */
+"28.ibShadowedToolTip" = "Borrar la ondícula";
+
+/* Class = "NSButtonCell"; title = "-"; ObjectID = "29"; */
+"29.title" = "-";
+
+/* Class = "NSMatrix"; ibShadowedToolTip = "Frecuencia de la ondícula"; ObjectID = "31"; */
+"31.ibShadowedToolTip" = "Frecuencia de la ondícula";
+
+/* Class = "NSTextFieldCell"; title = "0,7071"; ObjectID = "32"; */
+"32.title" = "0,7071";
+
+/* Class = "NSMatrix"; ibShadowedToolTip = "Visualizar la capa aislada por la ondícula"; ObjectID = "33"; */
+"33.ibShadowedToolTip" = "Visualizar la capa aislada por la ondícula";
+
+/* Class = "NSButtonCell"; title = "Switch"; ObjectID = "34"; */
+"34.title" = "Switch";
+
+/* Class = "NSMatrix"; ibShadowedToolTip = "Nivel de la capa en el resultado final"; ObjectID = "35"; */
+"35.ibShadowedToolTip" = "Nivel de la capa en el resultado final";
+
+/* Class = "NSTextFieldCell"; title = "99,99"; ObjectID = "39"; */
+"39.title" = "99,99";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "121"; */
+"121.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Ondicula \"Diente de sierra en frecuencia\" (mas agresiva)"; ObjectID = "122"; */
+"122.ibShadowedToolTip" = "Ondicula \"Diente de sierra en frecuencia\" (mas agresiva)";
+
+/* Class = "NSMenuItem"; title = "Diente de sierra"; ObjectID = "122"; */
+"122.title" = "Diente de sierra";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Ondicula del Observatorio Europeo Meridional (E.S.O.)"; ObjectID = "123"; */
+"123.ibShadowedToolTip" = "Ondicula del Observatorio Europeo Meridional (E.S.O.)";
+
+/* Class = "NSMenuItem"; title = "E.S.O."; ObjectID = "123"; */
+"123.title" = "E.S.O.";
+
+/* Class = "NSTextFieldCell"; title = "Numero de ondículas"; ObjectID = "132"; */
+"132.title" = "Numero de ondículas";
+
+/* Class = "NSTextFieldCell"; title = "6"; ObjectID = "133"; */
+"133.title" = "6";
+
+/* Class = "NSTextFieldCell"; title = "Paso"; ObjectID = "136"; */
+"136.title" = "Paso";
+
+/* Class = "NSTextFieldCell"; title = "2,00"; ObjectID = "137"; */
+"137.title" = "2,00";
+
+/* Class = "NSTextFieldCell"; title = "Nivel"; ObjectID = "138"; */
+"138.title" = "Nivel";
+
+/* Class = "NSButtonCell"; title = "+"; ObjectID = "139"; */
+"139.title" = "+";
+
+/* Class = "NSTextFieldCell"; title = "Visu."; ObjectID = "140"; */
+"140.title" = "Visu.";
+
+/* Class = "NSButtonCell"; title = "Frecue."; ObjectID = "141"; */
+"141.title" = "Frecue.";
+
+/* Class = "NSTextFieldCell"; title = "Tipo de ondicula\n"; ObjectID = "143"; */
+"143.title" = "Tipo de ondicula\n";
+
+/* Class = "NSButtonCell"; title = "-"; ObjectID = "144"; */
+"144.title" = "-";
+
+/* Class = "NSTextFieldCell"; title = "0,7071"; ObjectID = "145"; */
+"145.title" = "0,7071";
+
+/* Class = "NSButtonCell"; title = "Switch"; ObjectID = "146"; */
+"146.title" = "Switch";
+
+/* Class = "NSTextFieldCell"; title = "99,99"; ObjectID = "148"; */
+"148.title" = "99,99";

@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" promptedForUpgradeToXcode5="NO">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="17506" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6250"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17506"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="MyUnsharpMaskView">
@@ -17,12 +18,12 @@
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
-        <customObject id="-3" userLabel="Application"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <customView id="5" userLabel="UnsharpMask">
             <rect key="frame" x="0.0" y="0.0" width="282" height="87"/>
             <autoresizingMask key="autoresizingMask"/>
             <subviews>
-                <button toolTip="Compute only image gradient" id="41">
+                <button toolTip="Compute only image gradient" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="41">
                     <rect key="frame" x="17" y="18" width="78" height="18"/>
                     <autoresizingMask key="autoresizingMask"/>
                     <buttonCell key="cell" type="check" title="Gradient" bezelStyle="regularSquare" imagePosition="right" alignment="left" controlSize="small" inset="2" id="52">
@@ -33,11 +34,11 @@
                         <action selector="gradientChange:" target="-2" id="44"/>
                     </connections>
                 </button>
-                <progressIndicator verticalHuggingPriority="750" maxValue="100" bezeled="NO" controlSize="small" style="bar" id="39">
+                <progressIndicator verticalHuggingPriority="750" fixedFrame="YES" maxValue="100" bezeled="NO" controlSize="small" style="bar" translatesAutoresizingMaskIntoConstraints="NO" id="39">
                     <rect key="frame" x="19" y="0.0" width="244" height="12"/>
                     <autoresizingMask key="autoresizingMask"/>
                 </progressIndicator>
-                <slider toolTip="Amplification of the small scale details" verticalHuggingPriority="750" id="13">
+                <slider toolTip="Amplification of the small scale details" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="13">
                     <rect key="frame" x="81" y="35" width="124" height="17"/>
                     <autoresizingMask key="autoresizingMask"/>
                     <sliderCell key="cell" controlSize="small" alignment="left" maxValue="10" tickMarkPosition="below" numberOfTickMarks="6" sliderType="linear" id="51">
@@ -48,7 +49,7 @@
                         <outlet property="nextKeyView" destination="6" id="38"/>
                     </connections>
                 </slider>
-                <slider toolTip="Threshold between small scale details and large scale variations" verticalHuggingPriority="750" id="12">
+                <slider toolTip="Threshold between small scale details and large scale variations" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="12">
                     <rect key="frame" x="81" y="62" width="124" height="17"/>
                     <autoresizingMask key="autoresizingMask"/>
                     <sliderCell key="cell" controlSize="small" alignment="left" minValue="-0.69314999999999993" maxValue="3.9120199999999996" doubleValue="1.6000000000000001" tickMarkPosition="below" numberOfTickMarks="6" sliderType="linear" id="50">
@@ -59,25 +60,16 @@
                         <outlet property="nextKeyView" destination="13" id="37"/>
                     </connections>
                 </slider>
-                <textField verticalHuggingPriority="750" id="11">
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" preferredMaxLayoutWidth="49" translatesAutoresizingMaskIntoConstraints="NO" id="11">
                     <rect key="frame" x="20" y="42" width="53" height="13"/>
                     <autoresizingMask key="autoresizingMask"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Gain" id="49">
-                        <font key="font" metaFont="label"/>
+                        <font key="font" metaFont="smallSystem"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField verticalHuggingPriority="750" id="10">
-                    <rect key="frame" x="20" y="69" width="37" height="13"/>
-                    <autoresizingMask key="autoresizingMask"/>
-                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Radius" id="48">
-                        <font key="font" metaFont="label"/>
-                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                    </textFieldCell>
-                </textField>
-                <textField toolTip="Amplification of the small scale details" verticalHuggingPriority="750" id="8">
+                <textField toolTip="Amplification of the small scale details" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8">
                     <rect key="frame" x="215" y="40" width="47" height="19"/>
                     <autoresizingMask key="autoresizingMask"/>
                     <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" title="9,99" drawsBackground="YES" id="47">
@@ -89,7 +81,7 @@
                             <decimal key="maximum" value="NaN"/>
                         </numberFormatter>
                         <font key="font" metaFont="smallSystem"/>
-                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                     <connections>
@@ -97,7 +89,7 @@
                         <outlet property="nextKeyView" destination="12" id="36"/>
                     </connections>
                 </textField>
-                <textField toolTip="Threshold between small scale details and large scale variations" verticalHuggingPriority="750" id="6">
+                <textField toolTip="Threshold between small scale details and large scale variations" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6">
                     <rect key="frame" x="215" y="67" width="47" height="19"/>
                     <autoresizingMask key="autoresizingMask"/>
                     <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="right" title="999,99" drawsBackground="YES" id="46">
@@ -109,7 +101,7 @@
                             <decimal key="maximum" value="NaN"/>
                         </numberFormatter>
                         <font key="font" metaFont="smallSystem"/>
-                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                     <connections>
@@ -117,10 +109,20 @@
                         <outlet property="nextKeyView" destination="8" id="35"/>
                     </connections>
                 </textField>
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" preferredMaxLayoutWidth="33" translatesAutoresizingMaskIntoConstraints="NO" id="10">
+                    <rect key="frame" x="20" y="63" width="57" height="15"/>
+                    <autoresizingMask key="autoresizingMask"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" title="Radius" usesSingleLineMode="YES" id="48">
+                        <font key="font" metaFont="smallSystem"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
             </subviews>
             <connections>
                 <outlet property="nextKeyView" destination="6" id="34"/>
             </connections>
+            <point key="canvasLocation" x="26" y="142.5"/>
         </customView>
     </objects>
 </document>

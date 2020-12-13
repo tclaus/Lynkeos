@@ -1,0 +1,36 @@
+
+/* Class = "NSWindow"; title = "Paramètres TIFF"; ObjectID = "10"; */
+"10.title" = "Paramètres TIFF";
+
+/* Class = "NSMenuItem"; title = "None"; ObjectID = "50"; */
+"50.title" = "None";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "51"; */
+"51.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "LZW"; ObjectID = "52"; */
+"52.title" = "LZW";
+
+/* Class = "NSMenuItem"; title = "Entier 16 bits"; ObjectID = "55"; */
+"55.title" = "Entier 16 bits";
+
+/* Class = "NSMenuItem"; title = "Entier 8 bits"; ObjectID = "57"; */
+"57.title" = "Entier 8 bits";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "58"; */
+"58.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Réel flottant 32 bits"; ObjectID = "73"; */
+"73.title" = "Réel flottant 32 bits";
+
+/* Class = "NSButtonCell"; title = "Annuler"; ObjectID = "75"; */
+"75.title" = "Annuler";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "76"; */
+"76.title" = "OK";
+
+/* Class = "NSTextFieldCell"; title = "Compression"; ObjectID = "77"; */
+"77.title" = "Compression";
+
+/* Class = "NSTextFieldCell"; title = "Echantillons\n"; ObjectID = "78"; */
+"78.title" = "Echantillons\n";

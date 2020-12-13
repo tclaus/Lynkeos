@@ -1,0 +1,114 @@
+
+/* Class = "NSTextFieldCell"; title = "0,7071"; ObjectID = "7"; */
+"7.title" = "0,7071";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Nombre d'ondelettes dans le filtre"; ObjectID = "10"; */
+"10.ibShadowedToolTip" = "Nombre d'ondelettes dans le filtre";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Progression de la série de fréquences"; ObjectID = "13"; */
+"13.ibShadowedToolTip" = "Progression de la série de fréquences";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "14"; */
+"14.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Arithmétique"; ObjectID = "16"; */
+"16.title" = "Arithmétique";
+
+/* Class = "NSMenuItem"; title = "Geométrique"; ObjectID = "17"; */
+"17.title" = "Geométrique";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Pas de la progression géométrique. 2 pour une série dyadique."; ObjectID = "19"; */
+"19.ibShadowedToolTip" = "Pas de la progression géométrique. 2 pour une série dyadique.";
+
+/* Class = "NSButtonCell"; title = "Switch"; ObjectID = "21"; */
+"21.title" = "Switch";
+
+/* Class = "NSTextFieldCell"; title = "99,99"; ObjectID = "22"; */
+"22.title" = "99,99";
+
+/* Class = "NSButtonCell"; title = "-"; ObjectID = "26"; */
+"26.title" = "-";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Ajoute une ondelette"; ObjectID = "27"; */
+"27.ibShadowedToolTip" = "Ajoute une ondelette";
+
+/* Class = "NSMatrix"; ibShadowedToolTip = "Supprime l'ondelette"; ObjectID = "28"; */
+"28.ibShadowedToolTip" = "Supprime l'ondelette";
+
+/* Class = "NSButtonCell"; title = "-"; ObjectID = "29"; */
+"29.title" = "-";
+
+/* Class = "NSMatrix"; ibShadowedToolTip = "Fréquence de l'ondelette"; ObjectID = "31"; */
+"31.ibShadowedToolTip" = "Fréquence de l'ondelette";
+
+/* Class = "NSTextFieldCell"; title = "0,7071"; ObjectID = "32"; */
+"32.title" = "0,7071";
+
+/* Class = "NSMatrix"; ibShadowedToolTip = "Afficher la couche isolée par l'ondelette"; ObjectID = "33"; */
+"33.ibShadowedToolTip" = "Afficher la couche isolée par l'ondelette";
+
+/* Class = "NSButtonCell"; title = "Switch"; ObjectID = "34"; */
+"34.title" = "Switch";
+
+/* Class = "NSMatrix"; ibShadowedToolTip = "Niveau de la couche dans le résultat final"; ObjectID = "35"; */
+"35.ibShadowedToolTip" = "Niveau de la couche dans le résultat final";
+
+/* Class = "NSMatrix"; ibShadowedToolTip = "Niveau de la couche dans le résultat final"; ObjectID = "38"; */
+"38.ibShadowedToolTip" = "Niveau de la couche dans le résultat final";
+
+/* Class = "NSTextFieldCell"; title = "99,99"; ObjectID = "39"; */
+"39.title" = "99,99";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "131"; */
+"131.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Ondelette en dent de scie fréquentielle (plus agressive)"; ObjectID = "132"; */
+"132.ibShadowedToolTip" = "Ondelette en dent de scie fréquentielle (plus agressive)";
+
+/* Class = "NSMenuItem"; title = "Dent de scie"; ObjectID = "132"; */
+"132.title" = "Dent de scie";
+
+/* Class = "NSMenuItem"; ibShadowedToolTip = "Ondelette de l'Observatoire Européen Austral (E.S.O.)"; ObjectID = "133"; */
+"133.ibShadowedToolTip" = "Ondelette de l'Observatoire Européen Austral (E.S.O.)";
+
+/* Class = "NSMenuItem"; title = "E.S.O."; ObjectID = "133"; */
+"133.title" = "E.S.O.";
+
+/* Class = "NSTextFieldCell"; title = "Nombre d'ondelettes"; ObjectID = "143"; */
+"143.title" = "Nombre d'ondelettes";
+
+/* Class = "NSTextFieldCell"; title = "6"; ObjectID = "144"; */
+"144.title" = "6";
+
+/* Class = "NSTextFieldCell"; title = "Pas"; ObjectID = "147"; */
+"147.title" = "Pas";
+
+/* Class = "NSTextFieldCell"; title = "2,00"; ObjectID = "148"; */
+"148.title" = "2,00";
+
+/* Class = "NSTextFieldCell"; title = "Niveau"; ObjectID = "149"; */
+"149.title" = "Niveau";
+
+/* Class = "NSButtonCell"; title = "+"; ObjectID = "150"; */
+"150.title" = "+";
+
+/* Class = "NSTextFieldCell"; title = "Aff."; ObjectID = "151"; */
+"151.title" = "Aff.";
+
+/* Class = "NSButtonCell"; title = "Fréq."; ObjectID = "152"; */
+"152.title" = "Fréq.";
+
+/* Class = "NSTextFieldCell"; title = "Type d'ondelette"; ObjectID = "154"; */
+"154.title" = "Type d'ondelette";
+
+/* Class = "NSButtonCell"; title = "-"; ObjectID = "155"; */
+"155.title" = "-";
+
+/* Class = "NSTextFieldCell"; title = "0,7071"; ObjectID = "156"; */
+"156.title" = "0,7071";
+
+/* Class = "NSButtonCell"; title = "Switch"; ObjectID = "157"; */
+"157.title" = "Switch";
+
+/* Class = "NSTextFieldCell"; title = "99,99"; ObjectID = "159"; */
+"159.title" = "99,99";

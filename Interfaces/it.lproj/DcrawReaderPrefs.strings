@@ -1,0 +1,78 @@
+
+/* Class = "NSTextField"; ibShadowedToolTip = "The path to the folder where temporary converted files will be placed"; ObjectID = "7"; */
+"7.ibShadowedToolTip" = "The path to the folder where temporary converted files will be placed";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Red pixel weight in the manual white balance"; ObjectID = "9"; */
+"9.ibShadowedToolTip" = "Red pixel weight in the manual white balance";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Whether to use manual or camera white balance"; ObjectID = "25"; */
+"25.ibShadowedToolTip" = "Whether to use manual or camera white balance";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Weight of the Bayer matrix first green pixel in the manual white balance"; ObjectID = "28"; */
+"28.ibShadowedToolTip" = "Weight of the Bayer matrix first green pixel in the manual white balance";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Blue pixel weight in the manual white balance"; ObjectID = "31"; */
+"31.ibShadowedToolTip" = "Blue pixel weight in the manual white balance";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Weight of the Bayer matrix second green pixel in the manual white balance"; ObjectID = "34"; */
+"34.ibShadowedToolTip" = "Weight of the Bayer matrix second green pixel in the manual white balance";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Whether to use custom or automatic levels for dark and saturation clipping"; ObjectID = "43"; */
+"43.ibShadowedToolTip" = "Whether to use custom or automatic levels for dark and saturation clipping";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Dark level, pixel below this value will all be black"; ObjectID = "47"; */
+"47.ibShadowedToolTip" = "Dark level, pixel below this value will all be black";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "Saturation level, pixeld above this value will all be white"; ObjectID = "55"; */
+"55.ibShadowedToolTip" = "Saturation level, pixeld above this value will all be white";
+
+/* Class = "NSTextFieldCell"; title = "99.0000"; ObjectID = "149"; */
+"149.title" = "99.0000";
+
+/* Class = "NSTextFieldCell"; title = "Conversion folder"; ObjectID = "150"; */
+"150.title" = "Conversion folder";
+
+/* Class = "NSTextFieldCell"; title = "Red"; ObjectID = "151"; */
+"151.title" = "Red";
+
+/* Class = "NSButtonCell"; title = "Manual white balance"; ObjectID = "152"; */
+"152.title" = "Manual white balance";
+
+/* Class = "NSTextFieldCell"; title = "99.0000"; ObjectID = "153"; */
+"153.title" = "99.0000";
+
+/* Class = "NSTextFieldCell"; title = "99.0000"; ObjectID = "154"; */
+"154.title" = "99.0000";
+
+/* Class = "NSTextFieldCell"; title = "99.0000"; ObjectID = "155"; */
+"155.title" = "99.0000";
+
+/* Class = "NSTextFieldCell"; title = "Green2"; ObjectID = "156"; */
+"156.title" = "Green2";
+
+/* Class = "NSTextFieldCell"; title = "Green1"; ObjectID = "157"; */
+"157.title" = "Green1";
+
+/* Class = "NSTextFieldCell"; title = "Blue"; ObjectID = "158"; */
+"158.title" = "Blue";
+
+/* Class = "NSButtonCell"; title = "Manual levels"; ObjectID = "159"; */
+"159.title" = "Manual levels";
+
+/* Class = "NSTextFieldCell"; title = "Saturation"; ObjectID = "160"; */
+"160.title" = "Saturation";
+
+/* Class = "NSTextFieldCell"; title = "65536.0"; ObjectID = "161"; */
+"161.title" = "65536.0";
+
+/* Class = "NSTextFieldCell"; title = "Dark"; ObjectID = "162"; */
+"162.title" = "Dark";
+
+/* Class = "NSTextFieldCell"; title = "65536.0"; ObjectID = "163"; */
+"163.title" = "65536.0";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Wether to use camera automatic image rotation"; ObjectID = "164"; */
+"164.ibShadowedToolTip" = "Wether to use camera automatic image rotation";
+
+/* Class = "NSButtonCell"; title = "Automatic rotation"; ObjectID = "165"; */
+"165.title" = "Automatic rotation";

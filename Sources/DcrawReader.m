@@ -610,11 +610,7 @@ static BOOL isWaitingConversion = NO;
 
 + (void) initialize
 {
-   if ( watchCursor == nil )
-      watchCursor = [[NSCursor alloc] initWithImage:
-                       [NSImage imageNamed:@"watch"]
-                                              hotSpot:NSMakePoint(8,8)];
-
+    
    pendingConversions = [[NSMutableArray alloc] init];
    ongoingConversions = [[NSMutableArray alloc] init];
    maxConversions = numberOfCpus + 1;
@@ -626,7 +622,7 @@ static BOOL isWaitingConversion = NO;
    progressPanel.title = @"Converting RAW image";
    progressPanel.releasedWhenClosed = NO;
    progressIndicator = [[NSProgressIndicator alloc] initWithFrame:NSMakeRect(0.0, 0.0, 250.0, 50.0)];
-   progressIndicator.style = NSProgressIndicatorBarStyle;
+   progressIndicator.style = NSProgressIndicatorStyleBar;
    progressIndicator.minValue = 0.0;
    progressIndicator.usesThreadedAnimation = YES;
    progressPanel.contentView = progressIndicator;

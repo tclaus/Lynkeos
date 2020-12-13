@@ -143,9 +143,7 @@ typedef enum { SelNone, SelNormal, SelH, SelV, SelMove } SelectionDraggingMode_t
    SelectionIndex_t           _previousSelectionIndex;
    LynkeosIntegerPoint        _selectionOrigin, _lastPoint;
    unsigned int               _modifiers;
-   NSCursor                  *_crossCursor,                           // Cursors
-                             *_leftCursor, *_rightCursor,
-                             *_topCursor, *_bottomCursor,
+   NSCursor                                             // Cursors
                              *_topLeftCursor, *_topRightCursor,
                              *_bottomLeftCursor, *_bottomRightCursor,
                              *_insideCursor;
