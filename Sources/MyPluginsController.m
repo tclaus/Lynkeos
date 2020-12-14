@@ -250,6 +250,9 @@ static NSComparisonResult compareWriters( id obj1, id obj2, void *ctx )
 
 - (void) processReaderClass:(Class)theClass
 {
+    
+    //Todo: Check against protocols
+    
    if ( class_getClassMethod(theClass, @selector(lynkeosFileTypes:)) != NULL )
    {
       NSArray *types;

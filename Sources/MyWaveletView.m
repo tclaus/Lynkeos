@@ -407,7 +407,7 @@ static int compareWavelet( const void *w1, const void *w2 )
    *title = NSLocalizedString(@"WaveletMenu",@"Wavelet transform menu");
    *toolTitle = NSLocalizedString(@"WaveletTool",@"Wavelet transform tool");
    *key = @"w";
-   *icon = [NSImage imageNamed:@"Wavelet"];
+   *icon = [NSImage imageNamed:@"wavelet"];
    *tip = NSLocalizedString(@"WaveletTip",@"Wavelet transform tooltip");;
 }
 

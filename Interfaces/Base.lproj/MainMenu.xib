@@ -275,7 +275,7 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="169" y="634" width="436" height="276"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1050"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1025"/>
             <value key="minSize" type="size" width="300" height="150"/>
             <view key="contentView" id="213">
                 <rect key="frame" x="0.0" y="0.0" width="436" height="276"/>
@@ -285,7 +285,7 @@
                         <rect key="frame" x="20" y="69" width="396" height="187"/>
                         <clipView key="contentView" autoresizesSubviews="NO" id="Dsz-OW-i4B">
                             <rect key="frame" x="1" y="1" width="394" height="185"/>
-                            <autoresizingMask key="autoresizingMask"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
                                 <customView id="513">
                                     <rect key="frame" x="0.0" y="0.0" width="360" height="168"/>
@@ -388,7 +388,7 @@ DQ
             <windowStyleMask key="styleMask" titled="YES" closable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES"/>
             <rect key="contentRect" x="41" y="450" width="480" height="400"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1050"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1025"/>
             <value key="minSize" type="size" width="300" height="150"/>
             <view key="contentView" id="437">
                 <rect key="frame" x="0.0" y="0.0" width="480" height="400"/>
@@ -426,18 +426,18 @@ DQ
                                 <font key="font" metaFont="system"/>
                                 <tabViewItems>
                                     <tabViewItem label="Credits" identifier="2" id="440">
-                                        <view key="view" ambiguous="YES" id="441">
+                                        <view key="view" id="441">
                                             <rect key="frame" x="10" y="33" width="476" height="154"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <scrollView fixedFrame="YES" autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="450">
                                                     <rect key="frame" x="0.0" y="0.0" width="476" height="200"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                                    <clipView key="contentView" ambiguous="YES" drawsBackground="NO" id="TuK-jv-R75">
+                                                    <clipView key="contentView" drawsBackground="NO" id="TuK-jv-R75">
                                                         <rect key="frame" x="1" y="1" width="474" height="198"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <subviews>
-                                                            <textView ambiguous="YES" editable="NO" importsGraphics="NO" verticallyResizable="YES" usesFontPanel="YES" findStyle="panel" usesRuler="YES" spellingCorrection="YES" smartInsertDelete="YES" id="451">
+                                                            <textView editable="NO" importsGraphics="NO" verticallyResizable="YES" usesFontPanel="YES" findStyle="panel" usesRuler="YES" spellingCorrection="YES" smartInsertDelete="YES" id="451">
                                                                 <rect key="frame" x="0.0" y="0.0" width="474" height="198"/>
                                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                 <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -461,18 +461,18 @@ DQ
                                         </view>
                                     </tabViewItem>
                                     <tabViewItem label="Copyrights" identifier="1" id="442">
-                                        <view key="view" ambiguous="YES" id="443">
+                                        <view key="view" id="443">
                                             <rect key="frame" x="10" y="33" width="476" height="154"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <subviews>
                                                 <scrollView fixedFrame="YES" autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="448">
                                                     <rect key="frame" x="0.0" y="0.0" width="476" height="154"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                                    <clipView key="contentView" ambiguous="YES" drawsBackground="NO" id="5RR-js-oy9">
+                                                    <clipView key="contentView" drawsBackground="NO" id="5RR-js-oy9">
                                                         <rect key="frame" x="1" y="1" width="474" height="152"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <subviews>
-                                                            <textView ambiguous="YES" editable="NO" importsGraphics="NO" verticallyResizable="YES" usesFontPanel="YES" findStyle="panel" usesRuler="YES" spellingCorrection="YES" smartInsertDelete="YES" id="449">
+                                                            <textView editable="NO" importsGraphics="NO" verticallyResizable="YES" usesFontPanel="YES" findStyle="panel" usesRuler="YES" spellingCorrection="YES" smartInsertDelete="YES" id="449">
                                                                 <rect key="frame" x="0.0" y="0.0" width="474" height="152"/>
                                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                 <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -540,7 +540,7 @@ DQ
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <clipView key="contentView" drawsBackground="NO" id="yjD-69-gi0">
                                                         <rect key="frame" x="1" y="1" width="474" height="152"/>
-                                                        <autoresizingMask key="autoresizingMask"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <subviews>
                                                             <textView editable="NO" importsGraphics="NO" verticallyResizable="YES" usesFontPanel="YES" findStyle="panel" usesRuler="YES" spellingCorrection="YES" smartInsertDelete="YES" id="455">
                                                                 <rect key="frame" x="0.0" y="0.0" width="474" height="152"/>
@@ -1339,7 +1339,7 @@ threshold</string>
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES" utility="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="196" y="350" width="388" height="153"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1050"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1025"/>
             <value key="minSize" type="size" width="300" height="150"/>
             <view key="contentView" id="843">
                 <rect key="frame" x="0.0" y="0.0" width="388" height="153"/>

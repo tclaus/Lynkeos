@@ -165,7 +165,7 @@
    *title = NSLocalizedString(@"UnsharpMask",@"Unsharp mask tool");
    *toolTitle = NSLocalizedString(@"UnsharpMask",@"Unsharp mask tool");
    *key = @"u";
-   *icon = [NSImage imageNamed:@"UnsharpMask"];
+   *icon = [NSImage imageNamed:@"unsharp_mask"];
    *tip = NSLocalizedString(@"UnsharpMaskTip",@"Unsharp mask tooltip");;
 }
 

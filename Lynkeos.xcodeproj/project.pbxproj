@@ -65,7 +65,6 @@
 		8F1369240A84C5CC003D8FB7 /* dcraw.c in Sources */ = {isa = PBXBuildFile; fileRef = 8FDAF0110A8416A300672703 /* dcraw.c */; };
 		8F1369580A84CEF7003D8FB7 /* bottomLeft.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8F1369490A84CEF7003D8FB7 /* bottomLeft.gif */; };
 		8F1369590A84CEF7003D8FB7 /* bottomRight.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8F13694A0A84CEF7003D8FB7 /* bottomRight.gif */; };
-		8F13695B0A84CEF7003D8FB7 /* hand.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8F13694C0A84CEF7003D8FB7 /* hand.gif */; };
 		8F13695E0A84CEF7003D8FB7 /* minus.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8F13694F0A84CEF7003D8FB7 /* minus.gif */; };
 		8F13695F0A84CEF7003D8FB7 /* Photolist.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8F1369500A84CEF7003D8FB7 /* Photolist.icns */; };
 		8F1369600A84CEF7003D8FB7 /* plus.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8F1369510A84CEF7003D8FB7 /* plus.gif */; };
@@ -74,7 +73,6 @@
 		8F136CB50A85056B003D8FB7 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F136CB40A85056B003D8FB7 /* IOKit.framework */; };
 		8F1415DD0CAE4B0800590244 /* MyDeconvolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1415DB0CAE4B0700590244 /* MyDeconvolution.m */; };
 		8F1B2F2B0D098BE90090C4AF /* MyWaveletView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1B2F290D098BE90090C4AF /* MyWaveletView.m */; };
-		8F1B2FEE0D09AC890090C4AF /* Wavelet.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8F1B2FED0D09AC890090C4AF /* Wavelet.gif */; };
 		8F1CE0260E104D6B00B58387 /* MyWaveletTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1CE0250E104D6B00B58387 /* MyWaveletTest.m */; };
 		8F1CE02B0E104DB400B58387 /* MyWavelet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F84965D0D08A80500AF5085 /* MyWavelet.m */; };
 		8F1DC44A0DDF9F270096729F /* SMDoubleSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F0A8AA80CB7BF2C00B3FD34 /* SMDoubleSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -141,7 +139,6 @@
 		8F455CC221BD642600C16C92 /* LynkeosCore.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8FD46CDD0DD303FD00766CE1 /* LynkeosCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8F49AADE0D3EA94C00D0BC60 /* MyImageListEnumeratorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F49AADD0D3EA94C00D0BC60 /* MyImageListEnumeratorTest.m */; };
 		8F4A232E0C1B1464006394E7 /* MyImageAnalyzerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4A232C0C1B1464006394E7 /* MyImageAnalyzerView.m */; };
-		8F4D48640D03713500965F8E /* UnsharpMask.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8F4D48630D03713400965F8E /* UnsharpMask.gif */; };
 		8F512B430D95153000086CD4 /* Cache.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8F512B420D95153000086CD4 /* Cache.gif */; };
 		8F51E9130ECD8B5400E9BAA8 /* ProcessStackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F51E9120ECD8B5400E9BAA8 /* ProcessStackManager.m */; };
 		8F51E99B0ECDDB7B00E9BAA8 /* ProcessStackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F51E9120ECD8B5400E9BAA8 /* ProcessStackManager.m */; };
@@ -547,7 +544,6 @@
 		8F13691F0A84C5AB003D8FB7 /* dcraw */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dcraw; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F1369490A84CEF7003D8FB7 /* bottomLeft.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = bottomLeft.gif; path = Assets/bottomLeft.gif; sourceTree = "<group>"; };
 		8F13694A0A84CEF7003D8FB7 /* bottomRight.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = bottomRight.gif; path = Assets/bottomRight.gif; sourceTree = "<group>"; };
-		8F13694C0A84CEF7003D8FB7 /* hand.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = hand.gif; path = Assets/hand.gif; sourceTree = "<group>"; };
 		8F13694F0A84CEF7003D8FB7 /* minus.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = minus.gif; path = Assets/minus.gif; sourceTree = "<group>"; };
 		8F1369500A84CEF7003D8FB7 /* Photolist.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Photolist.icns; path = Assets/Photolist.icns; sourceTree = "<group>"; };
 		8F1369510A84CEF7003D8FB7 /* plus.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = plus.gif; path = Assets/plus.gif; sourceTree = "<group>"; };
@@ -558,7 +554,6 @@
 		8F1415DB0CAE4B0700590244 /* MyDeconvolution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyDeconvolution.m; path = Sources/MyDeconvolution.m; sourceTree = "<group>"; };
 		8F1B2F280D098BE90090C4AF /* MyWaveletView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyWaveletView.h; path = Sources/MyWaveletView.h; sourceTree = "<group>"; };
 		8F1B2F290D098BE90090C4AF /* MyWaveletView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyWaveletView.m; path = Sources/MyWaveletView.m; sourceTree = "<group>"; };
-		8F1B2FED0D09AC890090C4AF /* Wavelet.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Wavelet.gif; path = Assets/Wavelet.gif; sourceTree = "<group>"; };
 		8F1CE0250E104D6B00B58387 /* MyWaveletTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyWaveletTest.m; path = Tests/MyWaveletTest.m; sourceTree = "<group>"; };
 		8F1F2E5F0E6EF90900A8D69E /* MyDeconvolutionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyDeconvolutionTest.m; path = Tests/MyDeconvolutionTest.m; sourceTree = "<group>"; };
 		8F2000240C2C76FA0000AB91 /* MyImageStackerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyImageStackerView.h; path = Sources/MyImageStackerView.h; sourceTree = "<group>"; };
@@ -624,7 +619,6 @@
 		8F49AADD0D3EA94C00D0BC60 /* MyImageListEnumeratorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyImageListEnumeratorTest.m; path = Tests/MyImageListEnumeratorTest.m; sourceTree = "<group>"; };
 		8F4A232B0C1B1464006394E7 /* MyImageAnalyzerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyImageAnalyzerView.h; path = Sources/MyImageAnalyzerView.h; sourceTree = "<group>"; };
 		8F4A232C0C1B1464006394E7 /* MyImageAnalyzerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyImageAnalyzerView.m; path = Sources/MyImageAnalyzerView.m; sourceTree = "<group>"; };
-		8F4D48630D03713400965F8E /* UnsharpMask.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = UnsharpMask.gif; path = Assets/UnsharpMask.gif; sourceTree = "<group>"; };
 		8F512B420D95153000086CD4 /* Cache.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Cache.gif; path = Assets/Cache.gif; sourceTree = "<group>"; };
 		8F51E9110ECD8B5400E9BAA8 /* ProcessStackManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProcessStackManager.h; path = Sources/ProcessStackManager.h; sourceTree = "<group>"; };
 		8F51E9120ECD8B5400E9BAA8 /* ProcessStackManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProcessStackManager.m; path = Sources/ProcessStackManager.m; sourceTree = "<group>"; };
@@ -777,7 +771,7 @@
 		8FDAEEA30A8409F700672703 /* MyCalibrationLock.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MyCalibrationLock.h; path = Sources/MyCalibrationLock.h; sourceTree = "<group>"; };
 		8FDAEEA40A8409F700672703 /* MyCalibrationLock.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = MyCalibrationLock.m; path = Sources/MyCalibrationLock.m; sourceTree = "<group>"; };
 		8FDAEEA50A8409F700672703 /* MyCocoaFilesReader.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MyCocoaFilesReader.h; path = Sources/MyCocoaFilesReader.h; sourceTree = "<group>"; };
-		8FDAEEA60A8409F700672703 /* MyCocoaFilesReader.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = MyCocoaFilesReader.m; path = Sources/MyCocoaFilesReader.m; sourceTree = "<group>"; };
+		8FDAEEA60A8409F700672703 /* MyCocoaFilesReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyCocoaFilesReader.m; path = Sources/MyCocoaFilesReader.m; sourceTree = "<group>"; };
 		8FDAEEA70A8409F700672703 /* MyCustomViews.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MyCustomViews.h; path = Sources/MyCustomViews.h; sourceTree = "<group>"; };
 		8FDAEEA80A8409F700672703 /* MyCustomViews.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = MyCustomViews.m; path = Sources/MyCustomViews.m; sourceTree = "<group>"; };
 		8FDAEEA90A8409F700672703 /* MyDocument.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = MyDocument.h; path = Sources/MyDocument.h; sourceTree = "<group>"; };
@@ -1049,8 +1043,6 @@
 				8F03CEAF0DA5774000585440 /* ChromaticAlign.gif */,
 				8FE439990DC791CD00981D5E /* ChromaticLevels.gif */,
 				8F512B420D95153000086CD4 /* Cache.gif */,
-				8F1B2FED0D09AC890090C4AF /* Wavelet.gif */,
-				8F4D48630D03713400965F8E /* UnsharpMask.gif */,
 				8F9FFE6E0CF07F0A0049B7A4 /* LucyRichardson.gif */,
 				8D15AC360486D014006FF6A4 /* Info.plist */,
 				8F2D02B919AC8F95005C8C3A /* Localizable.strings */,
@@ -1063,7 +1055,6 @@
 				8FC2A72C0C070C0900E44D6C /* hidemargin.gif */,
 				8F1369490A84CEF7003D8FB7 /* bottomLeft.gif */,
 				8F13694A0A84CEF7003D8FB7 /* bottomRight.gif */,
-				8F13694C0A84CEF7003D8FB7 /* hand.gif */,
 				8F13694F0A84CEF7003D8FB7 /* minus.gif */,
 				8F1369500A84CEF7003D8FB7 /* Photolist.icns */,
 				8F1369510A84CEF7003D8FB7 /* plus.gif */,
@@ -1763,7 +1754,6 @@
 				8F2D02B519AC8F6F005C8C3A /* FITSWriter.xib in Resources */,
 				8F1369580A84CEF7003D8FB7 /* bottomLeft.gif in Resources */,
 				8F1369590A84CEF7003D8FB7 /* bottomRight.gif in Resources */,
-				8F13695B0A84CEF7003D8FB7 /* hand.gif in Resources */,
 				8F2D00EE19AC8D49005C8C3A /* MyImageAnalyzer.xib in Resources */,
 				8F2D011719AC8E99005C8C3A /* MyChromaticAlign.xib in Resources */,
 				8F2D02B019AC8F43005C8C3A /* TiffWriter.xib in Resources */,
@@ -1792,9 +1782,7 @@
 				8F9FFE6F0CF07F0A0049B7A4 /* LucyRichardson.gif in Resources */,
 				8F2D010C19AC8E37005C8C3A /* MyLucyRichardson.xib in Resources */,
 				8F2D011219AC8E68005C8C3A /* MyProcessStackView.xib in Resources */,
-				8F4D48640D03713500965F8E /* UnsharpMask.gif in Resources */,
 				8F2D02C719AC9017005C8C3A /* Changelog.rtf in Resources */,
-				8F1B2FEE0D09AC890090C4AF /* Wavelet.gif in Resources */,
 				8F512B430D95153000086CD4 /* Cache.gif in Resources */,
 				8F03CEB00DA5774000585440 /* ChromaticAlign.gif in Resources */,
 				8FE4399A0DC791CD00981D5E /* ChromaticLevels.gif in Resources */,
