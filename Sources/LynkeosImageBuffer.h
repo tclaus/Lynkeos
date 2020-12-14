@@ -28,7 +28,7 @@
 
 #import <Foundation/Foundation.h>
 
-#include "LynkeosCore/LynkeosProcessing.h"
+#include <LynkeosCore/LynkeosProcessing.h>
 
 #define RED_PLANE 0     //!< Index of the red plane in RGB buffers
 #define GREEN_PLANE 1   //!< Index of the green plane in RGB buffers

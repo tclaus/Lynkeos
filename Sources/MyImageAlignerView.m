@@ -723,7 +723,7 @@ static NSMutableDictionary *monitorDictionary = nil;
       _modifyButton = [[NSButtonCell alloc] initTextCell:@""];
       [_modifyButton setButtonType: NSMomentaryPushInButton];
       [_modifyButton setBezelStyle:NSCircularBezelStyle];
-      [_modifyButton setControlSize:NSSmallControlSize];
+       [_modifyButton setControlSize:NSControlSizeSmall];
 
       _xField = [[NSTextFieldCell alloc] init];
       NSNumberFormatter *xFormat = [[NSNumberFormatter alloc] init];
@@ -747,12 +747,12 @@ static NSMutableDictionary *monitorDictionary = nil;
       [sizeFormat setAllowsFloats:NO];
       [sizeFormat setMinimum:[NSNumber numberWithInt:2]];
       [_sizeField setFormatter:sizeFormat];
-      [_sizeField setControlSize:NSSmallControlSize];
+       [_sizeField setControlSize:NSControlSizeSmall];
       [_sizeField setEditable:YES];
 
       _emptyCell = [[NSCell alloc] initTextCell:@""];
 
-      NSAssert([NSBundle loadNibNamed:@"MyImageAligner" owner:self],
+      NSAssert([[NSBundle mainBundle] loadNibNamed:@"MyImageAligner" owner:self topLevelObjects:nil],
                @"Failed to load Image Aligner NIB");
    }
 

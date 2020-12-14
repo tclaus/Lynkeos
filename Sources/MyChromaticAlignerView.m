@@ -499,7 +499,7 @@ static NSString *commonPlanesNames[3];
       _stackingFactor = 0;
       _stacker = nil;
 
-      [NSBundle loadNibNamed:@"MyChromaticAlign" owner:self];
+      [[NSBundle mainBundle] loadNibNamed:@"MyChromaticAlign" owner:self topLevelObjects:nil];
    }
 
    return( self );

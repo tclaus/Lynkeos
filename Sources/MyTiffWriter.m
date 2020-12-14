@@ -37,7 +37,7 @@
 {
    if ( (self = [super init]) != nil )
    {
-      [NSBundle loadNibNamed:@"TiffWriter" owner:self];
+      [[NSBundle mainBundle] loadNibNamed:@"TiffWriter" owner:self topLevelObjects:nil];
 
       _compression = COMPRESSION_LZW;
       _nBits = 16;

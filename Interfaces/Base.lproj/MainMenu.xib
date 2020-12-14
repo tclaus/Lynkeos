@@ -762,26 +762,26 @@ Translation
             </constraints>
             <point key="canvasLocation" x="-336" y="-182"/>
         </customView>
-        <customView id="515" userLabel="AlignPref">
-            <rect key="frame" x="0.0" y="0.0" width="360" height="187"/>
+        <customView misplaced="YES" id="515" userLabel="AlignPref">
+            <rect key="frame" x="0.0" y="0.0" width="360" height="190"/>
             <autoresizingMask key="autoresizingMask"/>
             <subviews>
                 <stackView distribution="fill" orientation="vertical" alignment="leading" spacing="14" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Whb-Tk-VZ8">
-                    <rect key="frame" x="20" y="20" width="320" height="147"/>
+                    <rect key="frame" x="20" y="20" width="320" height="168"/>
                     <subviews>
                         <stackView distribution="fillEqually" orientation="horizontal" alignment="centerY" spacing="9" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IvT-wf-CeY">
-                            <rect key="frame" x="0.0" y="108" width="320" height="39"/>
+                            <rect key="frame" x="0.0" y="126" width="320" height="42"/>
                             <subviews>
                                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="516">
-                                    <rect key="frame" x="-2" y="0.0" width="79" height="39"/>
+                                    <rect key="frame" x="-2" y="0.0" width="79" height="42"/>
                                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Align frequency cutoff" id="1039">
-                                        <font key="font" metaFont="label"/>
+                                        <font key="font" metaFont="smallSystem"/>
                                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                     </textFieldCell>
                                 </textField>
                                 <slider toolTip="Frequency cutoff applied to spectrums prior to correlation" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="517">
-                                    <rect key="frame" x="82" y="10" width="157" height="20"/>
+                                    <rect key="frame" x="82" y="11" width="157" height="20"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="153" id="fIx-nO-OlI"/>
                                     </constraints>
@@ -793,7 +793,7 @@ Translation
                                     </connections>
                                 </slider>
                                 <textField toolTip="Frequency cutoff applied to spectrums prior to correlation" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="518">
-                                    <rect key="frame" x="246" y="11" width="74" height="19"/>
+                                    <rect key="frame" x="246" y="12" width="74" height="19"/>
                                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="left" title="0,00" drawsBackground="YES" id="1041">
                                         <numberFormatter key="formatter" formatterBehavior="10_0" positiveFormat="#,##0.00" negativeFormat="-#,##0.00" thousandSeparator=" " id="519">
                                             <attributedString key="attributedStringForZero">
@@ -827,12 +827,12 @@ Translation
                             </customSpacing>
                         </stackView>
                         <stackView distribution="fillEqually" orientation="horizontal" alignment="centerY" spacing="9" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bgN-pP-Cbj">
-                            <rect key="frame" x="0.0" y="68" width="320" height="26"/>
+                            <rect key="frame" x="0.0" y="70" width="320" height="42"/>
                             <subviews>
                                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="522">
-                                    <rect key="frame" x="-2" y="0.0" width="79" height="26"/>
+                                    <rect key="frame" x="-2" y="0.0" width="79" height="42"/>
                                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" id="1043">
-                                        <font key="font" metaFont="label"/>
+                                        <font key="font" metaFont="smallSystem"/>
                                         <string key="title">Align precision 
 threshold</string>
                                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -840,7 +840,7 @@ threshold</string>
                                     </textFieldCell>
                                 </textField>
                                 <slider toolTip="Maximum correlation standard deviation in fraction of search square side" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="523">
-                                    <rect key="frame" x="82" y="3" width="157" height="20"/>
+                                    <rect key="frame" x="82" y="11" width="157" height="20"/>
                                     <sliderCell key="cell" controlSize="small" continuous="YES" alignment="left" minValue="0.01" maxValue="100" doubleValue="10" tickMarkPosition="below" numberOfTickMarks="11" sliderType="linear" id="1044">
                                         <font key="font" size="12" name="Helvetica"/>
                                     </sliderCell>
@@ -849,7 +849,7 @@ threshold</string>
                                     </connections>
                                 </slider>
                                 <textField toolTip="Maximum correlation standard deviation in fraction of search square side" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="520">
-                                    <rect key="frame" x="246" y="4" width="74" height="19"/>
+                                    <rect key="frame" x="246" y="12" width="74" height="19"/>
                                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="left" title="100,0%" drawsBackground="YES" id="1042">
                                         <numberFormatter key="formatter" formatterBehavior="10_0" positiveFormat="0.0%" negativeFormat="-0.0%" hasThousandSeparators="NO" thousandSeparator=" " id="521">
                                             <attributedString key="attributedStringForZero">
@@ -879,7 +879,7 @@ threshold</string>
                             </customSpacing>
                         </stackView>
                         <stackView distribution="fillEqually" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LL6-wP-C81">
-                            <rect key="frame" x="0.0" y="40" width="320" height="14"/>
+                            <rect key="frame" x="0.0" y="42" width="320" height="14"/>
                             <subviews>
                                 <button toolTip="Wether to display each image when aligned" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="524">
                                     <rect key="frame" x="0.0" y="-2" width="173" height="18"/>
@@ -912,18 +912,18 @@ threshold</string>
                             </customSpacing>
                         </stackView>
                         <stackView distribution="fillEqually" orientation="horizontal" alignment="centerY" spacing="55" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="an0-Vh-gfO">
-                            <rect key="frame" x="0.0" y="0.0" width="320" height="26"/>
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="28"/>
                             <subviews>
                                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="526">
-                                    <rect key="frame" x="-2" y="0.0" width="121" height="26"/>
+                                    <rect key="frame" x="-2" y="0.0" width="121" height="28"/>
                                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Multiprocessor optimization" id="1047">
-                                        <font key="font" metaFont="label"/>
+                                        <font key="font" metaFont="smallSystem"/>
                                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                     </textFieldCell>
                                 </textField>
                                 <popUpButton toolTip="Don't change this unless you know what you're doing" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="527">
-                                    <rect key="frame" x="168" y="1" width="156" height="22"/>
+                                    <rect key="frame" x="168" y="2" width="156" height="22"/>
                                     <popUpButtonCell key="cell" type="push" title="No multiprocessing" bezelStyle="rounded" alignment="left" controlSize="small" lineBreakMode="clipping" state="on" borderStyle="borderAndBezel" inset="2" arrowPosition="arrowAtCenter" preferredEdge="maxY" selectedItem="530" id="1048">
                                         <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                                         <font key="font" metaFont="smallSystem"/>
@@ -972,7 +972,7 @@ threshold</string>
                 <constraint firstAttribute="trailing" secondItem="Whb-Tk-VZ8" secondAttribute="trailing" constant="20" symbolic="YES" id="lPL-l6-I0y"/>
                 <constraint firstItem="Whb-Tk-VZ8" firstAttribute="top" secondItem="515" secondAttribute="top" constant="20" symbolic="YES" id="oT0-0d-Tvi"/>
             </constraints>
-            <point key="canvasLocation" x="-568" y="-427.5"/>
+            <point key="canvasLocation" x="-932" y="-422.5"/>
         </customView>
         <customObject id="536" userLabel="MyGeneralPrefs" customClass="MyGeneralPrefs">
             <connections>
@@ -1158,7 +1158,7 @@ threshold</string>
                 <constraint firstItem="wP4-iu-3eE" firstAttribute="leading" secondItem="560" secondAttribute="leading" constant="20" symbolic="YES" id="YtH-3c-2mc"/>
                 <constraint firstItem="wP4-iu-3eE" firstAttribute="top" secondItem="560" secondAttribute="top" constant="20" symbolic="YES" id="kMl-sa-I3v"/>
             </constraints>
-            <point key="canvasLocation" x="-615" y="-598.5"/>
+            <point key="canvasLocation" x="-597" y="-632"/>
         </customView>
         <customObject id="628" userLabel="MyImageStackerPrefs" customClass="MyImageStackerPrefs">
             <connections>
@@ -1238,7 +1238,7 @@ threshold</string>
                 <constraint firstItem="6vW-Kx-KVI" firstAttribute="top" secondItem="629" secondAttribute="top" constant="20" symbolic="YES" id="vi3-qz-wqG"/>
                 <constraint firstItem="6vW-Kx-KVI" firstAttribute="leading" secondItem="629" secondAttribute="leading" constant="20" symbolic="YES" id="y7R-3W-TRw"/>
             </constraints>
-            <point key="canvasLocation" x="-761" y="-784"/>
+            <point key="canvasLocation" x="-975" y="-791"/>
         </customView>
         <customObject id="778" userLabel="MyCachePrefs" customClass="MyCachePrefs">
             <connections>
@@ -1254,10 +1254,10 @@ threshold</string>
             <autoresizingMask key="autoresizingMask"/>
             <subviews>
                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="932">
-                    <rect key="frame" x="212" y="25" width="21" height="13"/>
+                    <rect key="frame" x="212" y="25" width="29" height="13"/>
                     <autoresizingMask key="autoresizingMask"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Mo" id="1071">
-                        <font key="font" metaFont="label"/>
+                        <font key="font" metaFont="smallSystem"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
@@ -1289,10 +1289,10 @@ threshold</string>
                     </connections>
                 </textField>
                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="925">
-                    <rect key="frame" x="17" y="20" width="128" height="26"/>
+                    <rect key="frame" x="17" y="10" width="128" height="36"/>
                     <autoresizingMask key="autoresizingMask"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Memory size of the image processing cache" id="1068">
-                        <font key="font" metaFont="label"/>
+                        <font key="font" metaFont="smallSystem"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
@@ -1324,10 +1324,10 @@ threshold</string>
                     </connections>
                 </textField>
                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="780">
-                    <rect key="frame" x="20" y="54" width="104" height="26"/>
+                    <rect key="frame" x="20" y="46" width="124" height="34"/>
                     <autoresizingMask key="autoresizingMask"/>
                     <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="left" title="Number of movie images in cache" id="1065">
-                        <font key="font" metaFont="label"/>
+                        <font key="font" metaFont="smallSystem"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
@@ -1366,14 +1366,14 @@ threshold</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <clipView key="contentView" drawsBackground="NO" copiesOnScroll="NO" id="IJ4-cY-1Yp">
                             <rect key="frame" x="2" y="2" width="264" height="89"/>
-                            <autoresizingMask key="autoresizingMask"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
                                 <textView drawsBackground="NO" importsGraphics="NO" verticallyResizable="YES" usesFontPanel="YES" findStyle="panel" continuousSpellChecking="YES" spellingCorrection="YES" id="851">
                                     <rect key="frame" x="0.0" y="0.0" width="248" height="195"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                    <size key="minSize" width="264" height="89"/>
+                                    <size key="minSize" width="248" height="89"/>
                                     <size key="maxSize" width="454" height="10000000"/>
                                     <attributedString key="textStorage">
                                         <fragment>
@@ -1502,7 +1502,7 @@ threshold</string>
             <connections>
                 <outlet property="delegate" destination="852" id="853"/>
             </connections>
-            <point key="canvasLocation" x="-1340" y="-477.5"/>
+            <point key="canvasLocation" x="-1524" y="-544"/>
         </window>
         <customObject id="852" userLabel="My Custom Alert" customClass="MyCustomAlert">
             <connections>

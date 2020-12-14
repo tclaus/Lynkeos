@@ -582,7 +582,7 @@ static NSMutableDictionary *monitorDictionary = nil;
       _filteredPreview = NO;
       _unfilteredItem = nil;
 
-      [NSBundle loadNibNamed:@"MyImageAnalyzer" owner:self];
+      [[NSBundle mainBundle] loadNibNamed:@"MyImageAnalyzer" owner:self topLevelObjects:nil];
    }
 
    return( self );

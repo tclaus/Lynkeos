@@ -402,7 +402,7 @@
       _procViewControllers = [[NSMutableArray array] retain];
       _isProcessing = NO;
 
-      [NSBundle loadNibNamed:@"MyProcessStackView" owner:self];
+      [[NSBundle mainBundle] loadNibNamed:@"MyProcessStackView" owner:self topLevelObjects:nil];
 
       // Detach the outline view from the original scrollview (it will be put
       // inside another one)
@@ -417,7 +417,7 @@
       _deleteCell = [[MyButtonCell alloc] initTextCell:@"-"];
       [_deleteCell setButtonType: NSMomentaryPushInButton];
       [_deleteCell setBezelStyle:NSCircularBezelStyle];
-      [_deleteCell setControlSize:NSSmallControlSize];
+       [_deleteCell setControlSize:NSControlSizeSmall];
 
       // And set the custom popup cell for the add column
       _addCell = [[MyPopupButtonCell alloc] initTextCell:@""];

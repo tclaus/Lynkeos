@@ -183,7 +183,7 @@
       _isProcessing = NO;
       _progressTimer = nil;
 
-      [NSBundle loadNibNamed:@"MyDeconvolution" owner:self];
+      [[NSBundle mainBundle] loadNibNamed:@"MyDeconvolution" owner:self topLevelObjects:nil];
    }
 
    return( self );

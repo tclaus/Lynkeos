@@ -144,8 +144,8 @@ static DcrawReaderPrefs *dcrawReaderPrefsInstance = nil;
    if ( (self = [super init]) != nil )
    {
       [self initPrefs];
-      [NSBundle loadNibNamed:@"DcrawReaderPrefs" owner:self];
-
+       [[NSBundle mainBundle] loadNibNamed:@"DcrawReaderPrefs" owner:self topLevelObjects:nil];
+       
       // Update with database value, if any
       [self readPrefs];
       // And rewrite them to ensure correct values

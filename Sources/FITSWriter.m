@@ -38,8 +38,7 @@
 {
    if ( (self = [super init]) != nil )
    {
-      [NSBundle loadNibNamed:@"FITSWriter" owner:self];
-
+       [[NSBundle mainBundle] loadNibNamed:@"FITSWriter" owner:self topLevelObjects:nil];
       _compression = K_NO_COMPRESSION;
       _imgType = USHORT_IMG;
    }

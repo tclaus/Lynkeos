@@ -347,10 +347,10 @@ static const double DefaultLogGammaMax = 1.0-M_LN2/M_LN10;
 
       _item = nil;
 
-      [NSBundle loadNibNamed:@"MyChromaticLevels" owner:self];
-      [_gammaStep addItemWithObjectValue:[NSNumber numberWithDouble:1.0]];
-      [_gammaStep addItemWithObjectValue:[NSNumber numberWithDouble:0.1]];
-      [_gammaStep addItemWithObjectValue:[NSNumber numberWithDouble:0.01]];
+      [[NSBundle mainBundle] loadNibNamed:@"MyChromaticLevels" owner:self topLevelObjects:nil];
+      [_gammaStep addItemWithObjectValue: @1.0];
+      [_gammaStep addItemWithObjectValue: @0.1];
+      [_gammaStep addItemWithObjectValue: @0.01];
       [_gammaStep setDoubleValue:0.1];
    }
 

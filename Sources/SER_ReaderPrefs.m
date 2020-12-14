@@ -93,7 +93,7 @@ static SER_ReaderPrefs *serReaderPrefsInstance = nil;
    if ( (self = [super init]) != nil )
    {
       [self initPrefs];
-      if (![NSBundle loadNibNamed:@"SER_ReaderPrefs" owner:self])
+      if (![[NSBundle mainBundle] loadNibNamed:@"SER_ReaderPrefs" owner:self topLevelObjects:nil])
          NSLog(@"Failed to load SER Reader Prefs nib");
 
       // Update with database value, if any
